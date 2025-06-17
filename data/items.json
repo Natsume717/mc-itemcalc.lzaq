@@ -342,7 +342,7 @@
     "cherry_log": {
         "name": "サクラの原木",
         "maxStack": 64,
-        "category": "materials"
+        "category": "building_blocks"
     },
     "bamboo_log": {
         "name": "竹の原木",
@@ -352,12 +352,12 @@
     "crimson_stem": {
         "name": "深紅の幹",
         "maxStack": 64,
-        "category": "materials"
+        "category": "building_blocks"
     },
     "warped_stem": {
         "name": "歪んだ幹",
         "maxStack": 64,
-        "category": "materials"
+        "category": "building_blocks"
     },
     "oak_door": {
         "name": "オークのドア",
@@ -418,5 +418,135 @@
         "name": "骨",
         "maxStack": 64,
         "category": "materials"
+    },
+    "oak_stairs": {
+        "name": "オークの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_stairs": {
+        "name": "シラカバの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_stairs": {
+        "name": "トウヒの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_stairs": {
+        "name": "ジャングルの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_stairs": {
+        "name": "アカシアの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_stairs": {
+        "name": "ダークオークの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_stairs": {
+        "name": "マングローブの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_stairs": {
+        "name": "サクラの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oak_slab": {
+        "name": "オークのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_slab": {
+        "name": "シラカバのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_slab": {
+        "name": "トウヒのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_slab": {
+        "name": "ジャングルのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_slab": {
+        "name": "アカシアのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_slab": {
+        "name": "ダークオークのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_slab": {
+        "name": "マングローブのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_slab": {
+        "name": "サクラのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oak_wood": {
+        "name": "オークの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_wood": {
+        "name": "シラカバの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_wood": {
+        "name": "トウヒの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_wood": {
+        "name": "ジャングルの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_wood": {
+        "name": "アカシアの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_wood": {
+        "name": "ダークオークの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_wood": {
+        "name": "マングローブの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_wood": {
+        "name": "サクラの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "crimson_hyphae": {
+        "name": "深紅の菌糸",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "warped_hyphae": {
+        "name": "歪んだ菌糸",
+        "maxStack": 64,
+        "category": "building_blocks"
     }
 } 

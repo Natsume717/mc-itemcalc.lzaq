@@ -93,30 +93,26 @@ function calculateMaterials() {
         quantity * 54 * selectedItemData.maxStack : 
         quantity;
     
-    const materials = calculateRequiredMaterials(selectedItem, actualQuantity);
+    const materials = calculateRequiredMaterials(selectedItem, actualQuantity, recipes);
     displayResults(materials);
 }
 
 // 必要な材料を計算
-function calculateRequiredMaterials(itemId, quantity) {
-    const recipe = recipes[itemId];
-    if (!recipe) return {};
-
+function calculateRequiredMaterials(targetItem, targetQuantity, recipes) {
     const materials = {};
-    const batches = Math.ceil(quantity / recipe.output);
 
-    Object.entries(recipe.materials).forEach(([materialId, amount]) => {
-        const totalAmount = amount * batches;
-        materials[materialId] = (materials[materialId] || 0) + totalAmount;
+    // 目標アイテムのレシピを探す
+    const targetRecipe = recipes[targetItem];
+    if (!targetRecipe) return materials;
 
-        // 材料自体にもレシピがある場合は再帰的に計算
-        if (recipes[materialId]) {
-            const subMaterials = calculateRequiredMaterials(materialId, totalAmount);
-            Object.entries(subMaterials).forEach(([subMaterialId, subAmount]) => {
-                materials[subMaterialId] = (materials[subMaterialId] || 0) + subAmount;
-            });
-            delete materials[materialId]; // 中間材料は表示しない
-        }
+    // レシピの出力量に対する比率を計算
+    const batches = Math.ceil(targetQuantity / targetRecipe.output);
+    const ratio = batches;
+
+    // 材料の必要量を計算
+    Object.entries(targetRecipe.materials).forEach(([material, quantity]) => {
+        const requiredQuantity = quantity * ratio;
+        materials[material] = requiredQuantity;
     });
 
     return materials;
