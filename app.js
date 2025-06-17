@@ -3,10 +3,12 @@ const recipes = {
     'concrete_powder': {
         'sand': 4,
         'gravel': 4,
-        'dye': 1
+        'dye': 1,
+        'output': 8  // 1回のクラフトで8個できる
     },
     'chest': {
-        'planks': 8
+        'planks': 8,
+        'output': 1  // 1回のクラフトで1個できる
     }
 };
 
@@ -45,12 +47,18 @@ function calculateMaterials() {
         actualQuantity = quantity * stack * 54;
     }
 
+    // 必要なクラフト回数を計算
+    const craftCount = Math.ceil(actualQuantity / recipes[itemType].output);
+
     let result = `<h3>${itemNames[itemType]} ${actualQuantity}個の作成に必要な材料：</h3>`;
+    result += `<p>（クラフト回数: ${craftCount}回）</p>`;
     result += '<ul>';
 
     for (const [material, amount] of Object.entries(recipes[itemType])) {
-        const totalAmount = amount * actualQuantity;
-        result += `<li>${itemNames[material]}: ${totalAmount}個</li>`;
+        if (material !== 'output') {  // outputは材料ではないので除外
+            const totalAmount = amount * craftCount;
+            result += `<li>${itemNames[material]}: ${totalAmount}個</li>`;
+        }
     }
 
     result += '</ul>';
