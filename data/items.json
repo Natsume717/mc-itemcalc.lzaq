@@ -285,7 +285,7 @@
         "category": "materials"
     },
     "cherry_planks": {
-        "name": "チェリーの板材",
+        "name": "サクラの板材",
         "maxStack": 64,
         "category": "materials"
     },
@@ -340,7 +340,7 @@
         "category": "materials"
     },
     "cherry_log": {
-        "name": "チェリーの原木",
+        "name": "サクラの原木",
         "maxStack": 64,
         "category": "materials"
     },
@@ -395,7 +395,7 @@
         "category": "building_blocks"
     },
     "cherry_door": {
-        "name": "チェリーのドア",
+        "name": "サクラのドア",
         "maxStack": 64,
         "category": "building_blocks"
     },
