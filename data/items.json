@@ -413,5 +413,10 @@
         "name": "歪んだドア",
         "maxStack": 64,
         "category": "building_blocks"
+    },
+    "bone": {
+        "name": "骨",
+        "maxStack": 64,
+        "category": "materials"
     }
 } 

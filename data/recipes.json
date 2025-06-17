@@ -415,5 +415,12 @@
         },
         "output": 1,
         "category": "materials"
+    },
+    "bone_meal": {
+        "materials": {
+            "bone": 1
+        },
+        "output": 3,
+        "category": "materials"
     }
 } 
