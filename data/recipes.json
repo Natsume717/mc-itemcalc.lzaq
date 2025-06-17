@@ -1,0 +1,419 @@
+{
+    "white_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "white_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "orange_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "orange_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "magenta_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "magenta_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "light_blue_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "light_blue_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "yellow_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "yellow_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "lime_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "lime_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "pink_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "pink_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "gray_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "gray_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "light_gray_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "light_gray_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "cyan_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "cyan_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "purple_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "purple_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "blue_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "blue_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "brown_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "brown_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "green_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "green_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "red_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "red_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "black_concrete_powder": {
+        "materials": {
+            "sand": 4,
+            "gravel": 4,
+            "black_dye": 1
+        },
+        "output": 8,
+        "category": "building_blocks"
+    },
+    "chest": {
+        "materials": {
+            "oak_planks": 8
+        },
+        "output": 1,
+        "category": "storage"
+    },
+    "oak_planks": {
+        "materials": {
+            "oak_log": 1
+        },
+        "output": 4,
+        "category": "materials"
+    },
+    "birch_planks": {
+        "materials": {
+            "birch_log": 1
+        },
+        "output": 4,
+        "category": "materials"
+    },
+    "spruce_planks": {
+        "materials": {
+            "spruce_log": 1
+        },
+        "output": 4,
+        "category": "materials"
+    },
+    "jungle_planks": {
+        "materials": {
+            "jungle_log": 1
+        },
+        "output": 4,
+        "category": "materials"
+    },
+    "acacia_planks": {
+        "materials": {
+            "acacia_log": 1
+        },
+        "output": 4,
+        "category": "materials"
+    },
+    "dark_oak_planks": {
+        "materials": {
+            "dark_oak_log": 1
+        },
+        "output": 4,
+        "category": "materials"
+    },
+    "mangrove_planks": {
+        "materials": {
+            "mangrove_log": 1
+        },
+        "output": 4,
+        "category": "materials"
+    },
+    "cherry_planks": {
+        "materials": {
+            "cherry_log": 1
+        },
+        "output": 4,
+        "category": "materials"
+    },
+    "bamboo_planks": {
+        "materials": {
+            "bamboo_log": 1
+        },
+        "output": 4,
+        "category": "materials"
+    },
+    "crimson_planks": {
+        "materials": {
+            "crimson_stem": 1
+        },
+        "output": 4,
+        "category": "materials"
+    },
+    "warped_planks": {
+        "materials": {
+            "warped_stem": 1
+        },
+        "output": 4,
+        "category": "materials"
+    },
+    "oak_door": {
+        "materials": {
+            "oak_planks": 6
+        },
+        "output": 3,
+        "category": "building_blocks"
+    },
+    "birch_door": {
+        "materials": {
+            "birch_planks": 6
+        },
+        "output": 3,
+        "category": "building_blocks"
+    },
+    "spruce_door": {
+        "materials": {
+            "spruce_planks": 6
+        },
+        "output": 3,
+        "category": "building_blocks"
+    },
+    "jungle_door": {
+        "materials": {
+            "jungle_planks": 6
+        },
+        "output": 3,
+        "category": "building_blocks"
+    },
+    "acacia_door": {
+        "materials": {
+            "acacia_planks": 6
+        },
+        "output": 3,
+        "category": "building_blocks"
+    },
+    "dark_oak_door": {
+        "materials": {
+            "dark_oak_planks": 6
+        },
+        "output": 3,
+        "category": "building_blocks"
+    },
+    "mangrove_door": {
+        "materials": {
+            "mangrove_planks": 6
+        },
+        "output": 3,
+        "category": "building_blocks"
+    },
+    "cherry_door": {
+        "materials": {
+            "cherry_planks": 6
+        },
+        "output": 3,
+        "category": "building_blocks"
+    },
+    "bamboo_door": {
+        "materials": {
+            "bamboo_planks": 6
+        },
+        "output": 3,
+        "category": "building_blocks"
+    },
+    "crimson_door": {
+        "materials": {
+            "crimson_planks": 6
+        },
+        "output": 3,
+        "category": "building_blocks"
+    },
+    "warped_door": {
+        "materials": {
+            "warped_planks": 6
+        },
+        "output": 3,
+        "category": "building_blocks"
+    },
+    "white_dye": {
+        "materials": {
+            "bone_meal": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "orange_dye": {
+        "materials": {
+            "orange_tulip": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "magenta_dye": {
+        "materials": {
+            "allium": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "light_blue_dye": {
+        "materials": {
+            "blue_orchid": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "yellow_dye": {
+        "materials": {
+            "dandelion": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "lime_dye": {
+        "materials": {
+            "sea_pickle": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "pink_dye": {
+        "materials": {
+            "pink_tulip": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "gray_dye": {
+        "materials": {
+            "azure_bluet": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "light_gray_dye": {
+        "materials": {
+            "oxeye_daisy": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "cyan_dye": {
+        "materials": {
+            "cactus": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "purple_dye": {
+        "materials": {
+            "purple_tulip": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "blue_dye": {
+        "materials": {
+            "lapis_lazuli": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "brown_dye": {
+        "materials": {
+            "cocoa_beans": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "green_dye": {
+        "materials": {
+            "cactus": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "red_dye": {
+        "materials": {
+            "poppy": 1
+        },
+        "output": 1,
+        "category": "materials"
+    },
+    "black_dye": {
+        "materials": {
+            "ink_sac": 1
+        },
+        "output": 1,
+        "category": "materials"
+    }
+} 

@@ -1,0 +1,14 @@
+{
+    "building_blocks": {
+        "name": "建築ブロック",
+        "order": 1
+    },
+    "storage": {
+        "name": "収納",
+        "order": 2
+    },
+    "materials": {
+        "name": "材料",
+        "order": 3
+    }
+} 
