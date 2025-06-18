@@ -3,12 +3,36 @@
         "name": "建築ブロック",
         "order": 1
     },
-    "storage": {
-        "name": "収納",
+    "color_blocks": {
+        "name": "色付きブロック",
         "order": 2
+    },
+    "nature_blocks": {
+        "name": "天然ブロック",
+        "order": 3
+    },
+    "practical_blocks": {
+        "name": "機能的ブロック",
+        "order": 4
+    },
+    "redstone_blocks": {
+        "name": "レッドストーン系ブロック",
+        "order": 5
+    },
+    "tools_and_items": {
+        "name": "道具と実用品",
+        "order": 6
+    },
+    "combat_items": {
+        "name": "戦闘",
+        "order": 7
+    },
+    "food_and_drink": {
+        "name": "食べ物と飲み物",
+        "order": 8
     },
     "materials": {
         "name": "材料",
-        "order": 3
+        "order": 9
     }
 } 
