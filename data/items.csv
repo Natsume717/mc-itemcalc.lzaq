@@ -2,7 +2,7 @@ item_id,name,max_stack,category
 
 
 
-bone_meal,骨粉,64,materials
+
 white_dye,白色の染料,64,materials
 orange_dye,橙色の染料,64,materials
 magenta_dye,赤紫色の染料,64,materials
@@ -29,11 +29,11 @@ oak_planks,オークの板材,64,building_blocks
 oak_stairs,オークの階段,64,building_blocks
 oak_slab,オークのハーフブロック,64,building_blocks
 oak_fence,オークのフェンス,64,building_blocks
-oak_fence_gate,オークのフェンスゲート,64,building_blocks
-oak_door,オークのドア,64,building_blocks,64,building_blocks
-oak_trapdoor,オークのトラップドア,64,building_blocks
-oak_pressure_plate,オークの感圧版,64,building_blocks
-oak_button,オークのボタン,64,building_blocks
+oak_fence_gate,オークのフェンスゲート,64,building_blocks|redstone_blocks
+oak_door,オークのドア,64,building_blocks,64,building_blocks|redstone_blocks
+oak_trapdoor,オークのトラップドア,64,building_blocks|redstone_blocks
+oak_pressure_plate,オークの感圧版,64,building_blocks|redstone_blocks
+oak_button,オークのボタン,64,building_blocks|redstone_blocks
 spruce_log,トウヒの原木,64,building_blocks|nature_blocks
 spruce_wood,トウヒの木,64,building_blocks
 stripped_spruce_log,表皮を剥いだトウヒの原木,64,building_blocks
@@ -181,8 +181,8 @@ warped_button,歪んだボタン,64,building_blocks
 stone,石,64,building_blocks|nature_blocks
 stone_stairs,石の階段,64,building_blocks
 stone_slab,石のハーフブロック,64,building_blocks
-stone_pressure_plate,石の感圧版,64,building_blocks
-stone_button,石のボタン,64,building_blocks
+stone_pressure_plate,石の感圧版,64,building_blocks|redstone_blocks
+stone_button,石のボタン,64,building_blocks|redstone_blocks
 cobblestone,丸石,64,building_blocks
 cobblestone_stairs,丸石の階段,64,building_blocks
 cobblestone_slab,丸石のハーフブロック,64,building_blocks
@@ -347,13 +347,13 @@ purpur_block_slab,プルプァのハーフブロック,64,building_blocks
 coal_block,石炭ブロック,64,building_blocks
 iron_block,鉄ブロック,64,building_blocks
 iron_bars,鉄格子,64,building_blocks
-iron_door,鉄のドア,64,building_blocks
-iron_trapdoor,鉄のトラップドア,64,building_blocks
-heavy_weighted_pressure_plate,重量用感圧版,64,building_blocks
+iron_door,鉄のドア,64,building_blocks|redstone_blocks
+iron_trapdoor,鉄のトラップドア,64,building_blocks|redstone_blocks
+heavy_weighted_pressure_plate,重量用感圧版,64,building_blocks|redstone_blocks
 chain,鎖,64,building_blocks|practical_blocks
 gold_block,金ブロック,64,building_blocks
-light_weighted_pressure_plate,軽量用感圧版,64,building_blocks
-redstone_block,レッドストーンブロック,64,building_blocks
+light_weighted_pressure_plate,軽量用感圧版,64,building_blocks|redstone_blocks
+redstone_block,レッドストーンブロック,64,building_blocks|redstone_blocks
 emerald_block,エメラルドブロック,64,building_blocks
 lapis_block,ラピスラズリブロック,64,building_blocks
 diamond_block,ダイヤモンドブロック,64,building_blocks
@@ -367,7 +367,7 @@ quartz_pillar,クォーツの柱,64,building_blocks
 smooth_quartz,滑らかなクォーツ,64,building_blocks
 smooth_quartz_stairs,滑らかなクォーツの階段,64,building_blocks
 smooth_quartz_slab,滑らかなクォーツのハーフブロック,64,building_blocks
-amethyst_block,アメジストブロック,64,building_blocks|nature_blocks
+amethyst_block,アメジストブロック,64,building_blocks|nature_blocks|redstone_blocks
 copper_block,銅ブロック,64,building_blocks
 chiseled_copper,模様入りの銅,64,building_blocks
 copper_grate,銅の格子,64,building_blocks
@@ -412,7 +412,7 @@ waxed_cut_copper_stairs,錆止めされた切り込み入りの銅の階段,64,b
 waxed_cut_copper_slab,錆止めされた切り込み入りの銅のハーフブロック,64,building_blocks
 waxed_copper_door,錆止めされた銅のドア,64,building_blocks
 waxed_copper_trapdoor,錆止めされた銅のトラップドア,64,building_blocks
-waxed_copper_bulb,錆止めされた銅の電球,64,building_blocks|practical_blocks
+waxed_copper_bulb,錆止めされた銅の電球,64,building_blocks|practical_blocks|redstone_blocks
 waxed_exposed_copper,錆止めされた風化した銅ブロック,64,building_blocks
 waxed_exposed_chiseled_copper,錆止めされた風化した模様入りの銅,64,building_blocks
 waxed_exposed_copper_grate,錆止めされた風化した銅の格子,64,building_blocks
@@ -421,7 +421,7 @@ waxed_exposed_cut_copper_stairs,錆止めされた風化した切り込み入り
 waxed_exposed_cut_copper_slab,錆止めされた風化した切り込み入りの銅のハーフブロック,64,building_blocks
 waxed_exposed_copper_door,錆止めされた風化した銅のドア,64,building_blocks
 waxed_exposed_copper_trapdoor,錆止めされた風化した銅のトラップドア,64,building_blocks
-waxed_exposed_copper_bulb,錆止めされた風化した銅の電球,64,building_blocks|practical_blocks
+waxed_exposed_copper_bulb,錆止めされた風化した銅の電球,64,building_blocks|practical_blocks|redstone_blocks
 waxed_weathered_copper,錆止めされた錆びた銅ブロック,64,building_blocks
 waxed_weathered_chiseled_copper,錆止めされた錆びた模様入りの銅,64,building_blocks
 waxed_weathered_copper_grate,錆止めされた錆びた銅の格子,64,building_blocks
@@ -430,7 +430,7 @@ waxed_weathered_cut_copper_stairs,錆止めされた錆びた切り込み入り�
 waxed_weathered_cut_copper_slab,錆止めされた錆びた切り込み入りの銅のハーフブロック,64,building_blocks
 waxed_weathered_copper_door,錆止めされた錆びた銅のドア,64,building_blocks
 waxed_weathered_copper_trapdoor,錆止めされた錆びた銅のトラップドア,64,building_blocks
-waxed_weathered_copper_bulb,錆止めされた錆びた銅の電球,64,building_blocks|practical_blocks
+waxed_weathered_copper_bulb,錆止めされた錆びた銅の電球,64,building_blocks|practical_blocks|redstone_blocks
 waxed_oxidized_copper,錆止めされた酸化した銅ブロック,64,building_blocks
 waxed_oxidized_chiseled_copper,錆止めされた酸化した模様入りの銅,64,building_blocks
 waxed_oxidized_copper_grate,錆止めされた酸化した銅の格子,64,building_blocks
@@ -439,9 +439,9 @@ waxed_oxidized_cut_copper_stairs,錆止めされた酸化した切り込み入�
 waxed_oxidized_cut_copper_slab,錆止めされた酸化した切り込み入りの銅のハーフブロック,64,building_blocks
 waxed_oxidized_copper_door,錆止めされた酸化した銅のドア,64,building_blocks
 waxed_oxidized_copper_trapdoor,錆止めされた酸化した銅のトラップドア,64,building_blocks
-waxed_oxidized_copper_bulb,錆止めされた酸化した銅の電球,64,building_blocks|practical_blocks
+waxed_oxidized_copper_bulb,錆止めされた酸化した銅の電球,64,building_blocks|practical_blocks|redstone_blocks
 
-white_wool,白色の羊毛,64,color_blocks
+white_wool,白色の羊毛,64,color_blocks|redstone_blocks
 light_gray_wool,薄灰色の羊毛,64,color_blocks
 gray_wool,灰色の羊毛,64,color_blocks
 black_wool,黒色の羊毛,64,color_blocks
@@ -682,7 +682,7 @@ copper_ore,銅鉱石,64,nature_blocks
 deepslate_copper_ore,深層銅鉱石,64,nature_blocks
 gold_ore,金鉱石,64,nature_blocks
 deepslate_gold_ore,深層金鉱石,64,nature_blocks
-redstone_ore,レッドストーン鉱石,64,nature_blocks
+redstone_ore,レッドストーン鉱石,64,nature_blocks|redstone_blocks
 deepslate_redstone_ore,深層レッドストーン鉱石,64,nature_blocks
 emerald_ore,エメラルド鉱石,64,nature_blocks
 deepslate_emerald_ore,深層エメラルド鉱石,64,nature_blocks
@@ -780,7 +780,7 @@ lilac,ライラック,64,nature_blocks
 rose_bush,バラの低木,64,nature_blocks
 peony,ボタン,64,nature_blocks
 pitcher_plants,ウツボカズラ,64,nature_blocks
-big_dripleaf,大きなドリップリーフ,64,nature_blocks
+big_dripleaf,大きなドリップリーフ,64,nature_blocks|redstone_blocks
 small_dripleaf,小さなドリップリーフ,64,nature_blocks
 chorus_plant,コーラスプラント,64,nature_blocks
 chorus_flower,コーラスフラワー,64,nature_blocks
@@ -843,8 +843,8 @@ jack_o_lantern,ジャック・オ・ランタン,64,nature_blocks
 hay_block,干草の俵,64,nature_blocks
 bee_nest,ミツバチの巣,64,nature_blocks|practical_blocks
 honeycombs_block,ハニカムブロック,64,nature_blocks
-slime_block,スライムブロック,64,nature_blocks
-honey_block,ハチミツブロック,64,nature_blocks
+slime_block,スライムブロック,64,nature_blocks|redstone_blocks
+honey_block,ハチミツブロック,64,nature_blocks|redstone_blocks
 resin_block,樹脂ブロック,64,nature_blocks
 ochre_froglight,黄土色のフロッグライト,64,nature_blocks|practical_blocks
 verdant_froglight,新緑色のフロッグライト,64,nature_blocks|practical_blocks
@@ -852,18 +852,18 @@ pearlescent_froglight,真珠色のフロッグライト,64,nature_blocks|practic
 sculk,スカルク,64,nature_blocks
 sculk_vein,スカルクヴェイン,64,nature_blocks
 sculk_cutalyst,スカルクカタリスト,64,nature_blocks
-sculk_shrieker,スカルクシュリーカー,64,nature_blocks
-sculk_sensor,スカルクセンサー,64,nature_blocks
+sculk_shrieker,スカルクシュリーカー,64,nature_blocks|redstone_blocks
+sculk_sensor,スカルクセンサー,64,nature_blocks|redstone_blocks
 cobweb,クモの巣,64,nature_blocks
 bedrock,岩盤,64,nature_blocks
 
 torch,松明,64,practical_blocks
 soul_torch,魂の松明,64,practical_blocks
-redstone_torch,レッドストーントーチ,64,practical_blocks
+redstone_torch,レッドストーントーチ,64,practical_blocks|redstone_blocks
 lantern,ランタン,64,practical_blocks
 soul_lantern,魂のランタン,64,practical_blocks
 end_rod,エンドロッド,64,practical_blocks
-redstone_lamp,レッドストーンランプ,64,practical_blocks
+redstone_lamp,レッドストーンランプ,64,practical_blocks|redstone_blocks
 crafting_table,作業台,64,practical_blocks
 stonecutter,石切台,64,practical_blocks
 cartography_table,製図台,64,practical_blocks
@@ -871,7 +871,7 @@ fletching_table,矢細工台,64,practical_blocks
 smithing_table,鍛冶台,64,practical_blocks
 grindstone,砥石,64,practical_blocks
 loom,機織り機,64,practical_blocks
-furnace,かまど,64,practical_blocks
+furnace,かまど,64,practical_blocks|redstone_blocks
 smoker,燻製器,64,practical_blocks
 blast_furnace,溶鉱炉,64,practical_blocks
 campfire,焚き火,64,practical_blocks
@@ -879,14 +879,14 @@ soul_campfire,魂の焚き火,64,practical_blocks
 anvil,金床,64,practical_blocks
 chipped_anvil,欠けた金床,64,practical_blocks
 damaged_anvil,壊れかけの金床,64,practical_blocks
-composter,コンポスター,64,practical_blocks
-note_block,音符ブロック,64,practical_blocks
-jukebox,ジュークボックス,64,practical_blocks
+composter,コンポスター,64,practical_blocks|redstone_blocks
+note_block,音符ブロック,64,practical_blocks|redstone_blocks
+jukebox,ジュークボックス,64,practical_blocks|redstone_blocks
 enchanting_table,エンチャントテーブル,64,practical_blocks
 end_crystal,エンドクリスタル,64,practical_blocks
 brewing_stand,醸造台,64,practical_blocks
-cauldron,大釜,64,practical_blocks
-bell,鐘,64,practical_blocks
+cauldron,大釜,64,practical_blocks|redstone_blocks
+bell,鐘,64,practical_blocks|redstone_blocks
 beacon,ビーコン,64,practical_blocks
 conduit,コンジット,64,practical_blocks
 lodestone,ロードストーン,64,practical_blocks
@@ -895,16 +895,16 @@ scaffolding,足場,64,practical_blocks
 beehive,養蜂箱,64,practical_blocks
 suspicious_sand,怪しげな砂,64,practical_blocks
 suspicious_gravel,怪しげな砂利,64,practical_blocks
-lightning_rod,避雷針,64,practical_blocks
+lightning_rod,避雷針,64,practical_blocks|redstone_blocks
 flower_pot,植木鉢,64,practical_blocks
-decorated_pot,飾り壺,64,practical_blocks
-armor_stand,防具立て,16,practical_blocks
+decorated_pot,飾り壺,64,practical_blocks|redstone_blocks
+armor_stand,防具立て,16,practical_blocks|redstone_blocks
 item_frame,額縁,64,practical_blocks
 glow_item_frame,輝く額縁,64,practical_blocks
 painting,絵画,64,practical_blocks
 bookshelf,本棚,64,practical_blocks
-chiseled_bookshelf,模様入りの本棚,64,practical_blocks
-lectern,書見台,64,practical_blocks
+chiseled_bookshelf,模様入りの本棚,64,practical_blocks|redstone_blocks
+lectern,書見台,64,practical_blocks|redstone_blocks
 oak_sign,オークの看板,16,practical_blocks
 oak_hanging_sign,オークの吊り看板,16,practical_blocks
 spruce_sign,トウヒの看板,16,practical_blocks
@@ -927,8 +927,8 @@ crimson_sign,深紅の看板,16,practical_blocks
 crimson_hanging_sign,深紅の吊り看板,16,practical_blocks
 warped_sign,歪んだ看板,16,practical_blocks
 warped_hanging_sign,歪んだ吊り看板,16,practical_blocks
-chest,チェスト,64,practical_blocks
-barrel,樽,64,practical_blocks
+chest,チェスト,64,practical_blocks|redstone_blocks
+barrel,樽,64,practical_blocks|redstone_blocks
 ender_chest,エンダーチェスト,64,practical_blocks
 respawn_anchor,リスポーンアンカー,64,practical_blocks
 skeleton_skull,スケルトンの頭蓋骨,64,practical_blocks
@@ -938,5 +938,147 @@ creeper_head,クリーパーの頭,64,practical_blocks
 piglin_head,ピグリンの頭,64,practical_blocks
 dragon_head,ドラゴンの頭,64,practical_blocks
 dragon_egg,ドラゴンの卵,64,practical_blocks
-ender_eye,エンダーアイ,64,practical_blocks
+ender_eye,エンダーアイ,64,practical_blocks|tools_and_items
 
+redstone,レッドストーンダスト,64,redstone_blocks
+repeater,レッドストーンリピーター,64,redstone_blocks
+comparater,レッドストーンコンパレーター,64,redstone_blocks
+target,的,64,redstone_blocks
+lever,レバー,64,redstone_blocks
+calibrated_sculk_sensor,調律されたスカルクセンサー,64,redstone_blocks
+tripwire_hook,トリップワイヤーフック,64,redstone_blocks
+string,糸,64,redstone_blocks
+daylight_detector,日照センサー,64,redstone_blocks
+piston,ピストン,64,redstone_blocks
+sticky_piston,粘着ピストン,64,redstone_blocks
+dispenser,ディスペンサー,64,redstone_blocks
+dropper,ドロッパー,64,redstone_blocks
+crafter,自動作業台,64,redstone_blocks
+hopper,ホッパー,64,redstone_blocks
+trapped_chest,トラップチェスト,64,redstone_blocks
+observer,オブザーバー,64,redstone_blocks
+rail,レール,64,redstone_blocks|tools_and_items
+powered_raol,パワードレール,64,redstone_blocks|tools_and_items
+detector_rail,ディテクターレール,64,redstone_blocks|tools_and_items
+activator_rail,アクティベーターレール,64,redstone_blocks|tools_and_items
+minecrat,トロッコ,1,redstone_blocks|tools_and_items
+hopper_minecrat,ホッパー付きのトロッコ,1,redstone_blocks|tools_and_items
+chest_minecrat,チェスト付きのトロッコ,1,redstone_blocks|tools_and_items
+furnace_minecrat,かまど付きのトロッコ,1,redstone_blocks|tools_and_items
+tnt_minecrat,TNT付きのトロッコ,1,redstone_blocks|tools_and_items
+oak_chest_boat,チェスト付きのオークのボート,1,redstone_blocks|tools_and_items
+bamboo_chest_raft,チェスト付きの竹のイカダ,1,redstone_blocks|tools_and_items
+tnt,TNT,64,redstone_blocks
+
+
+wooden_shovel,
+wooden_pickaxe,
+wooden_axe,
+wooden_hoe,
+stone_shovel,
+stone_pickaxe,
+stone_axe,
+stone_hoe,
+iron_shovel,
+iron_pickaxe,
+iron_axe,
+iron_hoe,
+golden_shovel,
+golden_pickaxe,
+golden_axe,
+golden_hoe,
+diamond_shovel,
+diamond_pickaxe,
+diamond_axe,
+diamond_hoe,
+netherite_shovel,
+netherite_pickaxe,
+netherite_axe,
+netherite_hoe,
+bucket,
+water_bucket,
+cod_bucket,
+salmon_bucket,
+tropical_fish_bucket,
+pufferfish_bucket,
+axolotl_bucket,
+tadpole_bucket,
+lava_bucket,
+powder_snow_bucket,
+milk_bucket,
+fishing_rod,
+flint_and_steel,
+fire_charge,
+bone_meal,骨粉,64,tools_and_items,
+shears,
+brush,
+name_tag,
+lead,
+bundle,バンドル
+white_bundle,白色のバンドル
+light_gray_bundle,薄灰色のバンドル
+gray_bundle,灰色のバンドル
+black_bundle,黒色のバンドル
+brown_bundle,茶色のバンドル
+red_bundle,赤色のバンドル
+orange_bundle,橙色のバンドル
+yellow_bundle,黄色のバンドル
+lime_bundle,黄緑色のバンドル
+green_bundle,緑色のバンドル
+cyan_bundle,青緑色のバンドル
+light_blue_bundle,空色のバンドル
+blue_bundle,青色のバンドル
+purple_bundle,紫色のバンドル
+magenta_bundle,赤紫色のバンドル
+pink_bundle,桃色のバンドル
+compass,
+recovery_compass,
+clock,
+spyglass,
+map,
+writable_book,
+wind_charge,
+ender_pearl,
+elytra,
+firework_rocket,
+saddle,
+carrot_on_a_stick,
+warped_fungus_on_a_stick,
+oak_boat,
+spruce_boat,
+spruce_chest_boat,
+birch_boat,
+birch_chest_boat,
+jungle_boat,
+jungle_chest_boat,
+acacia_boat,
+acacia_chest_boat,
+dark_oak_boat,
+dark_oak_chest_boat,
+mangrove_boat,
+mangrove_chest_boat,
+cherry_boat,
+cherry_chest_boat,
+pale_oak_boat,
+pale_oak_chest_boat,
+bamboo_raft,
+goat_horn,
+music_disc_13,
+music_disc_cat,
+music_disc_blocks,
+music_disc_chirp,
+music_disc_far,
+music_disc_mall,
+music_disc_mellohi,
+music_disc_stal,
+music_disc_strad,
+music_disc_ward,
+music_disc_11,
+music_disc_creator_music_box,
+music_disc_wait,
+music_disc_creator,
+music_disc_precipice,
+music_disc_otherside,
+music_disc_relic,
+music_disc_5,
+music_disc_pigstep,
