@@ -1,0 +1,39 @@
+output_item_id,materials,output_quantity,category
+white_concrete_powder,sand:4 gravel:4 white_dye:1,8,building_blocks
+orange_concrete_powder,sand:4 gravel:4 orange_dye:1,8,building_blocks
+magenta_concrete_powder,sand:4 gravel:4 magenta_dye:1,8,building_blocks
+light_blue_concrete_powder,sand:4 gravel:4 light_blue_dye:1,8,building_blocks
+yellow_concrete_powder,sand:4 gravel:4 yellow_dye:1,8,building_blocks
+lime_concrete_powder,sand:4 gravel:4 lime_dye:1,8,building_blocks
+pink_concrete_powder,sand:4 gravel:4 pink_dye:1,8,building_blocks
+gray_concrete_powder,sand:4 gravel:4 gray_dye:1,8,building_blocks
+light_gray_concrete_powder,sand:4 gravel:4 light_gray_dye:1,8,building_blocks
+cyan_concrete_powder,sand:4 gravel:4 cyan_dye:1,8,building_blocks
+purple_concrete_powder,sand:4 gravel:4 purple_dye:1,8,building_blocks
+blue_concrete_powder,sand:4 gravel:4 blue_dye:1,8,building_blocks
+brown_concrete_powder,sand:4 gravel:4 brown_dye:1,8,building_blocks
+green_concrete_powder,sand:4 gravel:4 green_dye:1,8,building_blocks
+red_concrete_powder,sand:4 gravel:4 red_dye:1,8,building_blocks
+black_concrete_powder,sand:4 gravel:4 black_dye:1,8,building_blocks
+chest,oak_planks:8,1,storage
+oak_planks,oak_log:1,4,building_blocks
+birch_planks,birch_log:1,4,building_blocks
+spruce_planks,spruce_log:1,4,building_blocks
+jungle_planks,jungle_log:1,4,building_blocks
+acacia_planks,acacia_log:1,4,building_blocks
+dark_oak_planks,dark_oak_log:1,4,building_blocks
+mangrove_planks,mangrove_log:1,4,building_blocks
+cherry_planks,cherry_log:1,4,building_blocks
+bamboo_planks,bamboo_log:1,4,building_blocks
+crimson_planks,crimson_stem:1,4,building_blocks
+warped_planks,warped_stem:1,4,building_blocks
+oak_door,oak_planks:6,3,building_blocks
+birch_door,birch_planks:6,3,building_blocks
+spruce_door,spruce_planks:6,3,building_blocks
+jungle_door,jungle_planks:6,3,building_blocks
+acacia_door,acacia_planks:6,3,building_blocks
+dark_oak_door,dark_oak_planks:6,3,building_blocks
+mangrove_door,mangrove_planks:6,3,building_blocks
+cherry_door,cherry_planks:6,3,building_blocks
+crimson_door,crimson_planks:6,3,building_blocks
+warped_door,warped_planks:6,3,building_blocks 
