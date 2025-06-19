@@ -1,0 +1,152 @@
+{
+  "#acacia_logs": [
+    "minecraft:acacia_log",
+    "minecraft:acacia_wood",
+    "minecraft:stripped_acacia_log",
+    "minecraft:stripped_acacia_wood"
+  ],
+  "#bamboo_blocks": [
+    "minecraft:bamboo_block",
+    "minecraft:stripped_bamboo_block"
+  ],
+  "#birch_logs": [
+    "minecraft:birch_log",
+    "minecraft:birch_wood",
+    "minecraft:stripped_birch_log",
+    "minecraft:stripped_birch_wood"
+  ],
+  "#cherry_logs": [
+    "minecraft:cherry_log",
+    "minecraft:cherry_wood",
+    "minecraft:stripped_cherry_log",
+    "minecraft:stripped_cherry_wood"
+  ],
+  "#dark_oak_logs": [
+    "minecraft:dark_oak_log",
+    "minecraft:dark_oak_wood",
+    "minecraft:stripped_dark_oak_log",
+    "minecraft:stripped_dark_oak_wood"
+  ],
+  "#jungle_logs": [
+    "minecraft:jungle_log",
+    "minecraft:jungle_wood",
+    "minecraft:stripped_jungle_log",
+    "minecraft:stripped_jungle_wood"
+  ],
+  "#logs": [
+    "#minecraft:logs_that_burn",
+    "#minecraft:crimson_stems",
+    "#minecraft:warped_stems"
+  ],
+  "#mangrove_logs": [
+    "minecraft:mangrove_log",
+    "minecraft:mangrove_wood",
+    "minecraft:stripped_mangrove_log",
+    "minecraft:stripped_mangrove_wood"
+  ],
+  "#oak_logs": [
+    "minecraft:oak_log",
+    "minecraft:oak_wood",
+    "minecraft:stripped_oak_log",
+    "minecraft:stripped_oak_wood"
+  ],
+  "#pale_oak_logs": [
+    "minecraft:pale_oak_log",
+    "minecraft:pale_oak_wood",
+    "minecraft:stripped_pale_oak_log",
+    "minecraft:stripped_pale_oak_wood"
+  ],
+  "#planks": [
+    "minecraft:oak_planks",
+    "minecraft:spruce_planks",
+    "minecraft:birch_planks",
+    "minecraft:jungle_planks",
+    "minecraft:acacia_planks",
+    "minecraft:dark_oak_planks",
+    "minecraft:pale_oak_planks",
+    "minecraft:crimson_planks",
+    "minecraft:warped_planks",
+    "minecraft:mangrove_planks",
+    "minecraft:bamboo_planks",
+    "minecraft:cherry_planks"
+  ],
+  "#soul_fire_base_blocks": [
+    "minecraft:soul_sand",
+    "minecraft:soul_soil"
+  ],
+  "#spruce_logs": [
+    "minecraft:spruce_log",
+    "minecraft:spruce_wood",
+    "minecraft:stripped_spruce_log",
+    "minecraft:stripped_spruce_wood"
+  ],
+  "#warped_stems": [
+    "minecraft:warped_stem",
+    "minecraft:stripped_warped_stem",
+    "minecraft:warped_hyphae",
+    "minecraft:stripped_warped_hyphae"
+  ],
+  "#wooden_slabs": [
+    "minecraft:oak_slab",
+    "minecraft:spruce_slab",
+    "minecraft:birch_slab",
+    "minecraft:jungle_slab",
+    "minecraft:acacia_slab",
+    "minecraft:dark_oak_slab",
+    "minecraft:pale_oak_slab",
+    "minecraft:crimson_slab",
+    "minecraft:warped_slab",
+    "minecraft:mangrove_slab",
+    "minecraft:bamboo_slab",
+    "minecraft:cherry_slab"
+  ],
+  "#wool": [
+    "minecraft:white_wool",
+    "minecraft:orange_wool",
+    "minecraft:magenta_wool",
+    "minecraft:light_blue_wool",
+    "minecraft:yellow_wool",
+    "minecraft:lime_wool",
+    "minecraft:pink_wool",
+    "minecraft:gray_wool",
+    "minecraft:light_gray_wool",
+    "minecraft:cyan_wool",
+    "minecraft:purple_wool",
+    "minecraft:blue_wool",
+    "minecraft:brown_wool",
+    "minecraft:green_wool",
+    "minecraft:red_wool",
+    "minecraft:black_wool"
+  ],
+  "#coals": [
+    "minecraft:coal",
+    "minecraft:charcoal"
+  ],
+  "#diamond_tool_materials": [
+    "minecraft:diamond"
+  ],
+  "#eggs": [
+    "minecraft:egg",
+    "minecraft:blue_egg",
+    "minecraft:brown_egg"
+  ],
+  "#gold_tool_materials": [
+    "minecraft:gold_ingot"
+  ],
+  "#iron_tool_materials": [
+    "minecraft:iron_ingot"
+  ],
+  "#stone_crafting_materials": [
+    "minecraft:cobblestone",
+    "minecraft:blackstone",
+    "minecraft:cobbled_deepslate"
+  ],
+  "#stone_tool_materials": [
+    "minecraft:cobblestone",
+    "minecraft:blackstone",
+    "minecraft:cobbled_deepslate"
+  ],
+  "#wooden_tool_materials": [
+    "#minecraft:planks"
+  ]
+}

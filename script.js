@@ -25,17 +25,23 @@ function initializeItemSelect() {
     // カテゴリごとにアイテムをグループ化
     const categories = {};
     Object.entries(items).forEach(([id, item]) => {
-        if (!categories[item.category]) {
-            categories[item.category] = [];
-        }
-        categories[item.category].push({
-            id: id,
-            name: item.name
+        if (!recipes[id]) return; // レシピが存在しないアイテムは除外
+        // カテゴリが複数ある場合は分割してすべてに追加
+        const cats = item.category ? item.category.split('|') : [];
+        cats.forEach(cat => {
+            if (!categories[cat]) {
+                categories[cat] = [];
+            }
+            categories[cat].push({
+                id: id,
+                name: item.name
+            });
         });
     });
 
     // カテゴリごとにオプションを追加
     Object.entries(categories).forEach(([category, items]) => {
+        if (!category) return; // 空カテゴリはスキップ
         const optgroup = $('<optgroup>').attr('label', getCategoryName(category));
         items.forEach(item => {
             optgroup.append($('<option>').val(item.id).text(item.name));
@@ -118,6 +124,32 @@ function calculateRequiredMaterials(targetItem, targetQuantity, recipes) {
     return materials;
 }
 
+// 再帰的に材料ツリーをカード風HTMLで生成（子素材は折り畳み）
+function renderMaterialsTreeBox(itemId, amount, depth = 0, isNested = false) {
+    const boxStyle = `margin-left:${depth * 24}px; display: flex; align-items: center;`;
+    const nameHtml = `<span class='item-name'>${items[itemId]?.name || itemId}</span>`;
+    const qtyHtml = `<span class='item-quantity'>${amount}個</span>`;
+    let detailsHtml = '';
+    let boxClass = 'material-box' + (isNested ? ' nested' : '');
+    if (recipes[itemId]) {
+        const recipe = recipes[itemId];
+        const materials = Object.entries(recipe.materials);
+        if (materials.length > 0) {
+            detailsHtml = `<details style='margin-left:1em;'><summary style='cursor:pointer;'>素材を見る</summary>`;
+            for (const [material, materialAmount] of materials) {
+                const totalMaterialAmount = materialAmount * Math.ceil(amount / recipe.output);
+                detailsHtml += renderMaterialsTreeBox(material, totalMaterialAmount, 0, true);
+            }
+            detailsHtml += `</details>`;
+        } else {
+            detailsHtml = `<span style='margin-left:1em; min-width: 6em; display:inline-block;'></span>`;
+        }
+    } else {
+        detailsHtml = `<span style='margin-left:1em; min-width: 6em; display:inline-block;'></span>`;
+    }
+    return `<div class='${boxClass}' style='${boxStyle}'>${nameHtml} ${qtyHtml} ${detailsHtml}</div>`;
+}
+
 // 材料リストを表示
 function displayResults(materials) {
     const resultsDiv = document.getElementById('materialsList');
@@ -133,51 +165,24 @@ function displayResults(materials) {
         quantity;
     const craftCount = Math.ceil(actualQuantity / recipe.output);
     
-    // クラフト回数を表示
+    // ツリー表示（指定アイテム自身は表示せず、素材から表示）
+    const treeDiv = document.createElement('div');
+    treeDiv.className = 'materials-tree-box';
+    let treeHtml = '';
+    if (recipe) {
+        for (const [material, materialAmount] of Object.entries(recipe.materials)) {
+            const totalMaterialAmount = materialAmount * craftCount;
+            treeHtml += renderMaterialsTreeBox(material, totalMaterialAmount, 0);
+        }
+    }
+    treeDiv.innerHTML = treeHtml;
+    resultsDiv.appendChild(treeDiv);
+
+    // クラフト回数を素材ツリーの下に表示
     const craftInfo = document.createElement('div');
     craftInfo.className = 'alert alert-info mb-3';
     craftInfo.innerHTML = `クラフト回数: ${craftCount}回`;
     resultsDiv.appendChild(craftInfo);
-    
-    const ul = document.createElement('ul');
-    ul.className = 'list-group';
-    
-    for (const [itemId, amount] of Object.entries(materials)) {
-        const item = items[itemId];
-        const li = document.createElement('li');
-        li.className = 'list-group-item d-flex justify-content-between align-items-center';
-        
-        // LCとスタック数に変換
-        const maxStack = item.maxStack;
-        const totalStacks = Math.floor(amount / maxStack);
-        const remainder = amount % maxStack;
-        const lcCount = Math.floor(totalStacks / 54);
-        const remainingStacks = totalStacks % 54;
-        
-        let displayAmount = '';
-        if (lcCount > 0) {
-            displayAmount = `${lcCount}LC`;
-            if (remainingStacks > 0) {
-                displayAmount += ` + ${remainingStacks}スタック`;
-            }
-            displayAmount += ` (合計: ${amount}個)`;
-        } else if (totalStacks > 0) {
-            displayAmount = `${totalStacks}スタック`;
-            if (remainder > 0) {
-                displayAmount += ` + ${remainder}個`;
-            }
-        } else {
-            displayAmount = `${amount}個`;
-        }
-        
-        li.innerHTML = `
-            <span>${item.name}</span>
-            <span class="badge bg-primary rounded-pill">${displayAmount}</span>
-        `;
-        ul.appendChild(li);
-    }
-    
-    resultsDiv.appendChild(ul);
 }
 
 // ページ読み込み時にデータを読み込む

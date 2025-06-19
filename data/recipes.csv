@@ -1,39 +1,679 @@
-output_item_id,materials,output_quantity,category
-white_concrete_powder,sand:4 gravel:4 white_dye:1,8,building_blocks
-orange_concrete_powder,sand:4 gravel:4 orange_dye:1,8,building_blocks
-magenta_concrete_powder,sand:4 gravel:4 magenta_dye:1,8,building_blocks
-light_blue_concrete_powder,sand:4 gravel:4 light_blue_dye:1,8,building_blocks
-yellow_concrete_powder,sand:4 gravel:4 yellow_dye:1,8,building_blocks
-lime_concrete_powder,sand:4 gravel:4 lime_dye:1,8,building_blocks
-pink_concrete_powder,sand:4 gravel:4 pink_dye:1,8,building_blocks
-gray_concrete_powder,sand:4 gravel:4 gray_dye:1,8,building_blocks
-light_gray_concrete_powder,sand:4 gravel:4 light_gray_dye:1,8,building_blocks
-cyan_concrete_powder,sand:4 gravel:4 cyan_dye:1,8,building_blocks
-purple_concrete_powder,sand:4 gravel:4 purple_dye:1,8,building_blocks
-blue_concrete_powder,sand:4 gravel:4 blue_dye:1,8,building_blocks
-brown_concrete_powder,sand:4 gravel:4 brown_dye:1,8,building_blocks
-green_concrete_powder,sand:4 gravel:4 green_dye:1,8,building_blocks
-red_concrete_powder,sand:4 gravel:4 red_dye:1,8,building_blocks
-black_concrete_powder,sand:4 gravel:4 black_dye:1,8,building_blocks
-chest,oak_planks:8,1,storage
-oak_planks,oak_log:1,4,building_blocks
-birch_planks,birch_log:1,4,building_blocks
-spruce_planks,spruce_log:1,4,building_blocks
-jungle_planks,jungle_log:1,4,building_blocks
-acacia_planks,acacia_log:1,4,building_blocks
-dark_oak_planks,dark_oak_log:1,4,building_blocks
-mangrove_planks,mangrove_log:1,4,building_blocks
-cherry_planks,cherry_log:1,4,building_blocks
-bamboo_planks,bamboo_log:1,4,building_blocks
-crimson_planks,crimson_stem:1,4,building_blocks
-warped_planks,warped_stem:1,4,building_blocks
-oak_door,oak_planks:6,3,building_blocks
-birch_door,birch_planks:6,3,building_blocks
-spruce_door,spruce_planks:6,3,building_blocks
-jungle_door,jungle_planks:6,3,building_blocks
-acacia_door,acacia_planks:6,3,building_blocks
-dark_oak_door,dark_oak_planks:6,3,building_blocks
-mangrove_door,mangrove_planks:6,3,building_blocks
-cherry_door,cherry_planks:6,3,building_blocks
-crimson_door,crimson_planks:6,3,building_blocks
-warped_door,warped_planks:6,3,building_blocks 
+﻿output_item_id,materials,output_quantity,category
+oak_wood,oak_log:4,3.0,building_blocks
+stripped_oak_wood,stripped_oak_log:4,3.0,building_blocks
+oak_planks,#oak_logs:1,4.0,building_blocks
+oak_stairs,oak_planks:6,4.0,building_blocks
+oak_slab,oak_planks:3,6.0,building_blocks
+oak_fence,oak_planks:4 stick:2,3.0,building_blocks
+oak_fence_gate,stick:4 oak_planks:2,1.0,building_blocks|redstone_blocks
+oak_door,oak_planks:6,3.0,building_blocks
+oak_trapdoor,oak_planks:6,2.0,building_blocks|redstone_blocks
+oak_pressure_plate,oak_planks:2,1.0,building_blocks|redstone_blocks
+oak_button,oak_planks:1,1.0,building_blocks|redstone_blocks
+spruce_wood,spruce_log:4,3.0,building_blocks
+stripped_spruce_wood,stripped_spruce_log:4,3.0,building_blocks
+spruce_planks,#spruce_logs:1,4.0,building_blocks
+spruce_stairs,spruce_planks:6,4.0,building_blocks
+spruce_slab,spruce_planks:3,6.0,building_blocks
+spruce_fence,spruce_planks:4 stick:2,3.0,building_blocks
+spruce_fence_gate,stick:4 spruce_planks:2,1.0,building_blocks
+spruce_door,spruce_planks:6,3.0,building_blocks
+spruce_trapdoor,spruce_planks:6,2.0,building_blocks
+spruce_pressure_plate,spruce_planks:2,1.0,building_blocks
+spruce_button,spruce_planks:1,1.0,building_blocks
+birch_wood,birch_log:4,3.0,building_blocks
+stripped_birch_wood,stripped_birch_log:4,3.0,building_blocks
+birch_planks,#birch_logs:1,4.0,building_blocks
+birch_stairs,birch_planks:6,4.0,building_blocks
+birch_slab,birch_planks:3,6.0,building_blocks
+birch_fence,birch_planks:4 stick:2,3.0,building_blocks
+birch_fence_gate,stick:4 birch_planks:2,1.0,building_blocks
+birch_door,birch_planks:6,3.0,building_blocks
+birch_trapdoor,birch_planks:6,2.0,building_blocks
+birch_pressure_plate,birch_planks:2,1.0,building_blocks
+birch_button,birch_planks:1,1.0,building_blocks
+jungle_wood,jungle_log:4,3.0,building_blocks
+stripped_jungle_wood,stripped_jungle_log:4,3.0,building_blocks
+jungle_planks,#jungle_logs:1,4.0,building_blocks
+jungle_stairs,jungle_planks:6,4.0,building_blocks
+jungle_slab,jungle_planks:3,6.0,building_blocks
+jungle_fence,jungle_planks:4 stick:2,3.0,building_blocks
+jungle_fence_gate,stick:4 jungle_planks:2,1.0,building_blocks
+jungle_door,jungle_planks:6,3.0,building_blocks
+jungle_trapdoor,jungle_planks:6,2.0,building_blocks
+jungle_pressure_plate,jungle_planks:2,1.0,building_blocks
+jungle_button,jungle_planks:1,1.0,building_blocks
+acacia_wood,acacia_log:4,3.0,building_blocks
+stripped_acacia_wood,stripped_acacia_log:4,3.0,building_blocks
+acacia_planks,#acacia_logs:1,4.0,building_blocks
+acacia_stairs,acacia_planks:6,4.0,building_blocks
+acacia_slab,acacia_planks:3,6.0,building_blocks
+acacia_fence,acacia_planks:4 stick:2,3.0,building_blocks
+acacia_fence_gate,stick:4 acacia_planks:2,1.0,building_blocks
+acacia_door,acacia_planks:6,3.0,building_blocks
+acacia_trapdoor,acacia_planks:6,2.0,building_blocks
+acacia_pressure_plate,acacia_planks:2,1.0,building_blocks
+acacia_button,acacia_planks:1,1.0,building_blocks
+dark_oak_wood,dark_oak_log:4,3.0,building_blocks
+stripped_dark_oak_wood,stripped_dark_oak_log:4,3.0,building_blocks
+dark_oak_planks,#dark_oak_logs:1,4.0,building_blocks
+dark_oak_stairs,dark_oak_planks:6,4.0,building_blocks
+dark_oak_slab,dark_oak_planks:3,6.0,building_blocks
+dark_oak_fence,dark_oak_planks:4 stick:2,3.0,building_blocks
+dark_oak_fence_gate,stick:4 dark_oak_planks:2,1.0,building_blocks
+dark_oak_door,dark_oak_planks:6,3.0,building_blocks
+dark_oak_trapdoor,dark_oak_planks:6,2.0,building_blocks
+dark_oak_pressure_plate,dark_oak_planks:2,1.0,building_blocks
+dark_oak_button,dark_oak_planks:1,1.0,building_blocks
+mangrove_wood,mangrove_log:4,3.0,building_blocks
+stripped_mangrove_wood,stripped_mangrove_log:4,3.0,building_blocks
+mangrove_planks,#mangrove_logs:1,4.0,building_blocks
+mangrove_stairs,mangrove_planks:6,4.0,building_blocks
+mangrove_slab,mangrove_planks:3,6.0,building_blocks
+mangrove_fence,mangrove_planks:4 stick:2,3.0,building_blocks
+mangrove_fence_gate,stick:4 mangrove_planks:2,1.0,building_blocks
+mangrove_door,mangrove_planks:6,3.0,building_blocks
+mangrove_trapdoor,mangrove_planks:6,2.0,building_blocks
+mangrove_pressure_plate,mangrove_planks:2,1.0,building_blocks
+mangrove_button,mangrove_planks:1,1.0,building_blocks
+cherry_wood,cherry_log:4,3.0,building_blocks
+stripped_cherry_wood,stripped_cherry_log:4,3.0,building_blocks
+cherry_planks,#cherry_logs:1,4.0,building_blocks
+cherry_stairs,cherry_planks:6,4.0,building_blocks
+cherry_slab,cherry_planks:3,6.0,building_blocks
+cherry_fence,cherry_planks:4 stick:2,3.0,building_blocks
+cherry_fence_gate,stick:4 cherry_planks:2,1.0,building_blocks
+cherry_door,cherry_planks:6,3.0,building_blocks
+cherry_trapdoor,cherry_planks:6,2.0,building_blocks
+cherry_pressure_plate,cherry_planks:2,1.0,building_blocks
+cherry_button,cherry_planks:1,1.0,building_blocks
+pale_oak_wood,pale_oak_log:4,3.0,building_blocks
+stripped_pale_oak_wood,stripped_pale_oak_log:4,3.0,building_blocks
+pale_oak_planks,#pale_oak_logs:1,4.0,building_blocks
+pale_oak_stairs,pale_oak_planks:6,4.0,building_blocks
+pale_oak_slab,pale_oak_planks:3,6.0,building_blocks
+pale_oak_fence,pale_oak_planks:4 stick:2,3.0,building_blocks
+pale_oak_fence_gate,stick:4 pale_oak_planks:2,1.0,building_blocks
+pale_oak_door,pale_oak_planks:6,3.0,building_blocks
+pale_oak_trapdoor,pale_oak_planks:6,2.0,building_blocks
+pale_oak_pressure_plate,pale_oak_planks:2,1.0,building_blocks
+pale_oak_button,pale_oak_planks:1,1.0,building_blocks
+bamboo_block,bamboo:9,1.0,building_blocks
+bamboo_planks,#bamboo_blocks:1,2.0,building_blocks
+bamboo_mosaic,bamboo_slab:2,1.0,building_blocks
+bamboo_stairs,bamboo_planks:6,4.0,building_blocks
+bamboo_mosaic_stairs,bamboo_mosaic:6,4.0,building_blocks
+bamboo_slab,bamboo_planks:3,6.0,building_blocks
+bamboo_mosaic_slab,bamboo_mosaic:3,6.0,building_blocks
+bamboo_fence,bamboo_planks:4 stick:2,3.0,building_blocks
+bamboo_fence_gate,stick:4 bamboo_planks:2,1.0,building_blocks
+bamboo_door,bamboo_planks:6,3.0,building_blocks
+bamboo_trapdoor,bamboo_planks:6,2.0,building_blocks
+bamboo_pressure_plate,bamboo_planks:2,1.0,building_blocks
+bamboo_button,bamboo_planks:1,1.0,building_blocks
+warped_hyphae,warped_stem:4,3.0,building_blocks
+stripped_warped_hyphae,stripped_warped_stem:4,3.0,building_blocks
+warped_planks,#warped_stems:1,4.0,building_blocks
+warped_stairs,warped_planks:6,4.0,building_blocks
+warped_slab,warped_planks:3,6.0,building_blocks
+warped_fence,warped_planks:4 stick:2,3.0,building_blocks
+warped_fence_gate,stick:4 warped_planks:2,1.0,building_blocks
+warped_door,warped_planks:6,3.0,building_blocks
+warped_trapdoor,warped_planks:6,2.0,building_blocks
+warped_pressure_plate,warped_planks:2,1.0,building_blocks
+warped_button,warped_planks:1,1.0,building_blocks
+stone_stairs,stone:6,4.0,building_blocks
+stone_slab,stone:3,6.0,building_blocks
+stone_pressure_plate,stone:2,1.0,building_blocks|redstone_blocks
+stone_button,stone:1,1.0,building_blocks|redstone_blocks
+cobblestone_stairs,cobblestone:6,4.0,building_blocks
+cobblestone_slab,cobblestone:3,6.0,building_blocks
+cobblestone_wall,cobblestone:6,6.0,building_blocks
+mossy_cobblestone_stairs,mossy_cobblestone:6,4.0,building_blocks
+mossy_cobblestone_slab,mossy_cobblestone:3,6.0,building_blocks
+mossy_cobblestone_wall,mossy_cobblestone:6,6.0,building_blocks
+smooth_stone_slab,smooth_stone:3,6.0,building_blocks
+stone_bricks,stone:4,4.0,building_blocks
+stone_brick_stairs,stone_bricks:6,4.0,building_blocks
+stone_brick_slab,stone_bricks:3,6.0,building_blocks
+stone_brick_wall,stone_bricks:6,6.0,building_blocks
+chiseled_stone_bricks,stone_brick_slab:2,1.0,building_blocks
+mossy_stone_brick_stairs,mossy_stone_bricks:6,4.0,building_blocks
+mossy_stone_brick_slab,mossy_stone_bricks:3,6.0,building_blocks
+mossy_stone_brick_wall,mossy_stone_bricks:6,6.0,building_blocks
+granite,diorite:1 quartz:1,1.0,building_blocks|nature_blocks
+granite_slab,granite:3,6.0,building_blocks
+granite_wall,granite:6,6.0,building_blocks
+polished_granite,granite:4,4.0,building_blocks
+polished_granite_slab,polished_granite:3,6.0,building_blocks
+diorite,cobblestone:2 quartz:2,2.0,building_blocks|nature_blocks
+diorite_slab,diorite:3,6.0,building_blocks
+diorite_wall,diorite:6,6.0,building_blocks
+polished_diorite,diorite:4,4.0,building_blocks
+polished_diorite_slab,polished_diorite:3,6.0,building_blocks
+andesite,diorite:1 cobblestone:1,2.0,building_blocks|nature_blocks
+andesite_slab,andesite:3,6.0,building_blocks
+andesite_wall,andesite:6,6.0,building_blocks
+polished_andesite,andesite:4,4.0,building_blocks
+polished_andesite_slab,polished_andesite:3,6.0,building_blocks
+cobbled_deepslate_stairs,cobbled_deepslate:6,4.0,building_blocks
+cobbled_deepslate_slab,cobbled_deepslate:3,6.0,building_blocks
+cobbled_deepslate_wall,cobbled_deepslate:6,6.0,building_blocks
+chiseled_deepslate,cobbled_deepslate_slab:2,1.0,building_blocks
+polished_deepslate,cobbled_deepslate:4,4.0,building_blocks
+polished_deepslate_stairs,polished_deepslate:6,4.0,building_blocks
+polished_deepslate_wall,polished_deepslate:6,6.0,building_blocks
+deepslate_bricks,polished_deepslate:4,4.0,building_blocks
+deepslate_tiles,deepslate_bricks:4,4.0,building_blocks
+deepslate_tile_stairs,deepslate_tiles:6,4.0,building_blocks
+deepslate_tile_slab,deepslate_tiles:3,6.0,building_blocks
+deepslate_tile_wall,deepslate_tiles:6,6.0,building_blocks
+tuff_stairs,tuff:6,4.0,building_blocks
+tuff_slab,tuff:3,6.0,building_blocks
+tuff_wall,tuff:6,6.0,building_blocks
+chiseled_tuff,tuff_slab:2,1.0,building_blocks
+polished_tuff,tuff:4,4.0,building_blocks
+polished_tuff_stairs,polished_tuff:6,4.0,building_blocks
+polished_tuff_slab,polished_tuff:3,6.0,building_blocks
+polished_tuff_wall,polished_tuff:6,6.0,building_blocks
+tuff_bricks,polished_tuff:4,4.0,building_blocks
+tuff_brick_stairs,tuff_bricks:6,4.0,building_blocks
+tuff_brick_slab,tuff_bricks:3,6.0,building_blocks
+tuff_brick_wall,tuff_bricks:6,6.0,building_blocks
+chiseled_tuff_bricks,tuff_brick_slab:2,1.0,building_blocks
+bricks,brick:4,1.0,building_blocks
+brick_stairs,bricks:6,4.0,building_blocks
+brick_slab,bricks:3,6.0,building_blocks
+brick_wall,bricks:6,6.0,building_blocks
+packed_mud,mud:1 wheat:1,1.0,building_blocks
+mud_bricks,packed_mud:4,4.0,building_blocks
+mud_brick_stairs,mud_bricks:6,4.0,building_blocks
+mud_brick_slab,mud_bricks:3,6.0,building_blocks
+mud_brick_wall,mud_bricks:6,6.0,building_blocks
+resin_bricks,resin_brick:4,1.0,building_blocks
+resin_brick_stairs,resin_bricks:6,4.0,building_blocks
+resin_brick_slab,resin_bricks:3,6.0,building_blocks
+resin_brick_wall,resin_bricks:6,6.0,building_blocks
+sandstone,sand:4,1.0,building_blocks|nature_blocks
+sandstone_stairs,,4.0,building_blocks
+sandstone_slab,,6.0,building_blocks
+sandstone_wall,sandstone:6,6.0,building_blocks
+chiseled_sandstone,sandstone_slab:2,1.0,building_blocks
+smooth_sandstone_stairs,smooth_sandstone:6,4.0,building_blocks
+smooth_sandstone_slab,smooth_sandstone:3,6.0,building_blocks
+cut_sandstone,sandstone:4,4.0,building_blocks
+red_sandstone,red_sand:4,1.0,building_blocks|nature_blocks
+red_sandstone_stairs,,4.0,building_blocks
+red_sandstone_slab,,6.0,building_blocks
+red_sandstone_wall,red_sandstone:6,6.0,building_blocks
+chiseled_red_sandstone,red_sandstone_slab:2,1.0,building_blocks
+smooth_red_sandstone_stairs,smooth_red_sandstone:6,4.0,building_blocks
+smooth_red_sandstone_slab,smooth_red_sandstone:3,6.0,building_blocks
+cut_red_sandstone,red_sandstone:4,4.0,building_blocks
+sea_lantern,prismarine_shard:4 prismarine_crystals:5,1.0,building_blocks|practical_blocks
+prismarine,prismarine_shard:4,1.0,building_blocks|nature_blocks
+prismarine_stairs,prismarine:6,4.0,building_blocks
+prismarine_slab,prismarine:3,6.0,building_blocks
+prismarine_wall,prismarine:6,6.0,building_blocks
+prismarine_bricks,prismarine_shard:9,1.0,building_blocks
+prismarine_brick_stairs,prismarine_bricks:6,4.0,building_blocks
+prismarine_brick_slab,prismarine_bricks:3,6.0,building_blocks
+dark_prismarine,prismarine_shard:8 black_dye:1,1.0,building_blocks
+dark_prismarine_stairs,dark_prismarine:6,4.0,building_blocks
+dark_prismarine_slab,dark_prismarine:3,6.0,building_blocks
+nether_bricks,nether_brick:4,1.0,building_blocks
+nether_brick_stairs,nether_bricks:6,4.0,building_blocks
+nether_brick_slab,nether_bricks:3,6.0,building_blocks
+nether_brick_wall,nether_bricks:6,6.0,building_blocks
+nether_brick_fence,nether_bricks:4 nether_brick:2,6.0,building_blocks
+chiseled_nether_bricks,nether_brick_slab:2,1.0,building_blocks
+red_nether_bricks,nether_brick:2 nether_wart:2,1.0,building_blocks
+red_nether_brick_stairs,red_nether_bricks:6,4.0,building_blocks
+red_nether_brick_slab,red_nether_bricks:3,6.0,building_blocks
+red_nether_brick_wall,red_nether_bricks:6,6.0,building_blocks
+polished_basalt,basalt:4,4.0,building_blocks|nature_blocks
+end_stone_bricks,end_stone:4,4.0,building_blocks
+purpur_block,popped_chorus_fruit:4,4.0,building_blocks
+purpur_pillar,purpur_slab:2,1.0,building_blocks
+coal_block,coal:9,1.0,building_blocks
+iron_block,iron_ingot:9,1.0,building_blocks
+iron_bars,iron_ingot:6,16.0,building_blocks
+iron_door,iron_ingot:6,3.0,building_blocks|redstone_blocks
+iron_trapdoor,iron_ingot:4,1.0,building_blocks|redstone_blocks
+heavy_weighted_pressure_plate,iron_ingot:2,1.0,building_blocks|redstone_blocks
+chain,iron_nugget:2 iron_ingot:1,1.0,building_blocks|practical_blocks
+gold_block,gold_ingot:9,1.0,building_blocks
+light_weighted_pressure_plate,gold_ingot:2,1.0,building_blocks|redstone_blocks
+redstone_block,redstone:9,1.0,building_blocks|redstone_blocks
+emerald_block,emerald:9,1.0,building_blocks
+lapis_block,lapis_lazuli:9,1.0,building_blocks
+diamond_block,diamond:9,1.0,building_blocks
+netherite_block,netherite_ingot:9,1.0,building_blocks
+quartz_block,quartz:4,1.0,building_blocks
+quartz_stairs,,4.0,building_blocks
+quartz_slab,,6.0,building_blocks
+chiseled_quartz_block,quartz_slab:2,1.0,building_blocks
+quartz_bricks,quartz_block:4,4.0,building_blocks
+quartz_pillar,quartz_block:2,2.0,building_blocks
+smooth_quartz_stairs,smooth_quartz:6,4.0,building_blocks
+smooth_quartz_slab,smooth_quartz:3,6.0,building_blocks
+amethyst_block,amethyst_shard:4,1.0,building_blocks|nature_blocks|redstone_blocks
+copper_block,copper_ingot:9,1.0,building_blocks
+chiseled_copper,cut_copper_slab:2,1.0,building_blocks
+copper_grate,copper_block:4,4.0,building_blocks
+cut_copper,copper_block:4,4.0,building_blocks
+cut_copper_stairs,cut_copper:6,4.0,building_blocks
+cut_copper_slab,cut_copper:3,6.0,building_blocks
+copper_door,copper_ingot:6,3.0,building_blocks
+copper_trapdoor,copper_ingot:6,2.0,building_blocks
+copper_bulb,copper_block:3 blaze_rod:1 redstone:1,4.0,building_blocks|practical_blocks
+exposed_chiseled_copper,exposed_cut_copper_slab:2,1.0,building_blocks
+exposed_copper_grate,exposed_copper:4,4.0,building_blocks
+exposed_cut_copper,exposed_copper:4,4.0,building_blocks
+exposed_cut_copper_stairs,exposed_cut_copper:6,4.0,building_blocks
+exposed_cut_copper_slab,exposed_cut_copper:3,6.0,building_blocks
+exposed_copper_bulb,exposed_copper:3 blaze_rod:1 redstone:1,4.0,building_blocks|practical_blocks
+weathered_chiseled_copper,weathered_cut_copper_slab:2,1.0,building_blocks
+weathered_copper_grate,weathered_copper:4,4.0,building_blocks
+weathered_cut_copper,weathered_copper:4,4.0,building_blocks
+weathered_cut_copper_stairs,weathered_cut_copper:6,4.0,building_blocks
+weathered_cut_copper_slab,weathered_cut_copper:3,6.0,building_blocks
+weathered_copper_bulb,weathered_copper:3 blaze_rod:1 redstone:1,4.0,building_blocks|practical_blocks
+oxidized_chiseled_copper,oxidized_cut_copper_slab:2,1.0,building_blocks
+oxidized_copper_grate,oxidized_copper:4,4.0,building_blocks
+oxidized_cut_copper,oxidized_copper:4,4.0,building_blocks
+oxidized_cut_copper_stairs,oxidized_cut_copper:6,4.0,building_blocks
+oxidized_cut_copper_slab,oxidized_cut_copper:3,6.0,building_blocks
+oxidized_copper_bulb,oxidized_copper:3 blaze_rod:1 redstone:1,4.0,building_blocks|practical_blocks
+waxed_chiseled_copper,waxed_cut_copper_slab:2,1.0,building_blocks
+waxed_copper_grate,waxed_copper_block:4,4.0,building_blocks
+waxed_cut_copper,waxed_copper_block:4,4.0,building_blocks
+waxed_cut_copper_stairs,waxed_cut_copper:6,4.0,building_blocks
+waxed_cut_copper_slab,waxed_cut_copper:3,6.0,building_blocks
+waxed_copper_bulb,waxed_copper_block:3 blaze_rod:1 redstone:1,4.0,building_blocks|practical_blocks|redstone_blocks
+waxed_exposed_chiseled_copper,waxed_exposed_cut_copper_slab:2,1.0,building_blocks
+waxed_exposed_copper_grate,waxed_exposed_copper:4,4.0,building_blocks
+waxed_exposed_cut_copper,waxed_exposed_copper:4,4.0,building_blocks
+waxed_exposed_cut_copper_stairs,waxed_exposed_cut_copper:6,4.0,building_blocks
+waxed_exposed_cut_copper_slab,waxed_exposed_cut_copper:3,6.0,building_blocks
+waxed_exposed_copper_bulb,waxed_exposed_copper:3 blaze_rod:1 redstone:1,4.0,building_blocks|practical_blocks|redstone_blocks
+waxed_weathered_chiseled_copper,waxed_weathered_cut_copper_slab:2,1.0,building_blocks
+waxed_weathered_copper_grate,waxed_weathered_copper:4,4.0,building_blocks
+waxed_weathered_cut_copper,waxed_weathered_copper:4,4.0,building_blocks
+waxed_weathered_cut_copper_stairs,waxed_weathered_cut_copper:6,4.0,building_blocks
+waxed_weathered_cut_copper_slab,waxed_weathered_cut_copper:3,6.0,building_blocks
+waxed_weathered_copper_bulb,waxed_weathered_copper:3 blaze_rod:1 redstone:1,4.0,building_blocks|practical_blocks|redstone_blocks
+waxed_oxidized_chiseled_copper,waxed_oxidized_cut_copper_slab:2,1.0,building_blocks
+waxed_oxidized_copper_grate,waxed_oxidized_copper:4,4.0,building_blocks
+waxed_oxidized_cut_copper,waxed_oxidized_copper:4,4.0,building_blocks
+waxed_oxidized_cut_copper_stairs,waxed_oxidized_cut_copper:6,4.0,building_blocks
+waxed_oxidized_cut_copper_slab,waxed_oxidized_cut_copper:3,6.0,building_blocks
+waxed_oxidized_copper_bulb,waxed_oxidized_copper:3 blaze_rod:1 redstone:1,4.0,building_blocks|practical_blocks|redstone_blocks
+white_carpet,white_wool:2,3.0,color_blocks
+light_gray_carpet,light_gray_wool:2,3.0,color_blocks
+gray_carpet,gray_wool:2,3.0,color_blocks
+black_carpet,black_wool:2,3.0,color_blocks
+brown_carpet,brown_wool:2,3.0,color_blocks
+red_carpet,red_wool:2,3.0,color_blocks
+orange_carpet,orange_wool:2,3.0,color_blocks
+yellow_carpet,yellow_wool:2,3.0,color_blocks
+lime_carpet,lime_wool:2,3.0,color_blocks
+green_carpet,green_wool:2,3.0,color_blocks
+cyan_carpet,cyan_wool:2,3.0,color_blocks
+light_blue_carpet,light_blue_wool:2,3.0,color_blocks
+blue_carpet,blue_wool:2,3.0,color_blocks
+purple_carpet,purple_wool:2,3.0,color_blocks
+magenta_carpet,magenta_wool:2,3.0,color_blocks
+pink_carpet,pink_wool:2,3.0,color_blocks
+white_terracotta,terracotta:8 white_dye:1,8.0,color_blocks
+light_gray_terracotta,terracotta:8 light_gray_dye:1,8.0,color_blocks
+gray_terracotta,terracotta:8 gray_dye:1,8.0,color_blocks
+black_terracotta,terracotta:8 black_dye:1,8.0,color_blocks
+brown_terracotta,terracotta:8 brown_dye:1,8.0,color_blocks
+red_terracotta,terracotta:8 red_dye:1,8.0,color_blocks
+orange_terracotta,terracotta:8 orange_dye:1,8.0,color_blocks
+yellow_terracotta,terracotta:8 yellow_dye:1,8.0,color_blocks
+lime_terracotta,terracotta:8 lime_dye:1,8.0,color_blocks
+green_terracotta,terracotta:8 green_dye:1,8.0,color_blocks
+cyan_terracotta,terracotta:8 cyan_dye:1,8.0,color_blocks
+light_blue_terracotta,terracotta:8 light_blue_dye:1,8.0,color_blocks
+blue_terracotta,terracotta:8 blue_dye:1,8.0,color_blocks
+purple_terracotta,terracotta:8 purple_dye:1,8.0,color_blocks
+magenta_terracotta,terracotta:8 magenta_dye:1,8.0,color_blocks
+pink_terracotta,terracotta:8 pink_dye:1,8.0,color_blocks
+white_concrete_powder,white_dye:1 sand:4 gravel:4,8.0,color_blocks
+orange_concrete_powder,orange_dye:1 sand:4 gravel:4,8.0,color_blocks
+magenta_concrete_powder,magenta_dye:1 sand:4 gravel:4,8.0,color_blocks
+light_blue_concrete_powder,light_blue_dye:1 sand:4 gravel:4,8.0,color_blocks
+yellow_concrete_powder,yellow_dye:1 sand:4 gravel:4,8.0,color_blocks
+lime_concrete_powder,lime_dye:1 sand:4 gravel:4,8.0,color_blocks
+pink_concrete_powder,pink_dye:1 sand:4 gravel:4,8.0,color_blocks
+gray_concrete_powder,gray_dye:1 sand:4 gravel:4,8.0,color_blocks
+light_gray_concrete_powder,light_gray_dye:1 sand:4 gravel:4,8.0,color_blocks
+cyan_concrete_powder,cyan_dye:1 sand:4 gravel:4,8.0,color_blocks
+purple_concrete_powder,purple_dye:1 sand:4 gravel:4,8.0,color_blocks
+blue_concrete_powder,blue_dye:1 sand:4 gravel:4,8.0,color_blocks
+brown_concrete_powder,brown_dye:1 sand:4 gravel:4,8.0,color_blocks
+green_concrete_powder,green_dye:1 sand:4 gravel:4,8.0,color_blocks
+red_concrete_powder,red_dye:1 sand:4 gravel:4,8.0,color_blocks
+black_concrete_powder,black_dye:1 sand:4 gravel:4,8.0,color_blocks
+tinted_glass,amethyst_shard:4 glass:1,2.0,color_blocks|practical_blocks
+glass_pane,glass:6,16.0,color_blocks
+shulker_box,shulker_shell:2 chest:1,1.0,color_blocks|practical_blocks
+white_bed,white_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+light_gray_bed,light_gray_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+gray_bed,gray_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+black_bed,black_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+brown_bed,brown_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+red_bed,red_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+orange_bed,orange_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+yellow_bed,yellow_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+lime_bed,lime_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+green_bed,green_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+cyan_bed,cyan_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+light_blue_bed,light_blue_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+blue_bed,blue_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+purple_bed,purple_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+magenta_bed,magenta_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+pink_bed,pink_wool:3 #planks:3,1.0,color_blocks|practical_blocks
+candle,string:1 honeycomb:1,1.0,color_blocks|practical_blocks
+white_candle,candle:1 white_dye:1,1.0,color_blocks|practical_blocks
+light_gray_candle,candle:1 light_gray_dye:1,1.0,color_blocks|practical_blocks
+gray_candle,candle:1 gray_dye:1,1.0,color_blocks|practical_blocks
+black_candle,candle:1 black_dye:1,1.0,color_blocks|practical_blocks
+brown_candle,candle:1 brown_dye:1,1.0,color_blocks|practical_blocks
+red_candle,candle:1 red_dye:1,1.0,color_blocks|practical_blocks
+orange_candle,candle:1 orange_dye:1,1.0,color_blocks|practical_blocks
+yellow_candle,candle:1 yellow_dye:1,1.0,color_blocks|practical_blocks
+lime_candle,candle:1 lime_dye:1,1.0,color_blocks|practical_blocks
+green_candle,candle:1 green_dye:1,1.0,color_blocks|practical_blocks
+cyan_candle,candle:1 cyan_dye:1,1.0,color_blocks|practical_blocks
+light_blue_candle,candle:1 light_blue_dye:1,1.0,color_blocks|practical_blocks
+blue_candle,candle:1 blue_dye:1,1.0,color_blocks|practical_blocks
+purple_candle,candle:1 purple_dye:1,1.0,color_blocks|practical_blocks
+magenta_candle,candle:1 magenta_dye:1,1.0,color_blocks|practical_blocks
+pink_candle,candle:1 pink_dye:1,1.0,color_blocks|practical_blocks
+white_banner,white_wool:6 stick:1,1.0,color_blocks|practical_blocks
+light_gray_banner,light_gray_wool:6 stick:1,1.0,color_blocks|practical_blocks
+gray_banner,gray_wool:6 stick:1,1.0,color_blocks|practical_blocks
+black_banner,black_wool:6 stick:1,1.0,color_blocks|practical_blocks
+brown_banner,brown_wool:6 stick:1,1.0,color_blocks|practical_blocks
+red_banner,red_wool:6 stick:1,1.0,color_blocks|practical_blocks
+orange_banner,orange_wool:6 stick:1,1.0,color_blocks|practical_blocks
+yellow_banner,yellow_wool:6 stick:1,1.0,color_blocks|practical_blocks
+lime_banner,lime_wool:6 stick:1,1.0,color_blocks|practical_blocks
+green_banner,green_wool:6 stick:1,1.0,color_blocks|practical_blocks
+cyan_banner,cyan_wool:6 stick:1,1.0,color_blocks|practical_blocks
+light_blue_banner,light_blue_wool:6 stick:1,1.0,color_blocks|practical_blocks
+blue_banner,blue_wool:6 stick:1,1.0,color_blocks|practical_blocks
+purple_banner,purple_wool:6 stick:1,1.0,color_blocks|practical_blocks
+magenta_banner,magenta_wool:6 stick:1,1.0,color_blocks|practical_blocks
+pink_banner,pink_wool:6 stick:1,1.0,color_blocks|practical_blocks
+coarse_dirt,dirt:2 gravel:2,4.0,nature_blocks
+clay,clay_ball:4,1.0,nature_blocks
+packed_ice,ice:9,1.0,nature_blocks
+blue_ice,packed_ice:9,1.0,nature_blocks
+snow_block,snowball:4,1.0,nature_blocks
+snow,snow_block:3,6.0,nature_blocks
+moss_carpet,moss_block:2,3.0,nature_blocks
+pale_moss_carpet,pale_moss_block:2,3.0,nature_blocks
+dripstone_block,pointed_dripstone:4,1.0,nature_blocks
+magma_block,magma_cream:4,1.0,nature_blocks|practical_blocks
+bone_block,bone_meal:9,1.0,nature_blocks
+raw_iron_block,raw_iron:9,1.0,nature_blocks
+raw_copper_block,raw_copper:9,1.0,nature_blocks
+raw_gold_block,raw_gold:9,1.0,nature_blocks
+glowstone,glowstone_dust:4,1.0,nature_blocks|practical_blocks
+muddy_mangrove_roots,mud:1 mangrove_roots:1,1.0,nature_blocks
+nether_wart_block,nether_wart:9,1.0,nature_blocks
+pumpkin_seeds,pumpkin:1,4.0,nature_blocks
+melon_seeds,melon_slice:1,1.0,nature_blocks
+dried_kelp_block,dried_kelp:9,1.0,nature_blocks
+melon,melon_slice:9,1.0,nature_blocks
+jack_o_lantern,carved_pumpkin:1 torch:1,1.0,nature_blocks
+hay_block,wheat:9,1.0,nature_blocks
+slime_block,slime_ball:9,1.0,nature_blocks|redstone_blocks
+honey_block,honey_bottle:4,1.0,nature_blocks|redstone_blocks
+resin_block,resin_clump:9,1.0,nature_blocks
+torch,stick:1,4.0,practical_blocks
+soul_torch,stick:1 #soul_fire_base_blocks:1,4.0,practical_blocks
+redstone_torch,redstone:1 stick:1,1.0,practical_blocks|redstone_blocks
+lantern,iron_nugget:8 torch:1,1.0,practical_blocks
+soul_lantern,iron_nugget:8 soul_torch:1,1.0,practical_blocks
+end_rod,blaze_rod:1 popped_chorus_fruit:1,4.0,practical_blocks
+redstone_lamp,redstone:4 glowstone:1,1.0,practical_blocks|redstone_blocks
+crafting_table,#planks:4,1.0,practical_blocks
+stonecutter,iron_ingot:1 stone:3,1.0,practical_blocks
+cartography_table,paper:2 #planks:4,1.0,practical_blocks
+fletching_table,flint:2 #planks:4,1.0,practical_blocks
+smithing_table,iron_ingot:2 #planks:4,1.0,practical_blocks
+grindstone,stick:2 stone_slab:1 #planks:2,1.0,practical_blocks
+loom,string:2 #planks:2,1.0,practical_blocks
+furnace,#stone_crafting_materials:8,1.0,practical_blocks|redstone_blocks
+smoker,#logs:4 furnace:1,1.0,practical_blocks
+blast_furnace,iron_ingot:5 furnace:1 smooth_stone:3,1.0,practical_blocks
+campfire,stick:3 #coals:1 #logs:3,1.0,practical_blocks
+soul_campfire,stick:3 #soul_fire_base_blocks:1 #logs:3,1.0,practical_blocks
+anvil,iron_block:3 iron_ingot:4,1.0,practical_blocks
+composter,#wooden_slabs:7,1.0,practical_blocks|redstone_blocks
+note_block,#planks:8 redstone:1,1.0,practical_blocks|redstone_blocks
+jukebox,#planks:8 diamond:1,1.0,practical_blocks|redstone_blocks
+enchanting_table,book:1 diamond:2 obsidian:4,1.0,practical_blocks
+end_crystal,glass:7 ender_eye:1 ghast_tear:1,1.0,practical_blocks|combat_items
+brewing_stand,blaze_rod:1 #stone_crafting_materials:3,1.0,practical_blocks
+cauldron,iron_ingot:7,1.0,practical_blocks|redstone_blocks
+beacon,glass:5 nether_star:1 obsidian:3,1.0,practical_blocks
+conduit,nautilus_shell:8 heart_of_the_sea:1,1.0,practical_blocks
+lodestone,chiseled_stone_bricks:8 iron_ingot:1,1.0,practical_blocks
+ladder,stick:7,3.0,practical_blocks
+scaffolding,bamboo:6 string:1,6.0,practical_blocks
+beehive,#planks:6 honeycomb:3,1.0,practical_blocks
+lightning_rod,copper_ingot:3,1.0,practical_blocks|redstone_blocks
+flower_pot,brick:3,1.0,practical_blocks
+armor_stand,stick:6 smooth_stone_slab:1,1.0,practical_blocks|redstone_blocks
+item_frame,stick:8 leather:1,1.0,practical_blocks
+glow_item_frame,item_frame:1 glow_ink_sac:1,1.0,practical_blocks
+painting,stick:8 #wool:1,1.0,practical_blocks
+bookshelf,#planks:6 book:3,1.0,practical_blocks
+chiseled_bookshelf,#planks:6 #wooden_slabs:3,1.0,practical_blocks|redstone_blocks
+lectern,#wooden_slabs:4 bookshelf:1,1.0,practical_blocks|redstone_blocks
+oak_sign,oak_planks:6 stick:1,3.0,practical_blocks
+oak_hanging_sign,chain:2 stripped_oak_log:6,6.0,practical_blocks
+spruce_sign,spruce_planks:6 stick:1,3.0,practical_blocks
+spruce_hanging_sign,chain:2 stripped_spruce_log:6,6.0,practical_blocks
+birch_hanging_sign,chain:2 stripped_birch_log:6,6.0,practical_blocks
+jungle_sign,jungle_planks:6 stick:1,3.0,practical_blocks
+jungle_hanging_sign,chain:2 stripped_jungle_log:6,6.0,practical_blocks
+acacia_sign,acacia_planks:6 stick:1,3.0,practical_blocks
+acacia_hanging_sign,chain:2 stripped_acacia_log:6,6.0,practical_blocks
+dark_oak_sign,dark_oak_planks:6 stick:1,3.0,practical_blocks
+dark_oak_hanging_sign,chain:2 stripped_dark_oak_log:6,6.0,practical_blocks
+mangrove_sign,mangrove_planks:6 stick:1,3.0,practical_blocks
+mangrove_hanging_sign,chain:2 stripped_mangrove_log:6,6.0,practical_blocks
+cherry_sign,cherry_planks:6 stick:1,3.0,practical_blocks
+cherry_hanging_sign,chain:2 stripped_cherry_log:6,6.0,practical_blocks
+bamboo_sign,bamboo_planks:6 stick:1,3.0,practical_blocks
+bamboo_hanging_sign,chain:2 stripped_bamboo_block:6,6.0,practical_blocks
+crimson_sign,crimson_planks:6 stick:1,3.0,practical_blocks
+crimson_hanging_sign,chain:2 stripped_crimson_stem:6,6.0,practical_blocks
+warped_sign,warped_planks:6 stick:1,3.0,practical_blocks
+warped_hanging_sign,chain:2 stripped_warped_stem:6,6.0,practical_blocks
+chest,#planks:8,1.0,practical_blocks|redstone_blocks
+barrel,#planks:6 #wooden_slabs:2,1.0,practical_blocks|redstone_blocks
+ender_chest,obsidian:8 ender_eye:1,1.0,practical_blocks
+respawn_anchor,crying_obsidian:6 glowstone:3,1.0,practical_blocks
+ender_eye,ender_pearl:1 blaze_powder:1,1.0,practical_blocks|tools_and_items|materials
+redstone,redstone_block:1,9.0,redstone_blocks|materials
+repeater,redstone_torch:2 redstone:1 stone:3,1.0,redstone_blocks
+target,redstone:4 hay_block:1,1.0,redstone_blocks
+lever,stick:1 cobblestone:1,1.0,redstone_blocks
+calibrated_sculk_sensor,amethyst_shard:3 sculk_sensor:1,1.0,redstone_blocks
+tripwire_hook,iron_ingot:1 stick:1 #planks:1,2.0,redstone_blocks
+daylight_detector,glass:3 quartz:3 #wooden_slabs:3,1.0,redstone_blocks
+piston,#planks:3 cobblestone:4 iron_ingot:1 redstone:1,1.0,redstone_blocks
+sticky_piston,slime_ball:1 piston:1,1.0,redstone_blocks
+dispenser,cobblestone:7 bow:1 redstone:1,1.0,redstone_blocks
+dropper,cobblestone:7 redstone:1,1.0,redstone_blocks
+crafter,iron_ingot:5 crafting_table:1 redstone:2 dropper:1,1.0,redstone_blocks
+hopper,iron_ingot:5 chest:1,1.0,redstone_blocks
+trapped_chest,chest:1 tripwire_hook:1,1.0,redstone_blocks
+observer,cobblestone:6 redstone:2 quartz:1,1.0,redstone_blocks
+rail,iron_ingot:6 stick:1,16.0,redstone_blocks|tools_and_items
+detector_rail,iron_ingot:6 stone_pressure_plate:1 redstone:1,6.0,redstone_blocks|tools_and_items
+activator_rail,iron_ingot:6 stick:2 redstone_torch:1,6.0,redstone_blocks|tools_and_items
+oak_chest_boat,chest:1 oak_boat:1,1.0,redstone_blocks|tools_and_items
+bamboo_chest_raft,chest:1 bamboo_raft:1,1.0,redstone_blocks|tools_and_items
+tnt,gunpowder:5,1.0,redstone_blocks|combat_items
+wooden_shovel,#wooden_tool_materials:1 stick:2,1.0,tools_and_items
+wooden_pickaxe,#wooden_tool_materials:3 stick:2,1.0,tools_and_items
+wooden_axe,#wooden_tool_materials:3 stick:2,1.0,tools_and_items|combat_items
+wooden_hoe,#wooden_tool_materials:2 stick:2,1.0,tools_and_items
+stone_shovel,#stone_tool_materials:1 stick:2,1.0,tools_and_items
+stone_pickaxe,#stone_tool_materials:3 stick:2,1.0,tools_and_items
+stone_axe,#stone_tool_materials:3 stick:2,1.0,tools_and_items|combat_items
+stone_hoe,#stone_tool_materials:2 stick:2,1.0,tools_and_items
+iron_shovel,#iron_tool_materials:1 stick:2,1.0,tools_and_items
+iron_pickaxe,#iron_tool_materials:3 stick:2,1.0,tools_and_items
+iron_axe,#iron_tool_materials:3 stick:2,1.0,tools_and_items|combat_items
+iron_hoe,#iron_tool_materials:2 stick:2,1.0,tools_and_items
+golden_shovel,#gold_tool_materials:1 stick:2,1.0,tools_and_items
+golden_pickaxe,#gold_tool_materials:3 stick:2,1.0,tools_and_items
+golden_axe,#gold_tool_materials:3 stick:2,1.0,tools_and_items|combat_items
+golden_hoe,#gold_tool_materials:2 stick:2,1.0,tools_and_items
+diamond_shovel,#diamond_tool_materials:1 stick:2,1.0,tools_and_items
+diamond_pickaxe,#diamond_tool_materials:3 stick:2,1.0,tools_and_items
+diamond_axe,#diamond_tool_materials:3 stick:2,1.0,tools_and_items|combat_items
+diamond_hoe,#diamond_tool_materials:2 stick:2,1.0,tools_and_items
+bucket,iron_ingot:3,1.0,tools_and_items
+fishing_rod,stick:3 string:2,1.0,tools_and_items
+flint_and_steel,iron_ingot:1 flint:1,1.0,tools_and_items
+fire_charge,gunpowder:1 blaze_powder:1,3.0,tools_and_items|materials
+bone_meal,bone:1,3.0,tools_and_items
+shears,iron_ingot:2,1.0,tools_and_items
+brush,feather:1 copper_ingot:1 stick:1,1.0,tools_and_items
+lead,string:4 slime_ball:1,2.0,tools_and_items
+bundle,string:1 leather:1,1.0,tools_and_items
+compass,iron_ingot:4 redstone:1,1.0,tools_and_items
+recovery_compass,echo_shard:8 compass:1,1.0,tools_and_items
+clock,gold_ingot:4 redstone:1,1.0,tools_and_items
+spyglass,amethyst_shard:1 copper_ingot:2,1.0,tools_and_items
+map,paper:8 compass:1,1.0,tools_and_items
+writable_book,book:1 ink_sac:1 feather:1,1.0,tools_and_items
+wind_charge,breeze_rod:1,4.0,tools_and_items|combat_items
+carrot_on_a_stick,fishing_rod:1 carrot:1,1.0,tools_and_items
+warped_fungus_on_a_stick,fishing_rod:1 warped_fungus:1,1.0,tools_and_items
+oak_boat,oak_planks:5,1.0,tools_and_items
+spruce_boat,spruce_planks:5,1.0,tools_and_items
+spruce_chest_boat,chest:1 spruce_boat:1,1.0,tools_and_items
+birch_boat,birch_planks:5,1.0,tools_and_items
+birch_chest_boat,chest:1 birch_boat:1,1.0,tools_and_items
+jungle_boat,jungle_planks:5,1.0,tools_and_items
+jungle_chest_boat,chest:1 jungle_boat:1,1.0,tools_and_items
+acacia_boat,acacia_planks:5,1.0,tools_and_items
+acacia_chest_boat,chest:1 acacia_boat:1,1.0,tools_and_items
+dark_oak_boat,dark_oak_planks:5,1.0,tools_and_items
+dark_oak_chest_boat,chest:1 dark_oak_boat:1,1.0,tools_and_items
+mangrove_boat,mangrove_planks:5,1.0,tools_and_items
+mangrove_chest_boat,chest:1 mangrove_boat:1,1.0,tools_and_items
+cherry_boat,cherry_planks:5,1.0,tools_and_items
+cherry_chest_boat,chest:1 cherry_boat:1,1.0,tools_and_items
+pale_oak_boat,pale_oak_planks:5,1.0,tools_and_items
+pale_oak_chest_boat,chest:1 pale_oak_boat:1,1.0,tools_and_items
+bamboo_raft,bamboo_planks:5,1.0,tools_and_items
+music_disc_5,disc_fragment_5:9,1.0,tools_and_items
+wooden_sword,#wooden_tool_materials:2 stick:1,1.0,combat_items
+stone_sword,#stone_tool_materials:2 stick:1,1.0,combat_items
+iron_sword,#iron_tool_materials:2 stick:1,1.0,combat_items
+golden_sword,#gold_tool_materials:2 stick:1,1.0,combat_items
+diamond_sword,#diamond_tool_materials:2 stick:1,1.0,combat_items
+mace,heavy_core:1 breeze_rod:1,1.0,combat_items
+shield,#wooden_tool_materials:6 iron_ingot:1,1.0,combat_items
+leather_helmet,leather:5,1.0,combat_items
+leather_chestplate,leather:8,1.0,combat_items
+leather_leggings,leather:7,1.0,combat_items
+leather_boots,leather:4,1.0,combat_items
+iron_helmet,iron_ingot:5,1.0,combat_items
+iron_chestplate,iron_ingot:8,1.0,combat_items
+iron_leggings,iron_ingot:7,1.0,combat_items
+iron_boots,iron_ingot:4,1.0,combat_items
+golden_helmet,gold_ingot:5,1.0,combat_items
+golden_chestplate,gold_ingot:8,1.0,combat_items
+golden_leggings,gold_ingot:7,1.0,combat_items
+golden_boots,gold_ingot:4,1.0,combat_items
+diamond_helmet,diamond:5,1.0,combat_items
+diamond_chestplate,diamond:8,1.0,combat_items
+diamond_leggings,diamond:7,1.0,combat_items
+diamond_boots,diamond:4,1.0,combat_items
+turtle_helmet,turtle_scute:5,1.0,combat_items|materials
+leather_horse_armor,leather:7,1.0,combat_items
+wolf_armor,armadillo_scute:6,1.0,combat_items
+bow,stick:3 string:3,1.0,combat_items
+crossbow,stick:3 iron_ingot:1 string:2 tripwire_hook:1,1.0,combat_items
+arrow,flint:1 stick:1 feather:1,4.0,combat_items
+golden_apple,gold_ingot:8 apple:1,1.0,food_and_drink
+golden_carrot,gold_nugget:8 carrot:1,1.0,food_and_drink|materials
+dried_kelp,dried_kelp_block:1,9.0,food_and_drink
+bread,wheat:3,1.0,food_and_drink
+cookie,wheat:2 cocoa_beans:1,8.0,food_and_drink
+cake,milk_bucket:3 sugar:2 #eggs:1 wheat:3,1.0,food_and_drink
+pumpkin_pie,pumpkin:1 sugar:1 #eggs:1,1.0,food_and_drink
+mushroom_stew,brown_mushroom:1 red_mushroom:1 bowl:1,1.0,food_and_drink
+beetroot_soup,bowl:1 beetroot:6,1.0,food_and_drink
+honey_bottle,honey_block:1 glass_bottle:4,4.0,food_and_drink
+coal,coal_block:1,9.0,materials
+raw_iron,raw_iron_block:1,9.0,materials
+raw_copper,raw_copper_block:1,9.0,materials
+raw_gold,raw_gold_block:1,9.0,materials
+emerald,emerald_block:1,9.0,materials
+lapis_lazuli,lapis_block:1,9.0,materials
+diamond,diamond_block:1,9.0,materials
+iron_nugget,iron_ingot:1,9.0,materials
+gold_nugget,gold_ingot:1,9.0,materials
+copper_ingot,copper_block:1,9.0,materials
+netherite_ingot,netherite_scrap:4 gold_ingot:4,1.0,materials
+stick,#planks:2,4.0,materials
+wheat,hay_block:1,9.0,materials
+leather,rabbit_hide:4,1.0,materials
+resin_clump,resin_block:1,9.0,materials
+slime_ball,slime_block:1,9.0,materials
+white_dye,bone_meal:1,1.0,materials
+lime_dye,green_dye:1 white_dye:1,2.0,materials
+gray_dye,black_dye:1 white_dye:1,2.0,materials
+cyan_dye,blue_dye:1 green_dye:1,2.0,materials
+purple_dye,blue_dye:1 red_dye:1,2.0,materials
+blue_dye,lapis_lazuli:1,1.0,materials
+brown_dye,cocoa_beans:1,1.0,materials
+black_dye,ink_sac:1,1.0,materials
+bowl,#planks:3,4.0,materials
+paper,sugar_cane:3,3.0,materials
+book,paper:3 leather:1,1.0,materials
+glass_bottle,glass:3,3.0,materials
+fermented_spider_eye,spider_eye:1 brown_mushroom:1 sugar:1,1.0,materials
+blaze_powder,blaze_rod:1,2.0,materials
+glistering_melon_slice,gold_nugget:8 melon_slice:1,1.0,materials
+magma_cream,blaze_powder:1 slime_ball:1,1.0,materials
+field_masoned_banner_pattern,paper:1 bricks:1,1.0,materials
+bordure_indented_banner_pattern,paper:1 vine:1,1.0,materials
+flower_banner_pattern,paper:1 oxeye_daisy:1,1.0,materials
+creeper_banner_pattern,paper:1 creeper_head:1,1.0,materials
+skull_banner_pattern,paper:1 wither_skeleton_skull:1,1.0,materials
+mojang_banner_pattern,paper:1 enchanted_golden_apple:1,1.0,materials
+netherite_upgrade_smithing_template,diamond:7 netherite_upgrade_smithing_template:1 netherrack:1,2.0,materials
+coast_armor_trim_smithing_template,diamond:7 coast_armor_trim_smithing_template:1 cobblestone:1,2.0,materials
+dune_armor_trim_smithing_template,diamond:7 dune_armor_trim_smithing_template:1 sandstone:1,2.0,materials
+eye_armor_trim_smithing_template,diamond:7 eye_armor_trim_smithing_template:1 end_stone:1,2.0,materials
+host_armor_trim_smithing_template,diamond:7 host_armor_trim_smithing_template:1 terracotta:1,2.0,materials
+raiser_armor_trim_smithing_template,diamond:7 raiser_armor_trim_smithing_template:1 terracotta:1,2.0,materials
+rib_armor_trim_smithing_template,diamond:7 rib_armor_trim_smithing_template:1 netherrack:1,2.0,materials
+sentry_armor_trim_smithing_template,diamond:7 sentry_armor_trim_smithing_template:1 cobblestone:1,2.0,materials
+shaper_armor_trim_smithing_template,diamond:7 shaper_armor_trim_smithing_template:1 terracotta:1,2.0,materials
+silence_armor_trim_smithing_template,diamond:7 silence_armor_trim_smithing_template:1 cobbled_deepslate:1,2.0,materials
+snout_armor_trim_smithing_template,diamond:7 snout_armor_trim_smithing_template:1 blackstone:1,2.0,materials
+spire_armor_trim_smithing_template,diamond:7 spire_armor_trim_smithing_template:1 purpur_block:1,2.0,materials
+tide_armor_trim_smithing_template,diamond:7 tide_armor_trim_smithing_template:1 prismarine:1,2.0,materials
+vex_armor_trim_smithing_template,diamond:7 vex_armor_trim_smithing_template:1 cobblestone:1,2.0,materials
+ward_armor_trim_smithing_template,diamond:7 ward_armor_trim_smithing_template:1 cobbled_deepslate:1,2.0,materials
+wayfinder_armor_trim_smithing_template,diamond:7 wayfinder_armor_trim_smithing_template:1 terracotta:1,2.0,materials
+wild_armor_trim_smithing_template,diamond:7 wild_armor_trim_smithing_template:1 mossy_cobblestone:1,2.0,materials
+flow_armor_trim_smithing_template,diamond:7 flow_armor_trim_smithing_template:1 breeze_rod:1,2.0,materials
+bolt_armor_trim_smithing_template,diamond:7 bolt_armor_trim_smithing_template:1,2.0,materials

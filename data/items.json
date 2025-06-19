@@ -1,151 +1,5766 @@
 {
+    "oak_log": {
+        "name": "オークの原木",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "oak_wood": {
+        "name": "オークの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_oak_log": {
+        "name": "表皮を剥いだオークの原木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_oak_wood": {
+        "name": "表皮を剥いだオークの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oak_planks": {
+        "name": "オークの板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oak_stairs": {
+        "name": "オークの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oak_slab": {
+        "name": "オークのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oak_fence": {
+        "name": "オークのフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oak_fence_gate": {
+        "name": "オークのフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks|redstone_blocks"
+    },
+    "oak_door": {
+        "name": "オークのドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oak_trapdoor": {
+        "name": "オークのトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks|redstone_blocks"
+    },
+    "oak_pressure_plate": {
+        "name": "オークの感圧版",
+        "maxStack": 64,
+        "category": "building_blocks|redstone_blocks"
+    },
+    "oak_button": {
+        "name": "オークのボタン",
+        "maxStack": 64,
+        "category": "building_blocks|redstone_blocks"
+    },
+    "spruce_log": {
+        "name": "トウヒの原木",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "spruce_wood": {
+        "name": "トウヒの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_spruce_log": {
+        "name": "表皮を剥いだトウヒの原木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_spruce_wood": {
+        "name": "表皮を剥いだトウヒの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_planks": {
+        "name": "トウヒの板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_stairs": {
+        "name": "トウヒの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_slab": {
+        "name": "トウヒのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_fence": {
+        "name": "トウヒのフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_fence_gate": {
+        "name": "トウヒのフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_door": {
+        "name": "トウヒのドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_trapdoor": {
+        "name": "トウヒのトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_pressure_plate": {
+        "name": "トウヒの感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "spruce_button": {
+        "name": "トウヒのボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_log": {
+        "name": "シラカバの原木",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "birch_wood": {
+        "name": "シラカバの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_birch_log": {
+        "name": "表皮を剥いだシラカバの原木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_birch_wood": {
+        "name": "表皮を剥いだシラカバの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_planks": {
+        "name": "シラカバの板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_stairs": {
+        "name": "シラカバの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_slab": {
+        "name": "シラカバのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_fence": {
+        "name": "シラカバのフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_fence_gate": {
+        "name": "シラカバのフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_door": {
+        "name": "シラカバのドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_trapdoor": {
+        "name": "シラカバのトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_pressure_plate": {
+        "name": "シラカバの感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "birch_button": {
+        "name": "シラカバのボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_log": {
+        "name": "ジャングルの原木",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "jungle_wood": {
+        "name": "ジャングルの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_jungle_log": {
+        "name": "表皮を剥いだジャングルの原木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_jungle_wood": {
+        "name": "表皮を剥いだジャングルの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_planks": {
+        "name": "ジャングルの板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_stairs": {
+        "name": "ジャングルの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_slab": {
+        "name": "ジャングルのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_fence": {
+        "name": "ジャングルのフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_fence_gate": {
+        "name": "ジャングルのフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_door": {
+        "name": "ジャングルのドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_trapdoor": {
+        "name": "ジャングルのトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_pressure_plate": {
+        "name": "ジャングルの感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "jungle_button": {
+        "name": "ジャングルのボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_log": {
+        "name": "アカシアの原木",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "acacia_wood": {
+        "name": "アカシアの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_acacia_log": {
+        "name": "表皮を剥いだアカシアの原木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_acacia_wood": {
+        "name": "表皮を剥いだアカシアの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_planks": {
+        "name": "アカシアの板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_stairs": {
+        "name": "アカシアの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_slab": {
+        "name": "アカシアのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_fence": {
+        "name": "アカシアのフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_fence_gate": {
+        "name": "アカシアのフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_door": {
+        "name": "アカシアのドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_trapdoor": {
+        "name": "アカシアのトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_pressure_plate": {
+        "name": "アカシアの感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "acacia_button": {
+        "name": "アカシアのボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_log": {
+        "name": "ダークオークの原木",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "dark_oak_wood": {
+        "name": "ダークオークの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_dark_oak_log": {
+        "name": "表皮を剥いだダークオークの原木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_dark_oak_wood": {
+        "name": "表皮を剥いだダークオークの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_planks": {
+        "name": "ダークオークの板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_stairs": {
+        "name": "ダークオークの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_slab": {
+        "name": "ダークオークのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_fence": {
+        "name": "ダークオークのフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_fence_gate": {
+        "name": "ダークオークのフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_door": {
+        "name": "ダークオークのドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_trapdoor": {
+        "name": "ダークオークのトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_pressure_plate": {
+        "name": "ダークオークの感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_oak_button": {
+        "name": "ダークオークのボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_log": {
+        "name": "マングローブの原木",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "mangrove_wood": {
+        "name": "マングローブの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_mangrove_log": {
+        "name": "表皮を剥いだマングローブの原木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_mangrove_wood": {
+        "name": "表皮を剥いだマングローブの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_planks": {
+        "name": "マングローブの板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_stairs": {
+        "name": "マングローブの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_slab": {
+        "name": "マングローブのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_fence": {
+        "name": "マングローブのフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_fence_gate": {
+        "name": "マングローブのフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_door": {
+        "name": "マングローブのドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_trapdoor": {
+        "name": "マングローブのトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_pressure_plate": {
+        "name": "マングローブの感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mangrove_button": {
+        "name": "マングローブのボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_log": {
+        "name": "サクラの原木",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "cherry_wood": {
+        "name": "サクラの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_cherry_log": {
+        "name": "表皮を剥いだサクラの原木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_cherry_wood": {
+        "name": "表皮を剥いだサクラの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_planks": {
+        "name": "サクラの板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_stairs": {
+        "name": "サクラの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_slab": {
+        "name": "サクラのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_fence": {
+        "name": "サクラのフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_fence_gate": {
+        "name": "サクラのフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_door": {
+        "name": "サクラのドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_trapdoor": {
+        "name": "サクラのトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_pressure_plate": {
+        "name": "サクラの感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cherry_button": {
+        "name": "サクラのボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "pale_oak_log": {
+        "name": "ペールオークの原木",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "pale_oak_wood": {
+        "name": "ペールオークの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_pale_oak_log": {
+        "name": "表皮を剥いだペールオークの原木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_pale_oak_wood": {
+        "name": "表皮を剥いだペールオークの木",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "pale_oak_planks": {
+        "name": "ペールオークの板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "pale_oak_stairs": {
+        "name": "ペールオークの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "pale_oak_slab": {
+        "name": "ペールオークのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "pale_oak_fence": {
+        "name": "ペールオークのフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "pale_oak_fence_gate": {
+        "name": "ペールオークのフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "pale_oak_door": {
+        "name": "ペールオークのドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "pale_oak_trapdoor": {
+        "name": "ペールオークのトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "pale_oak_pressure_plate": {
+        "name": "ペールオークの感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "pale_oak_button": {
+        "name": "ペールオークのボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_block": {
+        "name": "竹ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_bamboo_block": {
+        "name": "表皮を剥いだ竹ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_planks": {
+        "name": "竹の板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_mosaic": {
+        "name": "竹細工",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_stairs": {
+        "name": "竹の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_mosaic_stairs": {
+        "name": "竹細工の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_slab": {
+        "name": "竹のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_mosaic_slab": {
+        "name": "竹細工のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_fence": {
+        "name": "竹のフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_fence_gate": {
+        "name": "竹のフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_door": {
+        "name": "竹のドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_trapdoor": {
+        "name": "竹のトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_pressure_plate": {
+        "name": "竹の感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bamboo_button": {
+        "name": "竹のボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "criomson_stem": {
+        "name": "深紅の幹",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "criomson_hyphae": {
+        "name": "深紅の菌糸",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_criomson_stem": {
+        "name": "表皮を剥いだ深紅の幹",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_criomson_hyphae": {
+        "name": "表皮を剥いだ深紅の菌糸",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "criomson_planks": {
+        "name": "深紅の板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "criomson_stairs": {
+        "name": "深紅の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "criomson_slab": {
+        "name": "深紅のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "criomson_fence": {
+        "name": "深紅のフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "criomson_fence_gate": {
+        "name": "深紅のフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "criomson_door": {
+        "name": "深紅のドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "criomson_trapdoor": {
+        "name": "深紅のトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "criomson_pressure_plate": {
+        "name": "深紅の感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "criomson_button": {
+        "name": "深紅のボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "warped_stem": {
+        "name": "歪んだ幹",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "warped_hyphae": {
+        "name": "歪んだ菌糸",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_warped_stem": {
+        "name": "表皮を剥いだ歪んだ幹",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stripped_warped_hyphae": {
+        "name": "表皮を剥いだ歪んだ菌糸",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "warped_planks": {
+        "name": "歪んだ板材",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "warped_stairs": {
+        "name": "歪んだ階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "warped_slab": {
+        "name": "歪んだハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "warped_fence": {
+        "name": "歪んだフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "warped_fence_gate": {
+        "name": "歪んだフェンスゲート",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "warped_door": {
+        "name": "歪んだドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "warped_trapdoor": {
+        "name": "歪んだトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "warped_pressure_plate": {
+        "name": "歪んだ感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "warped_button": {
+        "name": "歪んだボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stone": {
+        "name": "石",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "stone_stairs": {
+        "name": "石の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stone_slab": {
+        "name": "石のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stone_pressure_plate": {
+        "name": "石の感圧版",
+        "maxStack": 64,
+        "category": "building_blocks|redstone_blocks"
+    },
+    "stone_button": {
+        "name": "石のボタン",
+        "maxStack": 64,
+        "category": "building_blocks|redstone_blocks"
+    },
+    "cobblestone": {
+        "name": "丸石",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cobblestone_stairs": {
+        "name": "丸石の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cobblestone_slab": {
+        "name": "丸石のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cobblestone_wall": {
+        "name": "丸石の塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mossy_cobblestone": {
+        "name": "苔むした丸石",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mossy_cobblestone_stairs": {
+        "name": "苔むした丸石の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mossy_cobblestone_slab": {
+        "name": "苔むした丸石のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mossy_cobblestone_wall": {
+        "name": "苔むした丸石の塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "smooth_stone": {
+        "name": "滑らかな石",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "smooth_stone_slab": {
+        "name": "滑らかな石のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stone_bricks": {
+        "name": "石レンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cracked_stone_bricks": {
+        "name": "ひび割れた石レンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stone_brick_stairs": {
+        "name": "石レンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stone_brick_slab": {
+        "name": "石レンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "stone_brick_wall": {
+        "name": "石レンガの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "chiseled_stone_bricks": {
+        "name": "模様入りの石レンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mossy_stone_bricks": {
+        "name": "苔むした石レンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mossy_stone_brick_stairs": {
+        "name": "苔むした石レンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mossy_stone_brick_slab": {
+        "name": "苔むした石レンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mossy_stone_brick_wall": {
+        "name": "苔むした石レンガの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "granite": {
+        "name": "花崗岩",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "granite_stiars": {
+        "name": "花崗岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "granite_slab": {
+        "name": "花崗岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "granite_wall": {
+        "name": "花崗岩の塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_granite": {
+        "name": "磨かれた花崗岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_granite_stiars": {
+        "name": "磨かれた花崗岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_granite_slab": {
+        "name": "磨かれた花崗岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "diorite": {
+        "name": "閃緑岩",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "diorite_stiars": {
+        "name": "閃緑岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "diorite_slab": {
+        "name": "閃緑岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "diorite_wall": {
+        "name": "閃緑岩の塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_diorite": {
+        "name": "磨かれた閃緑岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_diorite_stiars": {
+        "name": "磨かれた閃緑岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_diorite_slab": {
+        "name": "磨かれた閃緑岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "andesite": {
+        "name": "安山岩",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "andesite_stiars": {
+        "name": "安山岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "andesite_slab": {
+        "name": "安山岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "andesite_wall": {
+        "name": "安山岩の塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_andesite": {
+        "name": "磨かれた安山岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_andesite_stiars": {
+        "name": "磨かれた安山岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_andesite_slab": {
+        "name": "磨かれた安山岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "deepslate": {
+        "name": "深層岩",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "cobbled_deepslate": {
+        "name": "深層岩の丸石",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cobbled_deepslate_stairs": {
+        "name": "深層岩の丸石の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cobbled_deepslate_slab": {
+        "name": "深層岩の丸石のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cobbled_deepslate_wall": {
+        "name": "深層岩の丸石の塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "chiseled_deepslate": {
+        "name": "模様入りの深層岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_deepslate": {
+        "name": "磨かれた深層岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_deepslate_stairs": {
+        "name": "磨かれた深層岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_deepslate_salb": {
+        "name": "磨かれた深層岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_deepslate_wall": {
+        "name": "磨かれた深層岩の塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "deepslate_bricks": {
+        "name": "深層岩レンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cracked_deepslate_bricks": {
+        "name": "ひび割れた深層岩レンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "deepslate_bricks_stairs": {
+        "name": "深層岩レンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "deepslate_bricks_slab": {
+        "name": "深層岩レンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "deepslate_bricks_wall": {
+        "name": "深層岩レンガの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "deepslate_tiles": {
+        "name": "深層岩タイル",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cracked_deepslate_tiles": {
+        "name": "ひび割れた深層岩タイル",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "deepslate_tile_stairs": {
+        "name": "深層岩タイルの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "deepslate_tile_slab": {
+        "name": "深層岩タイルのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "deepslate_tile_wall": {
+        "name": "深層岩タイルの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "reinforced_deepslate": {
+        "name": "強化された深層岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "tuff": {
+        "name": "凝灰岩",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "tuff_stairs": {
+        "name": "凝灰岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "tuff_slab": {
+        "name": "凝灰岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "tuff_wall": {
+        "name": "凝灰岩の塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "chiseled_tuff": {
+        "name": "模様入りの凝灰岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_tuff": {
+        "name": "磨かれた凝灰岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_tuff_stairs": {
+        "name": "磨かれた凝灰岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_tuff_slab": {
+        "name": "磨かれた凝灰岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_tuff_wall": {
+        "name": "磨かれた凝灰岩の塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "tuff_bricks": {
+        "name": "凝灰岩レンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "tuff_brick_stairs": {
+        "name": "凝灰岩レンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "tuff_brick_slab": {
+        "name": "凝灰岩レンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "tuff_brick_wall": {
+        "name": "凝灰岩レンガの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "chiseled_tuff_bricks": {
+        "name": "模様入りの凝灰岩レンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "bricks": {
+        "name": "レンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "brick_stairs": {
+        "name": "レンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "brick_slab": {
+        "name": "レンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "brick_wall": {
+        "name": "レンガの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "packed_mud": {
+        "name": "固めた泥",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mud_bricks": {
+        "name": "泥レンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mud_brick_stairs": {
+        "name": "泥レンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mud_brick_slab": {
+        "name": "泥レンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "mud_brick_wall": {
+        "name": "泥レンガの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "resin_bricks": {
+        "name": "樹脂レンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "resin_brick_stairs": {
+        "name": "樹脂レンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "resin_brick_slab": {
+        "name": "樹脂レンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "resin_brick_wall": {
+        "name": "樹脂レンガの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "sandstone": {
+        "name": "砂岩",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "sandstone_stairs": {
+        "name": "砂岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "sandstone_slab": {
+        "name": "砂岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "sandstone_wall": {
+        "name": "砂岩の塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "chiseled_sandstone": {
+        "name": "模様入りの砂岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "smooth_sandstone": {
+        "name": "滑らかな砂岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "smooth_sandstone_stairs": {
+        "name": "滑らかな砂岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "smooth_sandstone_slab": {
+        "name": "滑らかな砂岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cut_sandstone": {
+        "name": "研がれた砂岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cust_sandstone_slab": {
+        "name": "研がれた砂岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "red_sandstone": {
+        "name": "赤い砂岩",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "red_sandstone_stairs": {
+        "name": "赤い砂岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "red_sandstone_slab": {
+        "name": "赤い砂岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "red_sandstone_wall": {
+        "name": "赤い砂岩の塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "chiseled_red_sandstone": {
+        "name": "模様入りの赤い砂岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "smooth_red_sandstone": {
+        "name": "滑らかな赤い砂岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "smooth_red_sandstone_stairs": {
+        "name": "滑らかな赤い砂岩の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "smooth_red_sandstone_slab": {
+        "name": "滑らかな赤い砂岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cut_red_sandstone": {
+        "name": "研がれた赤い砂岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cust_red_sandstone_slab": {
+        "name": "研がれた赤い砂岩のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "sea_lantern": {
+        "name": "シーランタン",
+        "maxStack": 64,
+        "category": "building_blocks|practical_blocks"
+    },
+    "prismarine": {
+        "name": "プリズマリン",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "prismarine_stairs": {
+        "name": "プリズマリンの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "prismarine_slab": {
+        "name": "プリズマリンのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "prismarine_wall": {
+        "name": "プリズマリンの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "prismarine_bricks": {
+        "name": "プリズマリンレンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "prismarine_brick_stairs": {
+        "name": "プリズマリンレンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "prismarine_brick_slab": {
+        "name": "プリズマリンレンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_prismarine": {
+        "name": "ダークプリズマリン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_prismarine_stairs": {
+        "name": "ダークプリズマリンの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "dark_prismarine_slab": {
+        "name": "ダークプリズマリンのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "netherrack": {
+        "name": "ネザーラック",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "nether_bricks": {
+        "name": "ネザーレンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cracked_nether_bricks": {
+        "name": "ひび割れたネザーレンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "nether_brick_stairs": {
+        "name": "ネザーレンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "nether_brick_slab": {
+        "name": "ネザーレンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "nether_brick_wall": {
+        "name": "ネザーレンガの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "nether_brick_fence": {
+        "name": "ネザーレンガのフェンス",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "chiseled_nether_bricks": {
+        "name": "模様入りのネザーレンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "red_nether_bricks": {
+        "name": "赤いネザーレンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "red_nether_brick_stairs": {
+        "name": "赤いネザーレンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "red_nether_brick_slab": {
+        "name": "赤いネザーレンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "red_nether_brick_wall": {
+        "name": "赤いネザーレンガの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "basalt": {
+        "name": "玄武岩",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "smooth_basalt": {
+        "name": "滑らかな玄武岩",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_basalt": {
+        "name": "磨かれた玄武岩",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "blackstone": {
+        "name": "ブラックストーン",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "gilded_blackstone": {
+        "name": "きらめくブラックストーン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "brackstone_stairs": {
+        "name": "ブラックストーンの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "brackstone_slab": {
+        "name": "ブラックストーンのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "brackstone_wall": {
+        "name": "ブラックストーンの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "chiseled_polished_brackstone": {
+        "name": "模様入りの磨かれたブラックストーン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_brackstone": {
+        "name": "磨かれたブラックストーン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_brackstone_stairs": {
+        "name": "磨かれたブラックストーンの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_brackstone_slab": {
+        "name": "磨かれたブラックストーンのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_brackstone_wall": {
+        "name": "磨かれたブラックストーンの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_brackstone_pressure_plate": {
+        "name": "磨かれたブラックストーンの感圧版",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_brackstone_button": {
+        "name": "磨かれたブラックストーンのボタン",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_brackstone_bricks": {
+        "name": "磨かれたブラックストーンレンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cracked_polished_brackstone_bricks": {
+        "name": "ひび割れた磨かれたブラックストーンレンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_brackstone_brick_stairs": {
+        "name": "磨かれたブラックストーンレンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_brackstone_brick_slab": {
+        "name": "磨かれたブラックストーンレンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "polished_brackstone_brick_wall": {
+        "name": "磨かれたブラックストーンレンガの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "end_stone": {
+        "name": "エンドストーン",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks"
+    },
+    "end_stone_bricks": {
+        "name": "エンドストーンレンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "end_stone_bricks_stairs": {
+        "name": "エンドストーンレンガの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "end_stone_bricks_slab": {
+        "name": "エンドストーンレンガのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "end_stone_bricks_wall": {
+        "name": "エンドストーンレンガの塀",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "purpur_block": {
+        "name": "プルプァブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "purpur_pillar": {
+        "name": "プルプァの柱",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "purpur_block_stairs": {
+        "name": "プルプァの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "purpur_block_slab": {
+        "name": "プルプァのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "coal_block": {
+        "name": "石炭ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "iron_block": {
+        "name": "鉄ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "iron_bars": {
+        "name": "鉄格子",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "iron_door": {
+        "name": "鉄のドア",
+        "maxStack": 64,
+        "category": "building_blocks|redstone_blocks"
+    },
+    "iron_trapdoor": {
+        "name": "鉄のトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks|redstone_blocks"
+    },
+    "heavy_weighted_pressure_plate": {
+        "name": "重量用感圧版",
+        "maxStack": 64,
+        "category": "building_blocks|redstone_blocks"
+    },
+    "chain": {
+        "name": "鎖",
+        "maxStack": 64,
+        "category": "building_blocks|practical_blocks"
+    },
+    "gold_block": {
+        "name": "金ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "light_weighted_pressure_plate": {
+        "name": "軽量用感圧版",
+        "maxStack": 64,
+        "category": "building_blocks|redstone_blocks"
+    },
+    "redstone_block": {
+        "name": "レッドストーンブロック",
+        "maxStack": 64,
+        "category": "building_blocks|redstone_blocks"
+    },
+    "emerald_block": {
+        "name": "エメラルドブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "lapis_block": {
+        "name": "ラピスラズリブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "diamond_block": {
+        "name": "ダイヤモンドブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "netherite_block": {
+        "name": "ネザライトブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "quartz_block": {
+        "name": "クォーツブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "quartz_stairs": {
+        "name": "クォーツの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "quartz_slab": {
+        "name": "クォーツのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "chiseled_quartz_block": {
+        "name": "模様入りのクォーツブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "quartz_bricks": {
+        "name": "クォーツレンガ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "quartz_pillar": {
+        "name": "クォーツの柱",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "smooth_quartz": {
+        "name": "滑らかなクォーツ",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "smooth_quartz_stairs": {
+        "name": "滑らかなクォーツの階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "smooth_quartz_slab": {
+        "name": "滑らかなクォーツのハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "amethyst_block": {
+        "name": "アメジストブロック",
+        "maxStack": 64,
+        "category": "building_blocks|nature_blocks|redstone_blocks"
+    },
+    "copper_block": {
+        "name": "銅ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "chiseled_copper": {
+        "name": "模様入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "copper_grate": {
+        "name": "銅の格子",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cut_copper": {
+        "name": "切り込み入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cut_copper_stairs": {
+        "name": "切り込み入りの銅の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "cut_copper_slab": {
+        "name": "切り込み入りの銅のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "copper_door": {
+        "name": "銅のドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "copper_trapdoor": {
+        "name": "銅のトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "copper_bulb": {
+        "name": "銅の電球",
+        "maxStack": 64,
+        "category": "building_blocks|practical_blocks"
+    },
+    "exposed_copper": {
+        "name": "風化した銅ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "exposed_chiseled_copper": {
+        "name": "風化した模様入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "exposed_copper_grate": {
+        "name": "風化した銅の格子",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "exposed_cut_copper": {
+        "name": "風化した切り込み入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "exposed_cut_copper_stairs": {
+        "name": "風化した切り込み入りの銅の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "exposed_cut_copper_slab": {
+        "name": "風化した切り込み入りの銅のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "exposed_copper_door": {
+        "name": "風化した銅のドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "exposed_copper_trapdoor": {
+        "name": "風化した銅のトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "exposed_copper_bulb": {
+        "name": "風化した銅の電球",
+        "maxStack": 64,
+        "category": "building_blocks|practical_blocks"
+    },
+    "weathered_copper": {
+        "name": "錆びた銅ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "weathered_chiseled_copper": {
+        "name": "錆びた模様入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "weathered_copper_grate": {
+        "name": "錆びた銅の格子",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "weathered_cut_copper": {
+        "name": "錆びた切り込み入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "weathered_cut_copper_stairs": {
+        "name": "錆びた切り込み入りの銅の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "weathered_cut_copper_slab": {
+        "name": "錆びた切り込み入りの銅のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "weathered_copper_door": {
+        "name": "錆びた銅のドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "weathered_copper_trapdoor": {
+        "name": "錆びた銅のトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "weathered_copper_bulb": {
+        "name": "錆びた銅の電球",
+        "maxStack": 64,
+        "category": "building_blocks|practical_blocks"
+    },
+    "oxidized_copper": {
+        "name": "酸化した銅ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oxidized_chiseled_copper": {
+        "name": "酸化した模様入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oxidized_copper_grate": {
+        "name": "酸化した銅の格子",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oxidized_cut_copper": {
+        "name": "酸化した切り込み入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oxidized_cut_copper_stairs": {
+        "name": "酸化した切り込み入りの銅の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oxidized_cut_copper_slab": {
+        "name": "酸化した切り込み入りの銅のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oxidized_copper_door": {
+        "name": "酸化した銅のドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oxidized_copper_trapdoor": {
+        "name": "酸化した銅のトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "oxidized_copper_bulb": {
+        "name": "酸化した銅の電球",
+        "maxStack": 64,
+        "category": "building_blocks|practical_blocks"
+    },
+    "waxed_copper_block": {
+        "name": "錆止めされた銅ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_chiseled_copper": {
+        "name": "錆止めされた模様入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_copper_grate": {
+        "name": "錆止めされた銅の格子",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_cut_copper": {
+        "name": "錆止めされた切り込み入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_cut_copper_stairs": {
+        "name": "錆止めされた切り込み入りの銅の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_cut_copper_slab": {
+        "name": "錆止めされた切り込み入りの銅のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_copper_door": {
+        "name": "錆止めされた銅のドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_copper_trapdoor": {
+        "name": "錆止めされた銅のトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_copper_bulb": {
+        "name": "錆止めされた銅の電球",
+        "maxStack": 64,
+        "category": "building_blocks|practical_blocks|redstone_blocks"
+    },
+    "waxed_exposed_copper": {
+        "name": "錆止めされた風化した銅ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_exposed_chiseled_copper": {
+        "name": "錆止めされた風化した模様入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_exposed_copper_grate": {
+        "name": "錆止めされた風化した銅の格子",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_exposed_cut_copper": {
+        "name": "錆止めされた風化した切り込み入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_exposed_cut_copper_stairs": {
+        "name": "錆止めされた風化した切り込み入りの銅の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_exposed_cut_copper_slab": {
+        "name": "錆止めされた風化した切り込み入りの銅のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_exposed_copper_door": {
+        "name": "錆止めされた風化した銅のドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_exposed_copper_trapdoor": {
+        "name": "錆止めされた風化した銅のトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_exposed_copper_bulb": {
+        "name": "錆止めされた風化した銅の電球",
+        "maxStack": 64,
+        "category": "building_blocks|practical_blocks|redstone_blocks"
+    },
+    "waxed_weathered_copper": {
+        "name": "錆止めされた錆びた銅ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_weathered_chiseled_copper": {
+        "name": "錆止めされた錆びた模様入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_weathered_copper_grate": {
+        "name": "錆止めされた錆びた銅の格子",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_weathered_cut_copper": {
+        "name": "錆止めされた錆びた切り込み入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_weathered_cut_copper_stairs": {
+        "name": "錆止めされた錆びた切り込み入りの銅の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_weathered_cut_copper_slab": {
+        "name": "錆止めされた錆びた切り込み入りの銅のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_weathered_copper_door": {
+        "name": "錆止めされた錆びた銅のドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_weathered_copper_trapdoor": {
+        "name": "錆止めされた錆びた銅のトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_weathered_copper_bulb": {
+        "name": "錆止めされた錆びた銅の電球",
+        "maxStack": 64,
+        "category": "building_blocks|practical_blocks|redstone_blocks"
+    },
+    "waxed_oxidized_copper": {
+        "name": "錆止めされた酸化した銅ブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_oxidized_chiseled_copper": {
+        "name": "錆止めされた酸化した模様入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_oxidized_copper_grate": {
+        "name": "錆止めされた酸化した銅の格子",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_oxidized_cut_copper": {
+        "name": "錆止めされた酸化した切り込み入りの銅",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_oxidized_cut_copper_stairs": {
+        "name": "錆止めされた酸化した切り込み入りの銅の階段",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_oxidized_cut_copper_slab": {
+        "name": "錆止めされた酸化した切り込み入りの銅のハーフブロック",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_oxidized_copper_door": {
+        "name": "錆止めされた酸化した銅のドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_oxidized_copper_trapdoor": {
+        "name": "錆止めされた酸化した銅のトラップドア",
+        "maxStack": 64,
+        "category": "building_blocks"
+    },
+    "waxed_oxidized_copper_bulb": {
+        "name": "錆止めされた酸化した銅の電球",
+        "maxStack": 64,
+        "category": "building_blocks|practical_blocks|redstone_blocks"
+    },
+    "white_wool": {
+        "name": "白色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks|redstone_blocks"
+    },
+    "light_gray_wool": {
+        "name": "薄灰色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "gray_wool": {
+        "name": "灰色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "black_wool": {
+        "name": "黒色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "brown_wool": {
+        "name": "茶色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "red_wool": {
+        "name": "赤色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "orange_wool": {
+        "name": "橙色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "yellow_wool": {
+        "name": "黄色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "lime_wool": {
+        "name": "黄緑色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "green_wool": {
+        "name": "緑色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "cyan_wool": {
+        "name": "青緑色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_blue_wool": {
+        "name": "空色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "blue_wool": {
+        "name": "青色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "purple_wool": {
+        "name": "紫色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "magenta_wool": {
+        "name": "赤紫色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "pink_wool": {
+        "name": "桃色の羊毛",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "white_carpet": {
+        "name": "白色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_gray_carpet": {
+        "name": "薄灰色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "gray_carpet": {
+        "name": "灰色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "black_carpet": {
+        "name": "黒色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "brown_carpet": {
+        "name": "茶色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "red_carpet": {
+        "name": "赤色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "orange_carpet": {
+        "name": "橙色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "yellow_carpet": {
+        "name": "黄色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "lime_carpet": {
+        "name": "黄緑色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "green_carpet": {
+        "name": "緑色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "cyan_carpet": {
+        "name": "青緑色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_blue_carpet": {
+        "name": "空色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "blue_carpet": {
+        "name": "青色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "purple_carpet": {
+        "name": "紫色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "magenta_carpet": {
+        "name": "赤紫色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "pink_carpet": {
+        "name": "桃色のカーペット",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "terracotta": {
+        "name": "テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "white_terracotta": {
+        "name": "白色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_gray_terracotta": {
+        "name": "薄灰色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "gray_terracotta": {
+        "name": "灰色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "black_terracotta": {
+        "name": "黒色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "brown_terracotta": {
+        "name": "茶色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "red_terracotta": {
+        "name": "赤色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "orange_terracotta": {
+        "name": "橙色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "yellow_terracotta": {
+        "name": "黄色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "lime_terracotta": {
+        "name": "黄緑色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "green_terracotta": {
+        "name": "緑色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "cyan_terracotta": {
+        "name": "青緑色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_blue_terracotta": {
+        "name": "空色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "blue_terracotta": {
+        "name": "青色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "purple_terracotta": {
+        "name": "紫色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "magenta_terracotta": {
+        "name": "赤紫色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "pink_terracotta": {
+        "name": "桃色のテラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "white_concrete": {
+        "name": "白色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_gray_concrete": {
+        "name": "薄灰色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "gray_concrete": {
+        "name": "灰色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "black_concrete": {
+        "name": "黒色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "brown_concrete": {
+        "name": "茶色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "red_concrete": {
+        "name": "赤色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "orange_concrete": {
+        "name": "橙色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "yellow_concrete": {
+        "name": "黄色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "lime_concrete": {
+        "name": "黄緑色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "green_concrete": {
+        "name": "緑色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "cyan_concrete": {
+        "name": "青緑色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_blue_concrete": {
+        "name": "空色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "blue_concrete": {
+        "name": "青色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "purple_concrete": {
+        "name": "紫色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "magenta_concrete": {
+        "name": "赤紫色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "pink_concrete": {
+        "name": "桃色のコンクリート",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
     "white_concrete_powder": {
         "name": "白色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "orange_concrete_powder": {
         "name": "橙色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "magenta_concrete_powder": {
         "name": "赤紫色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "light_blue_concrete_powder": {
         "name": "空色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "yellow_concrete_powder": {
         "name": "黄色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "lime_concrete_powder": {
         "name": "黄緑色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "pink_concrete_powder": {
         "name": "桃色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "gray_concrete_powder": {
         "name": "灰色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "light_gray_concrete_powder": {
         "name": "薄灰色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "cyan_concrete_powder": {
         "name": "青緑色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "purple_concrete_powder": {
         "name": "紫色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "blue_concrete_powder": {
         "name": "青色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "brown_concrete_powder": {
         "name": "茶色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "green_concrete_powder": {
         "name": "緑色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "red_concrete_powder": {
         "name": "赤色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
     "black_concrete_powder": {
         "name": "黒色のコンクリートパウダー",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "color_blocks"
     },
-    "chest": {
-        "name": "チェスト",
+    "white_glazed_terracotta": {
+        "name": "白色の彩釉テラコッタ",
         "maxStack": 64,
-        "category": "storage"
+        "category": "color_blocks"
     },
-    "sand": {
-        "name": "砂",
+    "light_gray_glazed_terracotta": {
+        "name": "薄灰色の彩釉テラコッタ",
         "maxStack": 64,
-        "category": "materials"
+        "category": "color_blocks"
+    },
+    "gray_glazed_terracotta": {
+        "name": "灰色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "black_glazed_terracotta": {
+        "name": "黒色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "brown_glazed_terracotta": {
+        "name": "茶色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "red_glazed_terracotta": {
+        "name": "赤色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "orange_glazed_terracotta": {
+        "name": "橙色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "yellow_glazed_terracotta": {
+        "name": "黄色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "lime_glazed_terracotta": {
+        "name": "黄緑色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "green_glazed_terracotta": {
+        "name": "緑色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "cyan_glazed_terracotta": {
+        "name": "青緑色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_blue_glazed_terracotta": {
+        "name": "空色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "blue_glazed_terracotta": {
+        "name": "青色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "purple_glazed_terracotta": {
+        "name": "紫色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "magenta_glazed_terracotta": {
+        "name": "橙色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "pink_glazed_terracotta": {
+        "name": "桃色の彩釉テラコッタ",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "glass": {
+        "name": "ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "tinted_glass": {
+        "name": "遮光ガラス",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "white_glass": {
+        "name": "白色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_gray_glass": {
+        "name": "薄灰色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "gray_glass": {
+        "name": "灰色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "black_glass": {
+        "name": "黒色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "brown_glass": {
+        "name": "茶色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "red_glass": {
+        "name": "赤色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "orange_glass": {
+        "name": "橙色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "yellow_glass": {
+        "name": "黄色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "lime_glass": {
+        "name": "黄緑色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "green_glass": {
+        "name": "緑色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "cyan_glass": {
+        "name": "青緑色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_blue_glass": {
+        "name": "空色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "blue_glass": {
+        "name": "青色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "purple_glass": {
+        "name": "紫色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "magenta_glass": {
+        "name": "赤紫色の色付きラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "pink_glass": {
+        "name": "桃色の色付きガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "glass_pane": {
+        "name": "ガラス板",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "white_glass_pane": {
+        "name": "白色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_gray_glass_pane": {
+        "name": "薄灰色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "gray_glass_pane": {
+        "name": "灰色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "black_glass_pane": {
+        "name": "黒色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "brown_glass_pane": {
+        "name": "茶色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "red_glass_pane": {
+        "name": "赤色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "orange_glass_pane": {
+        "name": "橙色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "yellow_glass_pane": {
+        "name": "黄色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "lime_glass_pane": {
+        "name": "黄緑色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "green_glass_pane": {
+        "name": "緑色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "cyan_glass_pane": {
+        "name": "青緑色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "light_blue_glass_pane": {
+        "name": "空色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "blue_glass_pane": {
+        "name": "青色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "purple_glass_pane": {
+        "name": "紫色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "magenta_glass_pane": {
+        "name": "赤紫色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "pink_glass_pane": {
+        "name": "桃色の色付き板ガラス",
+        "maxStack": 64,
+        "category": "color_blocks"
+    },
+    "shulker_box": {
+        "name": "シュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "white_shulker_box": {
+        "name": "白色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "light_gray_shulker_box": {
+        "name": "薄灰色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "gray_shulker_box": {
+        "name": "灰色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "black_shulker_box": {
+        "name": "黒色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "brown_shulker_box": {
+        "name": "茶色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "red_shulker_box": {
+        "name": "赤色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "orange_shulker_box": {
+        "name": "橙色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "yellow_shulker_box": {
+        "name": "黄色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "lime_shulker_box": {
+        "name": "黄緑色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "green_shulker_box": {
+        "name": "緑色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "cyan_shulker_box": {
+        "name": "青緑色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "light_blue_shulker_box": {
+        "name": "空色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "blue_shulker_box": {
+        "name": "青色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "purple_shulker_box": {
+        "name": "紫色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "magenta_shulker_box": {
+        "name": "赤紫色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "pink_shulker_box": {
+        "name": "桃色のシュルカ―ボックス",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "white_bed": {
+        "name": "白色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "light_gray_bed": {
+        "name": "薄灰色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "gray_bed": {
+        "name": "灰色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "black_bed": {
+        "name": "黒色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "brown_bed": {
+        "name": "茶色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "red_bed": {
+        "name": "赤色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "orange_bed": {
+        "name": "橙色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "yellow_bed": {
+        "name": "黄色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "lime_bed": {
+        "name": "黄緑色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "green_bed": {
+        "name": "緑色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "cyan_bed": {
+        "name": "青緑色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "light_blue_bed": {
+        "name": "空色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "blue_bed": {
+        "name": "青色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "purple_bed": {
+        "name": "紫色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "magenta_bed": {
+        "name": "赤紫色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "pink_bed": {
+        "name": "桃色のベッド",
+        "maxStack": 1,
+        "category": "color_blocks|practical_blocks"
+    },
+    "candle": {
+        "name": "ろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "white_candle": {
+        "name": "白色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "light_gray_candle": {
+        "name": "薄灰色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "gray_candle": {
+        "name": "灰色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "black_candle": {
+        "name": "黒色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "brown_candle": {
+        "name": "茶色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "red_candle": {
+        "name": "赤色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "orange_candle": {
+        "name": "橙色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "yellow_candle": {
+        "name": "黄色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "lime_candle": {
+        "name": "黄緑色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "green_candle": {
+        "name": "緑色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "cyan_candle": {
+        "name": "青緑色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "light_blue_candle": {
+        "name": "空色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "blue_candle": {
+        "name": "青色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "purple_candle": {
+        "name": "紫色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "magenta_candle": {
+        "name": "赤紫色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "pink_candle": {
+        "name": "桃色のろうそく",
+        "maxStack": 64,
+        "category": "color_blocks|practical_blocks"
+    },
+    "white_banner": {
+        "name": "白色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "light_gray_banner": {
+        "name": "薄灰色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "gray_banner": {
+        "name": "灰色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "black_banner": {
+        "name": "黒色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "brown_banner": {
+        "name": "茶色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "red_banner": {
+        "name": "赤色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "orange_banner": {
+        "name": "橙色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "yellow_banner": {
+        "name": "黄色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "lime_banner": {
+        "name": "黄緑色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "green_banner": {
+        "name": "緑色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "cyan_banner": {
+        "name": "青緑色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "light_blue_banner": {
+        "name": "空色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "blue_banner": {
+        "name": "青色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "purple_banner": {
+        "name": "紫色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "magenta_banner": {
+        "name": "赤紫色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "pink_banner": {
+        "name": "桃色の旗",
+        "maxStack": 16,
+        "category": "color_blocks|practical_blocks"
+    },
+    "grass_block": {
+        "name": "草ブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "podzol": {
+        "name": "ポドゾル",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "mycelium": {
+        "name": "菌糸",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dirt_path": {
+        "name": "土の道",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dirt": {
+        "name": "土",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "coarse_dirt": {
+        "name": "粗い土",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "rooted_dirt": {
+        "name": "根付いた土",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "farmland": {
+        "name": "耕地",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "mud": {
+        "name": "泥",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "clay": {
+        "name": "粘土",
+        "maxStack": 64,
+        "category": "nature_blocks"
     },
     "gravel": {
         "name": "砂利",
         "maxStack": 64,
-        "category": "materials"
+        "category": "nature_blocks"
     },
-    "bone_meal": {
-        "name": "骨粉",
+    "sand": {
+        "name": "砂",
         "maxStack": 64,
-        "category": "materials"
+        "category": "nature_blocks"
     },
-    "orange_tulip": {
-        "name": "オレンジのチューリップ",
+    "red_sand": {
+        "name": "赤い砂",
         "maxStack": 64,
-        "category": "materials"
+        "category": "nature_blocks"
     },
-    "allium": {
-        "name": "アリウム",
+    "ice": {
+        "name": "氷",
         "maxStack": 64,
-        "category": "materials"
+        "category": "nature_blocks"
     },
-    "blue_orchid": {
-        "name": "ヒスイラン",
+    "packed_ice": {
+        "name": "氷塊",
         "maxStack": 64,
-        "category": "materials"
+        "category": "nature_blocks"
+    },
+    "blue_ice": {
+        "name": "青氷",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "snow_block": {
+        "name": "雪ブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "snow": {
+        "name": "雪",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "moss_block": {
+        "name": "苔ブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "moss_carpet": {
+        "name": "苔のカーペット",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pale_moss_block": {
+        "name": "色あせた苔ブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pale_moss_carpet": {
+        "name": "色あせた苔のカーペット",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pale_hanging_moss": {
+        "name": "色あせた垂れ苔",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "calcite": {
+        "name": "方解石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dripstone_block": {
+        "name": "鍾乳石ブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pointed_dripstone": {
+        "name": "鍾乳石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "magma_block": {
+        "name": "マグマブロック",
+        "maxStack": 64,
+        "category": "nature_blocks|practical_blocks"
+    },
+    "obsidian": {
+        "name": "黒曜石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "crying_obsidian": {
+        "name": "泣く黒曜石",
+        "maxStack": 64,
+        "category": "nature_blocks|practical_blocks"
+    },
+    "crimson_nylium": {
+        "name": "深紅のナイリウム",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "warped_nylium": {
+        "name": "歪んだナイリウム",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "soul_sand": {
+        "name": "ソウルサンド",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "soul_soil": {
+        "name": "ソウルソイル",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "bone_block": {
+        "name": "骨ブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "coal_ore": {
+        "name": "石炭鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "deepslate_coal_ore": {
+        "name": "深層石炭鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "iron_ore": {
+        "name": "鉄鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "deepslate_iron_ore": {
+        "name": "深層鉄鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "copper_ore": {
+        "name": "銅鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "deepslate_copper_ore": {
+        "name": "深層銅鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "gold_ore": {
+        "name": "金鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "deepslate_gold_ore": {
+        "name": "深層金鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "redstone_ore": {
+        "name": "レッドストーン鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks|redstone_blocks"
+    },
+    "deepslate_redstone_ore": {
+        "name": "深層レッドストーン鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "emerald_ore": {
+        "name": "エメラルド鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "deepslate_emerald_ore": {
+        "name": "深層エメラルド鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "lapis_ore": {
+        "name": "ラピスラズリ鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "deepslate_lapis_ore": {
+        "name": "深層ラピスラズリ鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "diamond_ore": {
+        "name": "ダイヤモンド鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "deepslate_diamond_ore": {
+        "name": "深層ダイヤモンド鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "nether_gold_ore": {
+        "name": "ネザー金鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "nether_quartz_ore": {
+        "name": "ネザークォーツ鉱石",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "ancient_debris": {
+        "name": "古代の残骸",
+        "maxStack": 64,
+        "category": "nature_blocks|materials"
+    },
+    "raw_iron_block": {
+        "name": "鉄の原石ブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "raw_copper_block": {
+        "name": "銅の原石ブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "raw_gold_block": {
+        "name": "金の原石ブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "glowstone": {
+        "name": "グロウストーン",
+        "maxStack": 64,
+        "category": "nature_blocks|practical_blocks"
+    },
+    "budding_amethyst": {
+        "name": "芽生えたアメジスト",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "small_amethyst_bud": {
+        "name": "小さなアメジストの芽",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "medium_amethyst_bud": {
+        "name": "中くらいのアメジストの芽",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "large_amethyst_bud": {
+        "name": "大きなアメジストの芽",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "amethyst_cluster": {
+        "name": "アメジストの塊",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "mangrove_roots": {
+        "name": "マングローブの根",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "muddy_mangrove_roots": {
+        "name": "泥だらけのマングローブの根",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "mushroom_stem": {
+        "name": "キノコの柄",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "oak_leaves": {
+        "name": "オークの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "spruce_leaves": {
+        "name": "トウヒの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "birch_leaves": {
+        "name": "シラカバの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "jungle_leaves": {
+        "name": "ジャングルの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "acacia_leaves": {
+        "name": "アカシアの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dark_oak_leaves": {
+        "name": "ダークオークの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "mangrove_leaves": {
+        "name": "マングローブの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "cherry_leaves": {
+        "name": "サクラの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pale_oak_leaves": {
+        "name": "ペールオークの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "azalea_leaves": {
+        "name": "ツツジの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "flowering_azalea_leaves": {
+        "name": "開花したツツジの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "brown_mushroom_block": {
+        "name": "茶色のキノコブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "red_mushroom_block": {
+        "name": "赤色のキノコブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "nether_wart_block": {
+        "name": "ネザーウォートブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "warped_wart_block": {
+        "name": "歪んだウォートブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "shroomlight": {
+        "name": "シュルームライト",
+        "maxStack": 64,
+        "category": "nature_blocks|practical_blocks"
+    },
+    "oak_sapling": {
+        "name": "オークの苗木",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "spruce_sapling": {
+        "name": "トウヒの苗木",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "birch_sapling": {
+        "name": "白樺の苗木",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "jungle_sapling": {
+        "name": "ジャングルの苗木",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "acacia_sapling": {
+        "name": "アカシアの苗木",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dark_oak_sapling": {
+        "name": "ダークオークの苗木",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "mangrove_propagule": {
+        "name": "マングローブの芽",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "cherry_sapling": {
+        "name": "サクラの苗木",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pale_oak_sapling": {
+        "name": "ペールオークの苗木",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "azalea": {
+        "name": "ツツジ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "flowering_azalea": {
+        "name": "開花したツツジ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "brown_mushroom": {
+        "name": "茶色のキノコ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "red_mushroom": {
+        "name": "赤色のキノコ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "criomson_fungus": {
+        "name": "深紅のキノコ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "warped_fungus": {
+        "name": "歪んだキノコ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "short_grass": {
+        "name": "背の低い草",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "fern": {
+        "name": "シダ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "short_dry_grass": {
+        "name": "背の低い枯れ草",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "bush": {
+        "name": "茂み",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_bush": {
+        "name": "枯れ木",
+        "maxStack": 64,
+        "category": "nature_blocks"
     },
     "dandelion": {
         "name": "タンポポ",
         "maxStack": 64,
-        "category": "materials"
+        "category": "nature_blocks"
     },
-    "sea_pickle": {
-        "name": "シーピクルス",
+    "poppy": {
+        "name": "ポピー",
         "maxStack": 64,
-        "category": "materials"
+        "category": "nature_blocks"
     },
-    "pink_tulip": {
-        "name": "ピンクのチューリップ",
+    "blue_orchid": {
+        "name": "ヒスイラン",
         "maxStack": 64,
-        "category": "materials"
+        "category": "nature_blocks"
+    },
+    "allium": {
+        "name": "アリウム",
+        "maxStack": 64,
+        "category": "nature_blocks"
     },
     "azure_bluet": {
         "name": "ヒナソウ",
         "maxStack": 64,
-        "category": "materials"
+        "category": "nature_blocks"
+    },
+    "red_tulip": {
+        "name": "赤色のチューリップ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "orange_tulip": {
+        "name": "橙色のチューリップ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "white_tulip": {
+        "name": "白色のチューリップ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pink_tulip": {
+        "name": "桃色のチューリップ",
+        "maxStack": 64,
+        "category": "nature_blocks"
     },
     "oxeye_daisy": {
         "name": "フランスギク",
         "maxStack": 64,
-        "category": "materials"
+        "category": "nature_blocks"
+    },
+    "cornflower": {
+        "name": "ヤグルマギク",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "lily_of_the_valley": {
+        "name": "スズラン",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "torchflower": {
+        "name": "トーチフラワー",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "cactus_flower": {
+        "name": "サボテンの花",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "closed_eyeblossom": {
+        "name": "閉じたヒトミソウ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "open_eyeblossom": {
+        "name": "開いたヒトミソウ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "wither_rose": {
+        "name": "ウィザーローズ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pink_petals": {
+        "name": "桜色の花びら",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "wildflowers": {
+        "name": "野花",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "leaf_litter": {
+        "name": "落ち葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "spore_brossom": {
+        "name": "胞子の花",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "firefly_bush": {
+        "name": "ホタルの茂み",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "bamboo": {
+        "name": "竹",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "sugar_cane": {
+        "name": "サトウキビ",
+        "maxStack": 64,
+        "category": "nature_blocks"
     },
     "cactus": {
         "name": "サボテン",
         "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "crimson_roots": {
+        "name": "深紅の根",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "warped_roots": {
+        "name": "歪んだ根",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "nether_sprouts": {
+        "name": "ネザースプラウト",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "weeping_vines": {
+        "name": "しだれツタ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "twisting_vines": {
+        "name": "ねじれツタ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "vine": {
+        "name": "ツタ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "tall_grass": {
+        "name": "背の高い草",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "large_fern": {
+        "name": "大きなシダ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "tall_dry_grass": {
+        "name": "背の高い枯れ草",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "sunflower": {
+        "name": "ヒマワリ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "lilac": {
+        "name": "ライラック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "rose_bush": {
+        "name": "バラの低木",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "peony": {
+        "name": "ボタン",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pitcher_plants": {
+        "name": "ウツボカズラ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "big_dripleaf": {
+        "name": "大きなドリップリーフ",
+        "maxStack": 64,
+        "category": "nature_blocks|redstone_blocks"
+    },
+    "small_dripleaf": {
+        "name": "小さなドリップリーフ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "chorus_plant": {
+        "name": "コーラスプラント",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "chorus_flower": {
+        "name": "コーラスフラワー",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "glow_lichen": {
+        "name": "ヒカリゴケ",
+        "maxStack": 64,
+        "category": "nature_blocks|practical_blocks"
+    },
+    "hanging_roots": {
+        "name": "垂れ根",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "frogspawn": {
+        "name": "カエルの卵",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "turtle_egg": {
+        "name": "カメの卵",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "sniffer_egg": {
+        "name": "スニッファーの卵",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "wheat_seeds": {
+        "name": "小麦の種",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "cocoa_beans": {
+        "name": "カカオ豆",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pumpkin_seeds": {
+        "name": "カボチャの種",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "melon_seeds": {
+        "name": "スイカの種",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "beetroot_seeds": {
+        "name": "ビートルートの種",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "torchflwer_seeds": {
+        "name": "トーチフラワーの種",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pitcher_pod": {
+        "name": "ウツボカズラのさや",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "glow_berries": {
+        "name": "グロウベリー",
+        "maxStack": 64,
+        "category": "nature_blocks|food_and_drink"
+    },
+    "sweet_berries": {
+        "name": "スイートベリー",
+        "maxStack": 64,
+        "category": "nature_blocks|food_and_drink"
+    },
+    "nether_wart": {
+        "name": "ネザーウォート",
+        "maxStack": 64,
+        "category": "nature_blocks|materials"
+    },
+    "lily_pad": {
+        "name": "スイレンの葉",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "seagrass": {
+        "name": "海草",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "sea_pickle": {
+        "name": "シーピクルス",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "kelp": {
+        "name": "コンブ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dried_kelp_block": {
+        "name": "乾燥した昆布ブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "tube_coral_block": {
+        "name": "クダサンゴブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "brain_coral_block": {
+        "name": "ノウサンゴブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "bubble_coral_block": {
+        "name": "ミズタマサンゴブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "fire_coral_block": {
+        "name": "ミレポラサンゴブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "horn_coral_block": {
+        "name": "シカツノサンゴブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_tube_coral_block": {
+        "name": "死んだクダサンゴブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_brain_coral_block": {
+        "name": "死んだノウサンゴブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_bubble_coral_block": {
+        "name": "死んだミズタマサンゴブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_fire_coral_block": {
+        "name": "死んだミレポラサンゴブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_horn_coral_block": {
+        "name": "死んだシカツノサンゴブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "tube_coarl": {
+        "name": "クダサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "brain_coarl": {
+        "name": "ノウサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "bubble_coarl": {
+        "name": "ミズタマサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "fire_coarl": {
+        "name": "ミレポラサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "horn_coarl": {
+        "name": "シカツノサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_tube_coarl": {
+        "name": "死んだクダサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_brain_coarl": {
+        "name": "死んだノウサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_bubble_coarl": {
+        "name": "死んだミズタマサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_fire_coarl": {
+        "name": "死んだミレポラサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_horn_coarl": {
+        "name": "死んだシカツノサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "tube_coarl_fan": {
+        "name": "クダウチワサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "brain_coarl_fan": {
+        "name": "ノウウチワサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "bubble_coarl_fan": {
+        "name": "ミズタマウチワサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "fire_coarl_fan": {
+        "name": "ミレポラウチワサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "horn_coarl_fan": {
+        "name": "シカツノウチワサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_tube_coarl_fan": {
+        "name": "死んだクダウチワサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_brain_coarl_fan": {
+        "name": "死んだノウウチワサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_bubble_coarl_fan": {
+        "name": "死んだミズタマウチワサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_fire_coarl_fan": {
+        "name": "死んだミレポラウチワサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "dead_horn_coarl_fan": {
+        "name": "死んだシカツノウチワサンゴ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "sponge": {
+        "name": "スポンジ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "wet_sponge": {
+        "name": "濡れたスポンジ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "melon": {
+        "name": "スイカ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "pumpkin": {
+        "name": "カボチャ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "carved_pumpkin": {
+        "name": "くり抜かれたカボチャ",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "jack_o_lantern": {
+        "name": "ジャック・オ・ランタン",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "hay_block": {
+        "name": "干草の俵",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "bee_nest": {
+        "name": "ミツバチの巣",
+        "maxStack": 64,
+        "category": "nature_blocks|practical_blocks"
+    },
+    "honeycombs_block": {
+        "name": "ハニカムブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "slime_block": {
+        "name": "スライムブロック",
+        "maxStack": 64,
+        "category": "nature_blocks|redstone_blocks"
+    },
+    "honey_block": {
+        "name": "ハチミツブロック",
+        "maxStack": 64,
+        "category": "nature_blocks|redstone_blocks"
+    },
+    "resin_block": {
+        "name": "樹脂ブロック",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "ochre_froglight": {
+        "name": "黄土色のフロッグライト",
+        "maxStack": 64,
+        "category": "nature_blocks|practical_blocks"
+    },
+    "verdant_froglight": {
+        "name": "新緑色のフロッグライト",
+        "maxStack": 64,
+        "category": "nature_blocks|practical_blocks"
+    },
+    "pearlescent_froglight": {
+        "name": "真珠色のフロッグライト",
+        "maxStack": 64,
+        "category": "nature_blocks|practical_blocks"
+    },
+    "sculk": {
+        "name": "スカルク",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "sculk_vein": {
+        "name": "スカルクヴェイン",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "sculk_cutalyst": {
+        "name": "スカルクカタリスト",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "sculk_shrieker": {
+        "name": "スカルクシュリーカー",
+        "maxStack": 64,
+        "category": "nature_blocks|redstone_blocks"
+    },
+    "sculk_sensor": {
+        "name": "スカルクセンサー",
+        "maxStack": 64,
+        "category": "nature_blocks|redstone_blocks"
+    },
+    "cobweb": {
+        "name": "クモの巣",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "bedrock": {
+        "name": "岩盤",
+        "maxStack": 64,
+        "category": "nature_blocks"
+    },
+    "torch": {
+        "name": "松明",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "soul_torch": {
+        "name": "魂の松明",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "redstone_torch": {
+        "name": "レッドストーントーチ",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "lantern": {
+        "name": "ランタン",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "soul_lantern": {
+        "name": "魂のランタン",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "end_rod": {
+        "name": "エンドロッド",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "redstone_lamp": {
+        "name": "レッドストーンランプ",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "crafting_table": {
+        "name": "作業台",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "stonecutter": {
+        "name": "石切台",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "cartography_table": {
+        "name": "製図台",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "fletching_table": {
+        "name": "矢細工台",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "smithing_table": {
+        "name": "鍛冶台",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "grindstone": {
+        "name": "砥石",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "loom": {
+        "name": "機織り機",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "furnace": {
+        "name": "かまど",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "smoker": {
+        "name": "燻製器",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "blast_furnace": {
+        "name": "溶鉱炉",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "campfire": {
+        "name": "焚き火",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "soul_campfire": {
+        "name": "魂の焚き火",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "anvil": {
+        "name": "金床",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "chipped_anvil": {
+        "name": "欠けた金床",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "damaged_anvil": {
+        "name": "壊れかけの金床",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "composter": {
+        "name": "コンポスター",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "note_block": {
+        "name": "音符ブロック",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "jukebox": {
+        "name": "ジュークボックス",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "enchanting_table": {
+        "name": "エンチャントテーブル",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "end_crystal": {
+        "name": "エンドクリスタル",
+        "maxStack": 64,
+        "category": "practical_blocks|combat_items"
+    },
+    "brewing_stand": {
+        "name": "醸造台",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "cauldron": {
+        "name": "大釜",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "bell": {
+        "name": "鐘",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "beacon": {
+        "name": "ビーコン",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "conduit": {
+        "name": "コンジット",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "lodestone": {
+        "name": "ロードストーン",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "ladder": {
+        "name": "はしご",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "scaffolding": {
+        "name": "足場",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "beehive": {
+        "name": "養蜂箱",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "suspicious_sand": {
+        "name": "怪しげな砂",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "suspicious_gravel": {
+        "name": "怪しげな砂利",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "lightning_rod": {
+        "name": "避雷針",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "flower_pot": {
+        "name": "植木鉢",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "decorated_pot": {
+        "name": "飾り壺",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "armor_stand": {
+        "name": "防具立て",
+        "maxStack": 16,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "item_frame": {
+        "name": "額縁",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "glow_item_frame": {
+        "name": "輝く額縁",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "painting": {
+        "name": "絵画",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "bookshelf": {
+        "name": "本棚",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "chiseled_bookshelf": {
+        "name": "模様入りの本棚",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "lectern": {
+        "name": "書見台",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "oak_sign": {
+        "name": "オークの看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "oak_hanging_sign": {
+        "name": "オークの吊り看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "spruce_sign": {
+        "name": "トウヒの看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "spruce_hanging_sign": {
+        "name": "トウヒの吊り看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "brich_sign": {
+        "name": "シラカバの看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "birch_hanging_sign": {
+        "name": "シラカバの吊り看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "jungle_sign": {
+        "name": "ジャングルの看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "jungle_hanging_sign": {
+        "name": "ジャングルの吊り看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "acacia_sign": {
+        "name": "アカシアの看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "acacia_hanging_sign": {
+        "name": "アカシアの吊り看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "dark_oak_sign": {
+        "name": "ダークオークの看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "dark_oak_hanging_sign": {
+        "name": "ダークオークの吊り看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "mangrove_sign": {
+        "name": "マングローブの看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "mangrove_hanging_sign": {
+        "name": "マングローブの吊り看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "cherry_sign": {
+        "name": "サクラの看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "cherry_hanging_sign": {
+        "name": "サクラの吊り看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "bamboo_sign": {
+        "name": "竹の看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "bamboo_hanging_sign": {
+        "name": "竹の吊り看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "crimson_sign": {
+        "name": "深紅の看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "crimson_hanging_sign": {
+        "name": "深紅の吊り看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "warped_sign": {
+        "name": "歪んだ看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "warped_hanging_sign": {
+        "name": "歪んだ吊り看板",
+        "maxStack": 16,
+        "category": "practical_blocks"
+    },
+    "chest": {
+        "name": "チェスト",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "barrel": {
+        "name": "樽",
+        "maxStack": 64,
+        "category": "practical_blocks|redstone_blocks"
+    },
+    "ender_chest": {
+        "name": "エンダーチェスト",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "respawn_anchor": {
+        "name": "リスポーンアンカー",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "skeleton_skull": {
+        "name": "スケルトンの頭蓋骨",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "wither_skeleton_skull": {
+        "name": "ウィザースケルトンの頭蓋骨",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "zombie_head": {
+        "name": "ゾンビの頭",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "creeper_head": {
+        "name": "クリーパーの頭",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "piglin_head": {
+        "name": "ピグリンの頭",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "dragon_head": {
+        "name": "ドラゴンの頭",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "dragon_egg": {
+        "name": "ドラゴンの卵",
+        "maxStack": 64,
+        "category": "practical_blocks"
+    },
+    "ender_eye": {
+        "name": "エンダーアイ",
+        "maxStack": 64,
+        "category": "practical_blocks|tools_and_items|materials"
+    },
+    "redstone": {
+        "name": "レッドストーンダスト",
+        "maxStack": 64,
+        "category": "redstone_blocks|materials"
+    },
+    "repeater": {
+        "name": "レッドストーンリピーター",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "comparater": {
+        "name": "レッドストーンコンパレーター",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "target": {
+        "name": "的",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "lever": {
+        "name": "レバー",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "calibrated_sculk_sensor": {
+        "name": "調律されたスカルクセンサー",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "tripwire_hook": {
+        "name": "トリップワイヤーフック",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "string": {
+        "name": "糸",
+        "maxStack": 64,
+        "category": "redstone_blocks|materials"
+    },
+    "daylight_detector": {
+        "name": "日照センサー",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "piston": {
+        "name": "ピストン",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "sticky_piston": {
+        "name": "粘着ピストン",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "dispenser": {
+        "name": "ディスペンサー",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "dropper": {
+        "name": "ドロッパー",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "crafter": {
+        "name": "自動作業台",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "hopper": {
+        "name": "ホッパー",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "trapped_chest": {
+        "name": "トラップチェスト",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "observer": {
+        "name": "オブザーバー",
+        "maxStack": 64,
+        "category": "redstone_blocks"
+    },
+    "rail": {
+        "name": "レール",
+        "maxStack": 64,
+        "category": "redstone_blocks|tools_and_items"
+    },
+    "powered_raol": {
+        "name": "パワードレール",
+        "maxStack": 64,
+        "category": "redstone_blocks|tools_and_items"
+    },
+    "detector_rail": {
+        "name": "ディテクターレール",
+        "maxStack": 64,
+        "category": "redstone_blocks|tools_and_items"
+    },
+    "activator_rail": {
+        "name": "アクティベーターレール",
+        "maxStack": 64,
+        "category": "redstone_blocks|tools_and_items"
+    },
+    "minecrat": {
+        "name": "トロッコ",
+        "maxStack": 1,
+        "category": "redstone_blocks|tools_and_items"
+    },
+    "hopper_minecrat": {
+        "name": "ホッパー付きのトロッコ",
+        "maxStack": 1,
+        "category": "redstone_blocks|tools_and_items"
+    },
+    "chest_minecrat": {
+        "name": "チェスト付きのトロッコ",
+        "maxStack": 1,
+        "category": "redstone_blocks|tools_and_items"
+    },
+    "furnace_minecrat": {
+        "name": "かまど付きのトロッコ",
+        "maxStack": 1,
+        "category": "redstone_blocks|tools_and_items"
+    },
+    "tnt_minecrat": {
+        "name": "TNT付きのトロッコ",
+        "maxStack": 1,
+        "category": "redstone_blocks|tools_and_items"
+    },
+    "oak_chest_boat": {
+        "name": "チェスト付きのオークのボート",
+        "maxStack": 1,
+        "category": "redstone_blocks|tools_and_items"
+    },
+    "bamboo_chest_raft": {
+        "name": "チェスト付きの竹のイカダ",
+        "maxStack": 1,
+        "category": "redstone_blocks|tools_and_items"
+    },
+    "tnt": {
+        "name": "TNT",
+        "maxStack": 64,
+        "category": "redstone_blocks|combat_items"
+    },
+    "wooden_shovel": {
+        "name": "木のシャベル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "wooden_pickaxe": {
+        "name": "木のツルハシ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "wooden_axe": {
+        "name": "木の斧",
+        "maxStack": 1,
+        "category": "tools_and_items|combat_items"
+    },
+    "wooden_hoe": {
+        "name": "木のクワ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "stone_shovel": {
+        "name": "石のシャベル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "stone_pickaxe": {
+        "name": "石のツルハシ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "stone_axe": {
+        "name": "石の斧",
+        "maxStack": 1,
+        "category": "tools_and_items|combat_items"
+    },
+    "stone_hoe": {
+        "name": "石のクワ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "iron_shovel": {
+        "name": "鉄のシャベル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "iron_pickaxe": {
+        "name": "鉄のツルハシ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "iron_axe": {
+        "name": "鉄の斧",
+        "maxStack": 1,
+        "category": "tools_and_items|combat_items"
+    },
+    "iron_hoe": {
+        "name": "鉄のクワ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "golden_shovel": {
+        "name": "金のシャベル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "golden_pickaxe": {
+        "name": "金のツルハシ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "golden_axe": {
+        "name": "金の斧",
+        "maxStack": 1,
+        "category": "tools_and_items|combat_items"
+    },
+    "golden_hoe": {
+        "name": "金のクワ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "diamond_shovel": {
+        "name": "ダイヤモンドのシャベル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "diamond_pickaxe": {
+        "name": "ダイヤモンドのツルハシ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "diamond_axe": {
+        "name": "ダイヤモンドの斧",
+        "maxStack": 1,
+        "category": "tools_and_items|combat_items"
+    },
+    "diamond_hoe": {
+        "name": "ダイヤモンドのクワ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "netherite_shovel": {
+        "name": "ネザライトのシャベル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "netherite_pickaxe": {
+        "name": "ネザライトのツルハシ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "netherite_axe": {
+        "name": "ネザライトの斧",
+        "maxStack": 1,
+        "category": "tools_and_items|combat_items"
+    },
+    "netherite_hoe": {
+        "name": "ネザライトのクワ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "bucket": {
+        "name": "バケツ",
+        "maxStack": 16,
+        "category": "tools_and_items"
+    },
+    "water_bucket": {
+        "name": "水入りバケツ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "cod_bucket": {
+        "name": "タラ入りバケツ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "salmon_bucket": {
+        "name": "サケ入りバケツ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "tropical_fish_bucket": {
+        "name": "熱帯魚入りバケツ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "pufferfish_bucket": {
+        "name": "フグ入りバケツ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "axolotl_bucket": {
+        "name": "ウーパールーパー入りバケツ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "tadpole_bucket": {
+        "name": "オタマジャクシ入りバケツ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "lava_bucket": {
+        "name": "溶岩入りバケツ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "powder_snow_bucket": {
+        "name": "粉雪入りバケツ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "milk_bucket": {
+        "name": "ミルク入りバケツ",
+        "maxStack": 1,
+        "category": "tools_and_items|food_and_drink"
+    },
+    "fishing_rod": {
+        "name": "釣竿",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "flint_and_steel": {
+        "name": "火打石と打ち鉄",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "fire_charge": {
+        "name": "ファイヤーチャージ",
+        "maxStack": 64,
+        "category": "tools_and_items|materials"
+    },
+    "bone_meal": {
+        "name": "骨粉",
+        "maxStack": 64,
+        "category": "tools_and_items"
+    },
+    "shears": {
+        "name": "ハサミ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "brush": {
+        "name": "ブラシ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "name_tag": {
+        "name": "名札",
+        "maxStack": 64,
+        "category": "tools_and_items"
+    },
+    "lead": {
+        "name": "リード",
+        "maxStack": 64,
+        "category": "tools_and_items"
+    },
+    "bundle": {
+        "name": "バンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "white_bundle": {
+        "name": "白色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "light_gray_bundle": {
+        "name": "薄灰色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "gray_bundle": {
+        "name": "灰色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "black_bundle": {
+        "name": "黒色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "brown_bundle": {
+        "name": "茶色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "red_bundle": {
+        "name": "赤色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "orange_bundle": {
+        "name": "橙色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "yellow_bundle": {
+        "name": "黄色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "lime_bundle": {
+        "name": "黄緑色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "green_bundle": {
+        "name": "緑色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "cyan_bundle": {
+        "name": "青緑色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "light_blue_bundle": {
+        "name": "空色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "blue_bundle": {
+        "name": "青色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "purple_bundle": {
+        "name": "紫色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "magenta_bundle": {
+        "name": "赤紫色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "pink_bundle": {
+        "name": "桃色のバンドル",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "compass": {
+        "name": "コンパス",
+        "maxStack": 64,
+        "category": "tools_and_items"
+    },
+    "recovery_compass": {
+        "name": "リカバリーコンパス",
+        "maxStack": 64,
+        "category": "tools_and_items"
+    },
+    "clock": {
+        "name": "時計",
+        "maxStack": 64,
+        "category": "tools_and_items"
+    },
+    "spyglass": {
+        "name": "望遠鏡",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "map": {
+        "name": "白紙の地図",
+        "maxStack": 64,
+        "category": "tools_and_items"
+    },
+    "writable_book": {
+        "name": "本と羽根ペン",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "wind_charge": {
+        "name": "ウィンドチャージ",
+        "maxStack": 64,
+        "category": "tools_and_items|combat_items"
+    },
+    "ender_pearl": {
+        "name": "エンダーパール",
+        "maxStack": 16,
+        "category": "tools_and_items|materials"
+    },
+    "elytra": {
+        "name": "エリトラ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "firework_rocket": {
+        "name": "ロケット花火",
+        "maxStack": 64,
+        "category": "tools_and_items|combat_items"
+    },
+    "saddle": {
+        "name": "鞍",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "carrot_on_a_stick": {
+        "name": "ニンジン付きの棒",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "warped_fungus_on_a_stick": {
+        "name": "歪んだキノコ付きの棒",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "oak_boat": {
+        "name": "オークのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "spruce_boat": {
+        "name": "トウヒのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "spruce_chest_boat": {
+        "name": "チェスト付きのトウヒのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "birch_boat": {
+        "name": "シラカバのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "birch_chest_boat": {
+        "name": "チェスト付きのシラカバのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "jungle_boat": {
+        "name": "ジャングルのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "jungle_chest_boat": {
+        "name": "チェスト付きのジャングルのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "acacia_boat": {
+        "name": "アカシアのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "acacia_chest_boat": {
+        "name": "チェスト付きのアカシアのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "dark_oak_boat": {
+        "name": "ダークオークのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "dark_oak_chest_boat": {
+        "name": "チェスト付きのダークオークのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "mangrove_boat": {
+        "name": "マングローブのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "mangrove_chest_boat": {
+        "name": "チェスト付きのマングローブのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "cherry_boat": {
+        "name": "サクラのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "cherry_chest_boat": {
+        "name": "チェスト付きのサクラのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "pale_oak_boat": {
+        "name": "ペールオークのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "pale_oak_chest_boat": {
+        "name": "チェスト付きのペールオークのボート",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "bamboo_raft": {
+        "name": "竹のイカダ",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "goat_horn": {
+        "name": "ヤギの角笛",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_13": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_cat": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_blocks": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_chirp": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_far": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_mall": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_mellohi": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_stal": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_strad": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_ward": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_11": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_creator_music_box": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_wait": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_creator": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_precipice": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_otherside": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_relic": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_5": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "music_disc_pigstep": {
+        "name": "レコード",
+        "maxStack": 1,
+        "category": "tools_and_items"
+    },
+    "wooden_sword": {
+        "name": "木の剣",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "stone_sword": {
+        "name": "石の剣",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "iron_sword": {
+        "name": "鉄の剣",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "golden_sword": {
+        "name": "金の剣",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "diamond_sword": {
+        "name": "ダイヤモンドの剣",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "netherite_sword": {
+        "name": "ネザライトの剣",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "trident": {
+        "name": "トライデント",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "mace": {
+        "name": "メイス",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "shield": {
+        "name": "盾",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "leather_helmet": {
+        "name": "革のヘルメット",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "leather_chestplate": {
+        "name": "革のチェストプレート",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "leather_leggings": {
+        "name": "革のレギンス",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "leather_boots": {
+        "name": "革のブーツ",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "chainmail_helmet": {
+        "name": "チェーンのヘルメット",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "chainmail_chestplate": {
+        "name": "チェーンのチェストプレート",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "chainmail_leggings": {
+        "name": "チェーンのレギンス",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "chainmail_boots": {
+        "name": "チェーンのブーツ",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "iron_helmet": {
+        "name": "鉄のヘルメット",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "iron_chestplate": {
+        "name": "鉄のチェストプレート",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "iron_leggings": {
+        "name": "鉄のレギンス",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "iron_boots": {
+        "name": "鉄のブーツ",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "golden_helmet": {
+        "name": "金のヘルメット",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "golden_chestplate": {
+        "name": "金のチェストプレート",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "golden_leggings": {
+        "name": "金のレギンス",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "golden_boots": {
+        "name": "金のブール",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "diamond_helmet": {
+        "name": "ダイヤモンドのヘルメット",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "diamond_chestplate": {
+        "name": "ダイヤモンドのチェストプレート",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "diamond_leggings": {
+        "name": "ダイヤモンドのレギンス",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "diamond_boots": {
+        "name": "ダイヤモンドのブーツ",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "netherite_helmet": {
+        "name": "ネザライトのヘルメット",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "netherite_chestplate": {
+        "name": "ネザライトのチェストプレート",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "netherite_leggings": {
+        "name": "ネザライトのレギンス",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "netherite_boots": {
+        "name": "ネザライトのブーツ",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "turtle_helmet": {
+        "name": "カメの甲羅",
+        "maxStack": 1,
+        "category": "combat_items|materials"
+    },
+    "leather_horse_armor": {
+        "name": "革の馬鎧",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "iron_horse_armor": {
+        "name": "鉄の馬鎧",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "golden_horse_armor": {
+        "name": "金の馬鎧",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "diamond_horse_armor": {
+        "name": "ダイヤモンドの馬鎧",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "wolf_armor": {
+        "name": "オオカミの鎧",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "totem_of_undying": {
+        "name": "不死のトーテム",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "snowball": {
+        "name": "雪玉",
+        "maxStack": 16,
+        "category": "combat_items|materials"
+    },
+    "egg": {
+        "name": "卵",
+        "maxStack": 16,
+        "category": "combat_items|materials"
+    },
+    "brwon_egg": {
+        "name": "茶色の卵",
+        "maxStack": 16,
+        "category": "combat_items|materials"
+    },
+    "blue_egg": {
+        "name": "青色の卵",
+        "maxStack": 16,
+        "category": "combat_items|materials"
+    },
+    "bow": {
+        "name": "弓",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "crossbow": {
+        "name": "クロスボウ",
+        "maxStack": 1,
+        "category": "combat_items"
+    },
+    "arrow": {
+        "name": "矢",
+        "maxStack": 64,
+        "category": "combat_items"
+    },
+    "spectal_arrow": {
+        "name": "光の矢",
+        "maxStack": 64,
+        "category": "combat_items"
+    },
+    "tipped_arrow": {
+        "name": "効能付きの矢",
+        "maxStack": 64,
+        "category": "combat_items"
+    },
+    "apple": {
+        "name": "リンゴ",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "golden_apple": {
+        "name": "金のリンゴ",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "enchanted_golden_apple": {
+        "name": "エンチャントされた金のリンゴ",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "melon_slice": {
+        "name": "スイカの薄切り",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "chorus_fruit": {
+        "name": "コーラスフルーツ",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "carrot": {
+        "name": "ニンジン",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "golden_carrot": {
+        "name": "金のニンジン",
+        "maxStack": 64,
+        "category": "food_and_drink|materials"
+    },
+    "potate": {
+        "name": "ジャガイモ",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "baked_potate": {
+        "name": "ベイクドポテト",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "poisonous_potate": {
+        "name": "青くなったジャガイモ",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "beetroot": {
+        "name": "ビートルート",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "dried_kelp": {
+        "name": "乾燥した昆布",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "beef": {
+        "name": "生の牛肉",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "cooked_beef": {
+        "name": "ステーキ",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "porkchop": {
+        "name": "生の豚肉",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "cooked_porkchop": {
+        "name": "焼き豚",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "mutton": {
+        "name": "生の羊肉",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "cooked_mutton": {
+        "name": "焼き羊肉",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "chicken": {
+        "name": "生の鶏肉",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "cooked_chicken": {
+        "name": "焼き鳥",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "rabbit": {
+        "name": "生の兎肉",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "cooked_rabbit": {
+        "name": "焼き兎肉",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "cod": {
+        "name": "生鱈",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "cooked_cod": {
+        "name": "焼き鱈",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "salmon": {
+        "name": "生鮭",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "cooked_salmon": {
+        "name": "焼き鮭",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "tropical_fish": {
+        "name": "熱帯魚",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "pufferfish": {
+        "name": "フグ",
+        "maxStack": 64,
+        "category": "food_and_drink|materials"
+    },
+    "bread": {
+        "name": "パン",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "cookie": {
+        "name": "クッキー",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "cake": {
+        "name": "ケーキ",
+        "maxStack": 1,
+        "category": "food_and_drink"
+    },
+    "pumpkin_pie": {
+        "name": "パンプキンパイ",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "rotten_fletsh": {
+        "name": "腐った肉",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "spider_eye": {
+        "name": "蜘蛛の目",
+        "maxStack": 64,
+        "category": "food_and_drink|materials"
+    },
+    "mushroom_stew": {
+        "name": "キノコシチュー",
+        "maxStack": 1,
+        "category": "food_and_drink"
+    },
+    "beetroot_soup": {
+        "name": "ビートルートスープ",
+        "maxStack": 1,
+        "category": "food_and_drink"
+    },
+    "rabbit_stew": {
+        "name": "ウサギシチュー",
+        "maxStack": 1,
+        "category": "food_and_drink"
+    },
+    "suspicious_stew": {
+        "name": "怪しげなシチュー",
+        "maxStack": 1,
+        "category": "food_and_drink"
+    },
+    "honey_bottle": {
+        "name": "ハチミツ入りの瓶",
+        "maxStack": 16,
+        "category": "food_and_drink"
+    },
+    "ominous_bottle": {
+        "name": "不吉な瓶",
+        "maxStack": 64,
+        "category": "food_and_drink"
+    },
+    "potion": {
+        "name": "ポーション",
+        "maxStack": 1,
+        "category": "food_and_drink"
+    },
+    "splash_potion": {
+        "name": "スプラッシュポーション",
+        "maxStack": 1,
+        "category": "food_and_drink"
+    },
+    "lingering_potion": {
+        "name": "残留ポーション",
+        "maxStack": 1,
+        "category": "food_and_drink"
+    },
+    "coal": {
+        "name": "石炭",
+        "maxStack": 64,
         "category": "materials"
     },
-    "purple_tulip": {
-        "name": "紫のチューリップ",
+    "charcoal": {
+        "name": "木炭",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "raw_iron": {
+        "name": "鉄の原石",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "raw_copper": {
+        "name": "銅の原石",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "raw_gold": {
+        "name": "金の原石",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "emerald": {
+        "name": "エメラルド",
         "maxStack": 64,
         "category": "materials"
     },
@@ -154,18 +5769,188 @@
         "maxStack": 64,
         "category": "materials"
     },
-    "cocoa_beans": {
-        "name": "カカオ豆",
+    "diamond": {
+        "name": "ダイヤモンド",
         "maxStack": 64,
         "category": "materials"
     },
-    "poppy": {
-        "name": "ポピー",
+    "quartz": {
+        "name": "ネザークォーツ",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "amethyst_shard": {
+        "name": "アメジストの欠片",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "iron_nugget": {
+        "name": "鉄塊",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "gold_nugget": {
+        "name": "金塊",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "iron_ingot": {
+        "name": "鉄のインゴット",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "copper_ingot": {
+        "name": "銅のインゴット",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "gold_ingot": {
+        "name": "金のインゴット",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "netherite_scrap": {
+        "name": "ネザライトの欠片",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "netherite_ingot": {
+        "name": "ネザライトインゴット",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "stick": {
+        "name": "棒",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "flint": {
+        "name": "火打石",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "wheat": {
+        "name": "小麦",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "bone": {
+        "name": "骨",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "feather": {
+        "name": "羽根",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "leather": {
+        "name": "革",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "rabbit_hide": {
+        "name": "ウサギの皮",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "honeycomb": {
+        "name": "ハニカム",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "resin_clump": {
+        "name": "樹脂の塊",
         "maxStack": 64,
         "category": "materials"
     },
     "ink_sac": {
         "name": "イカスミ",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "glow_ink_sac": {
+        "name": "輝くイカスミ",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "turtle_scute": {
+        "name": "カメのウロコ",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "armadillo_scute": {
+        "name": "アルマジロのウロコ",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "slime_ball": {
+        "name": "スライムボール",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "clay_ball": {
+        "name": "粘土玉",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "prismarine_shard": {
+        "name": "プリズマリンの欠片",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "prismarine_crystals": {
+        "name": "プリズマリンクリスタル",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "nautilus_shell": {
+        "name": "オウムガイの殻",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "heart_of_the_sea": {
+        "name": "海洋の心",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "blaze_rod": {
+        "name": "ブレイズロッド",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "breeze_rod": {
+        "name": "ブリーズロッド",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "heavy_core": {
+        "name": "ヘビーコア",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "nether_star": {
+        "name": "ネザースター",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "shuluker_shell": {
+        "name": "シュルカ―の殻",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "popped_chorus_fruit": {
+        "name": "焼いたコーラスフルーツ",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "echo_shard": {
+        "name": "残響の欠片",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "disc_fragment_5": {
+        "name": "レコードの破片",
         "maxStack": 64,
         "category": "materials"
     },
@@ -249,304 +6034,451 @@
         "maxStack": 64,
         "category": "materials"
     },
-    "oak_planks": {
-        "name": "オークの板材",
+    "bowl": {
+        "name": "ボウル",
         "maxStack": 64,
         "category": "materials"
     },
-    "birch_planks": {
-        "name": "シラカバの板材",
+    "brick": {
+        "name": "レンガ",
         "maxStack": 64,
         "category": "materials"
     },
-    "spruce_planks": {
-        "name": "トウヒの板材",
+    "nether_brick": {
+        "name": "ネザーレンガ",
         "maxStack": 64,
         "category": "materials"
     },
-    "jungle_planks": {
-        "name": "ジャングルの板材",
+    "resin_brick": {
+        "name": "樹脂レンガ",
         "maxStack": 64,
         "category": "materials"
     },
-    "acacia_planks": {
-        "name": "アカシアの板材",
+    "paper": {
+        "name": "紙",
         "maxStack": 64,
         "category": "materials"
     },
-    "dark_oak_planks": {
-        "name": "ダークオークの板材",
+    "book": {
+        "name": "本",
         "maxStack": 64,
         "category": "materials"
     },
-    "mangrove_planks": {
-        "name": "マングローブの板材",
+    "firework_star": {
+        "name": "花火の星",
         "maxStack": 64,
         "category": "materials"
     },
-    "cherry_planks": {
-        "name": "サクラの板材",
+    "glass_bottle": {
+        "name": "ガラス瓶",
         "maxStack": 64,
         "category": "materials"
     },
-    "bamboo_planks": {
-        "name": "竹の板材",
+    "glowstone_dust": {
+        "name": "グロウストーンダスト",
         "maxStack": 64,
         "category": "materials"
     },
-    "crimson_planks": {
-        "name": "深紅の板材",
+    "gunpowder": {
+        "name": "火薬",
         "maxStack": 64,
         "category": "materials"
     },
-    "warped_planks": {
-        "name": "歪んだ板材",
+    "dragon_breath": {
+        "name": "ドラゴンブレス",
         "maxStack": 64,
         "category": "materials"
     },
-    "oak_log": {
-        "name": "オークの原木",
+    "fermented_spider_eye": {
+        "name": "発酵した蜘蛛の目",
         "maxStack": 64,
         "category": "materials"
     },
-    "birch_log": {
-        "name": "シラカバの原木",
+    "blaze_powder": {
+        "name": "ブレイズパウダー",
         "maxStack": 64,
         "category": "materials"
     },
-    "spruce_log": {
-        "name": "トウヒの原木",
+    "sugar": {
+        "name": "砂糖",
         "maxStack": 64,
         "category": "materials"
     },
-    "jungle_log": {
-        "name": "ジャングルの原木",
+    "rabbit_foot": {
+        "name": "ウサギの足",
         "maxStack": 64,
         "category": "materials"
     },
-    "acacia_log": {
-        "name": "アカシアの原木",
+    "glistering_melon_slice": {
+        "name": "きらめくスイカの薄切り",
         "maxStack": 64,
         "category": "materials"
     },
-    "dark_oak_log": {
-        "name": "ダークオークの原木",
+    "magma_cream": {
+        "name": "マグマクリーム",
         "maxStack": 64,
         "category": "materials"
     },
-    "mangrove_log": {
-        "name": "マングローブの原木",
+    "ghast_tear": {
+        "name": "ガストの涙",
         "maxStack": 64,
         "category": "materials"
     },
-    "cherry_log": {
-        "name": "サクラの原木",
-        "maxStack": 64,
-        "category": "building_blocks"
-    },
-    "bamboo_log": {
-        "name": "竹の原木",
+    "phantom_membrane": {
+        "name": "ファントムの被膜",
         "maxStack": 64,
         "category": "materials"
     },
-    "crimson_stem": {
-        "name": "深紅の幹",
-        "maxStack": 64,
-        "category": "building_blocks"
+    "field_masoned_banner_pattern": {
+        "name": "レンガの旗の模様",
+        "maxStack": 1,
+        "category": "materials"
     },
-    "warped_stem": {
-        "name": "歪んだ幹",
-        "maxStack": 64,
-        "category": "building_blocks"
+    "bordure_indented_banner_pattern": {
+        "name": "山形波の縁取りの旗の模様",
+        "maxStack": 1,
+        "category": "materials"
     },
-    "oak_door": {
-        "name": "オークのドア",
-        "maxStack": 64,
-        "category": "building_blocks"
+    "flower_banner_pattern": {
+        "name": "花の旗の模様",
+        "maxStack": 1,
+        "category": "materials"
     },
-    "birch_door": {
-        "name": "シラカバのドア",
-        "maxStack": 64,
-        "category": "building_blocks"
+    "creeper_banner_pattern": {
+        "name": "クリーパーの旗の模様",
+        "maxStack": 1,
+        "category": "materials"
     },
-    "spruce_door": {
-        "name": "トウヒのドア",
-        "maxStack": 64,
-        "category": "building_blocks"
+    "skull_banner_pattern": {
+        "name": "骸骨の旗の模様",
+        "maxStack": 1,
+        "category": "materials"
     },
-    "jungle_door": {
-        "name": "ジャングルのドア",
-        "maxStack": 64,
-        "category": "building_blocks"
+    "mojang_banner_pattern": {
+        "name": "何かの旗の模様",
+        "maxStack": 1,
+        "category": "materials"
     },
-    "acacia_door": {
-        "name": "アカシアのドア",
-        "maxStack": 64,
-        "category": "building_blocks"
+    "globe_banner_pattern": {
+        "name": "地球の旗の模様",
+        "maxStack": 1,
+        "category": "materials"
     },
-    "dark_oak_door": {
-        "name": "ダークオークのドア",
-        "maxStack": 64,
-        "category": "building_blocks"
+    "piglin_banner_pattern": {
+        "name": "豚の鼻の旗の模様",
+        "maxStack": 1,
+        "category": "materials"
     },
-    "mangrove_door": {
-        "name": "マングローブのドア",
-        "maxStack": 64,
-        "category": "building_blocks"
+    "flow_banner_pattern": {
+        "name": "渦巻きの旗の模様",
+        "maxStack": 1,
+        "category": "materials"
     },
-    "cherry_door": {
-        "name": "サクラのドア",
-        "maxStack": 64,
-        "category": "building_blocks"
+    "guster_banner_pattern": {
+        "name": "風巻く者の旗の模様",
+        "maxStack": 1,
+        "category": "materials"
     },
-    "bamboo_door": {
-        "name": "竹のドア",
-        "maxStack": 64,
-        "category": "building_blocks"
-    },
-    "crimson_door": {
-        "name": "深紅のドア",
-        "maxStack": 64,
-        "category": "building_blocks"
-    },
-    "warped_door": {
-        "name": "歪んだドア",
-        "maxStack": 64,
-        "category": "building_blocks"
-    },
-    "bone": {
-        "name": "骨",
+    "angler_pottery_sherd": {
+        "name": "釣り人の壺の欠片",
         "maxStack": 64,
         "category": "materials"
     },
-    "oak_stairs": {
-        "name": "オークの階段",
+    "archer_pottery_sherd": {
+        "name": "射手の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "birch_stairs": {
-        "name": "シラカバの階段",
+    "arms_up_pottery_sherd": {
+        "name": "両腕を挙げた人の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "spruce_stairs": {
-        "name": "トウヒの階段",
+    "blade_pottery_sherd": {
+        "name": "剣の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "jungle_stairs": {
-        "name": "ジャングルの階段",
+    "brewer_pottery_sherd": {
+        "name": "醸造家の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "acacia_stairs": {
-        "name": "アカシアの階段",
+    "burn_pottery_sherd": {
+        "name": "炎の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "dark_oak_stairs": {
-        "name": "ダークオークの階段",
+    "danger_pottery_sherd": {
+        "name": "脅威の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "mangrove_stairs": {
-        "name": "マングローブの階段",
+    "explorer_pottery_sherd": {
+        "name": "探検家の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "cherry_stairs": {
-        "name": "サクラの階段",
+    "flow_pottery_sherd": {
+        "name": "渦巻きの壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "oak_slab": {
-        "name": "オークのハーフブロック",
+    "friend_pottery_sherd": {
+        "name": "友の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "birch_slab": {
-        "name": "シラカバのハーフブロック",
+    "guster_pottery_sherd": {
+        "name": "風巻く者の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "spruce_slab": {
-        "name": "トウヒのハーフブロック",
+    "heart_pottery_sherd": {
+        "name": "心の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "jungle_slab": {
-        "name": "ジャングルのハーフブロック",
+    "heartbreak_pottery_sherd": {
+        "name": "傷心の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "acacia_slab": {
-        "name": "アカシアのハーフブロック",
+    "howl_pottery_sherd": {
+        "name": "遠吠えの壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "dark_oak_slab": {
-        "name": "ダークオークのハーフブロック",
+    "miner_pottery_sherd": {
+        "name": "鉱夫の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "mangrove_slab": {
-        "name": "マングローブのハーフブロック",
+    "mourner_pottery_sherd": {
+        "name": "哀悼者の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "cherry_slab": {
-        "name": "サクラのハーフブロック",
+    "plenty_pottery_sherd": {
+        "name": "富の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "oak_wood": {
-        "name": "オークの木",
+    "prize_pottery_sherd": {
+        "name": "宝物の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "birch_wood": {
-        "name": "シラカバの木",
+    "scrape_pottery_sherd": {
+        "name": "斧の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "spruce_wood": {
-        "name": "トウヒの木",
+    "sheaf_pottery_sherd": {
+        "name": "麦束の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "jungle_wood": {
-        "name": "ジャングルの木",
+    "shelter_pottery_sherd": {
+        "name": "木陰の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "acacia_wood": {
-        "name": "アカシアの木",
+    "skull_pottery_sherd": {
+        "name": "頭蓋骨の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "dark_oak_wood": {
-        "name": "ダークオークの木",
+    "snort_pottery_sherd": {
+        "name": "鼻を鳴らす動物の壺の欠片",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "mangrove_wood": {
-        "name": "マングローブの木",
+    "netherite_upgrade_smithing_template": {
+        "name": "ネザライト強化",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "cherry_wood": {
-        "name": "サクラの木",
+    "coast_armor_trim_smithing_template": {
+        "name": "海洋風の装飾",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "crimson_hyphae": {
-        "name": "深紅の菌糸",
+    "dune_armor_trim_smithing_template": {
+        "name": "砂丘風の装飾",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
     },
-    "warped_hyphae": {
-        "name": "歪んだ菌糸",
+    "eye_armor_trim_smithing_template": {
+        "name": "エンダーアイ風の装飾",
         "maxStack": 64,
-        "category": "building_blocks"
+        "category": "materials"
+    },
+    "host_armor_trim_smithing_template": {
+        "name": "主人風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "raiser_armor_trim_smithing_template": {
+        "name": "牧者風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "rib_armor_trim_smithing_template": {
+        "name": "あばら模様の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "sentry_armor_trim_smithing_template": {
+        "name": "略奪者風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "shaper_armor_trim_smithing_template": {
+        "name": "職人風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "silence_armor_trim_smithing_template": {
+        "name": "静寂の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "snout_armor_trim_smithing_template": {
+        "name": "ブタの鼻風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "spire_armor_trim_smithing_template": {
+        "name": "尖塔風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "tide_armor_trim_smithing_template": {
+        "name": "潮流風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "vex_armor_trim_smithing_template": {
+        "name": "ヴェックス風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "ward_armor_trim_smithing_template": {
+        "name": "監獄風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "wayfinder_armor_trim_smithing_template": {
+        "name": "先駆者風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "wild_armor_trim_smithing_template": {
+        "name": "大自然風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "flow_armor_trim_smithing_template": {
+        "name": "旋風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "bolt_armor_trim_smithing_template": {
+        "name": "ネジ止め風の装飾",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "experience_bottle": {
+        "name": "エンチャントの瓶",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "trial_key": {
+        "name": "試練の鍵",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "ominous_trial_key": {
+        "name": "不吉な試練の鍵",
+        "maxStack": 64,
+        "category": "materials"
+    },
+    "enchanted_book": {
+        "name": "エンチャントの本",
+        "maxStack": 1,
+        "category": "materials"
+    },
+    "#acacia_logs": {
+        "name": "アカシア系の木"
+    },
+    "#bamboo_blocks": {
+        "name": "竹系のブロック"
+    },
+    "#birch_logs": {
+        "name": "シラカバ系の木"
+    },
+    "#cherry_logs": {
+        "name": "サクラ系の木"
+    },
+    "#coals": {
+        "name": "石炭、木炭"
+    },
+    "#dark_oak_logs": {
+        "name": "ダークオーク系の木"
+    },
+    "#diamond_tool_materials": {
+        "name": "ダイヤモンド"
+    },
+    "#eggs": {
+        "name": "卵系"
+    },
+    "#gold_tool_materials": {
+        "name": "金インゴット"
+    },
+    "#iron_tool_materials": {
+        "name": "鉄インゴット"
+    },
+    "#jungle_logs": {
+        "name": "ジャングル系の木"
+    },
+    "#logs": {
+        "name": "任意の木系ブロック"
+    },
+    "#mangrove_logs": {
+        "name": "マングローブ系の木"
+    },
+    "#oak_logs": {
+        "name": "オーク系の木"
+    },
+    "#pale_oak_logs": {
+        "name": "ペールオーク系の木"
+    },
+    "#planks": {
+        "name": "任意の板材"
+    },
+    "#soul_fire_base_blocks": {
+        "name": "ソウル系の土"
+    },
+    "#spruce_logs": {
+        "name": "トウヒ系の木"
+    },
+    "#stone_crafting_materials": {
+        "name": "丸石、深層岩の丸石、ブラックストーンのいずれか"
+    },
+    "#stone_tool_materials": {
+        "name": "丸石、深層岩の丸石、ブラックストーンのいずれか"
+    },
+    "#warped_stems": {
+        "name": "歪んだ系の木"
+    },
+    "#wooden_slabs": {
+        "name": "任意の木材のハーフブロック"
+    },
+    "#wooden_tool_materials": {
+        "name": "任意の板材"
+    },
+    "#wool": {
+        "name": "任意の羊毛"
     }
-} 
+}
