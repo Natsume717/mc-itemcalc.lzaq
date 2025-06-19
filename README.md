@@ -1,4 +1,4 @@
-# Minecraft クラフトレシピ計算機　<Item Calculator - LzAq Edition>
+# Minecraft クラフトレシピ計算機 《Item Calculator》
 
 [![Webページへ移動](https://img.shields.io/badge/View-Site-blue)](https://natsume717.github.io/mc-itemcalc.lzaq)
 
