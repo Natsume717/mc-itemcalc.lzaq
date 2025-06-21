@@ -3902,7 +3902,8 @@
     },
     "tnt": {
         "materials": {
-            "gunpowder": 5
+            "gunpowder": 5,
+            "sand": 4
         },
         "output": 1,
         "category": "redstone_blocks|combat_items"

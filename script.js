@@ -125,28 +125,35 @@ function calculateRequiredMaterials(targetItem, targetQuantity, recipes) {
 }
 
 // 再帰的に材料ツリーをカード風HTMLで生成（子素材は折り畳み）
-function renderMaterialsTreeBox(itemId, amount, depth = 0, isNested = false) {
+function renderMaterialsTreeBox(itemId, amount, depth = 0, isNested = false, visitedItems = new Set()) {
     const boxStyle = `margin-left:${depth * 24}px; display: flex; align-items: center;`;
     const nameHtml = `<span class='item-name'>${items[itemId]?.name || itemId}</span>`;
     const qtyHtml = `<span class='item-quantity'>${amount}個</span>`;
     let detailsHtml = '';
     let boxClass = 'material-box' + (isNested ? ' nested' : '');
-    if (recipes[itemId]) {
+    
+    const itemData = items[itemId];
+    const isMaterial = itemData?.category?.includes('materials');
+
+    // 既に訪問済みのアイテム、レシピが存在しない、または「材料」カテゴリの場合は詳細を表示しない
+    if (visitedItems.has(itemId) || !recipes[itemId] || isMaterial) {
+        detailsHtml = ``;
+    } else {
         const recipe = recipes[itemId];
         const materials = Object.entries(recipe.materials);
         if (materials.length > 0) {
             detailsHtml = `<details style='margin-left:1em;'><summary style='cursor:pointer;'>素材を見る</summary>`;
+            const newVisitedItems = new Set(visitedItems);
+            newVisitedItems.add(itemId);
+            
             for (const [material, materialAmount] of materials) {
                 const totalMaterialAmount = materialAmount * Math.ceil(amount / recipe.output);
-                detailsHtml += renderMaterialsTreeBox(material, totalMaterialAmount, 0, true);
+                detailsHtml += renderMaterialsTreeBox(material, totalMaterialAmount, 0, true, newVisitedItems);
             }
             detailsHtml += `</details>`;
-        } else {
-            detailsHtml = `<span style='margin-left:1em; min-width: 6em; display:inline-block;'></span>`;
         }
-    } else {
-        detailsHtml = `<span style='margin-left:1em; min-width: 6em; display:inline-block;'></span>`;
     }
+    
     return `<div class='${boxClass}' style='${boxStyle}'>${nameHtml} ${qtyHtml} ${detailsHtml}</div>`;
 }
 
@@ -172,7 +179,7 @@ function displayResults(materials) {
     if (recipe) {
         for (const [material, materialAmount] of Object.entries(recipe.materials)) {
             const totalMaterialAmount = materialAmount * craftCount;
-            treeHtml += renderMaterialsTreeBox(material, totalMaterialAmount, 0);
+            treeHtml += renderMaterialsTreeBox(material, totalMaterialAmount, 0, false, new Set());
         }
     }
     treeDiv.innerHTML = treeHtml;
