@@ -82,6 +82,46 @@ function getCategoryName(category) {
     return categoryNames[category] || category;
 }
 
+// LC換算の文字列をフォーマットする関数
+function formatLCCount(itemId, amount) {
+    const itemData = items[itemId];
+    if (!itemData) {
+        return '';
+    }
+
+    const maxStack = itemData.maxStack || 64;
+    const lcSize = maxStack * 54;
+
+    if (amount < maxStack) { // 1スタック未満の場合は表示しない
+        return '';
+    }
+
+    const lcCount = Math.floor(amount / lcSize);
+    let remaining = amount % lcSize;
+
+    const stackCount = Math.floor(remaining / maxStack);
+    remaining %= maxStack;
+
+    const parts = [];
+    if (lcCount > 0) {
+        parts.push(`${lcCount}LC`);
+    }
+    if (stackCount > 0) {
+        parts.push(`${stackCount}スタック`);
+    }
+    if (remaining > 0) {
+        parts.push(`${remaining}個`);
+    }
+    
+    if (parts.length === 0) {
+        return '';
+    }
+
+    const notation = `(${parts.join('+')})`;
+    
+    return ` <small class="text-muted">${notation}</small>`;
+}
+
 // 材料の計算
 function calculateMaterials() {
     const selectedItem = $('#itemSelect').val();
@@ -128,7 +168,8 @@ function calculateRequiredMaterials(targetItem, targetQuantity, recipes) {
 function renderMaterialsTreeBox(itemId, amount, depth = 0, isNested = false, visitedItems = new Set()) {
     const boxStyle = `margin-left:${depth * 24}px; display: flex; align-items: center;`;
     const nameHtml = `<span class='item-name'>${items[itemId]?.name || itemId}</span>`;
-    const qtyHtml = `<span class='item-quantity'>${amount}個</span>`;
+    const lcNotation = formatLCCount(itemId, amount);
+    const qtyHtml = `<span class='item-quantity'>${amount}個${lcNotation}</span>`;
     let detailsHtml = '';
     let boxClass = 'material-box' + (isNested ? ' nested' : '');
     
